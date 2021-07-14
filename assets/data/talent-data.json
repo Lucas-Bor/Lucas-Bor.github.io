@@ -23,14 +23,11 @@
 						{
 							"id": 0,
 							"name": "Résistance à la douleur",
-							"maxRank": 5,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d12 (avant le jet de dégâts) pour un total de 25 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d14 (avant le jet de dégâts) pour un total de 25 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 (avant le jet de dégâts) pour un total de 20 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 + 2 (avant le jet de dégâts) pour un total de 20 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 + 4 (avant le jet de dégâts) pour un total de 20 points de mana vivant."
+								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé.",
+								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
 							],
 							"position": [
 								1,
@@ -42,12 +39,11 @@
 						{
 							"id": 1,
 							"name": "Cruauté",
-							"maxRank": 3,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente vos dégâts de 1d8 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d10 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d12 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition."
+								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
+								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) + maîtrise (uniquement sur le premier coup) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition. Lorsque vous infligez une blessure à une cible sous condition, vous lui infligez une blessure d'un degré supérieur."
 							],
 							"position": [
 								1,
@@ -62,8 +58,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Quand vous effrayez une cible, cette dernière vous infliges 1d10 dégâts en moins.",
-								"Quand vous effrayez une cible, cette dernière vous infliges 1d12 dégâts en moins."
+								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 5 ou plus, la cible est effrayé pendant 6d10 minutes.",
+								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 3 ou plus, la cible est effrayé pendant 9d10 minutes. Quand une créature à peur de vous, elle doit réussir un DD10, en cas d'échec elle essaye à tout pris de sortir du combat si possible."
 							],
 							"position": [
 								2,
@@ -78,12 +74,11 @@
 						{
 							"id": 3,
 							"name": "Peau de fer",
-							"maxRank": 3,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente votre CA de 1 et vos points de vie de 6.",
-								"Augmente votre CA de 2 et vos points de vie de 12.",
-								"Augmente votre CA de 3 et vos points de vie de 18."
+								"Augmente votre CA de 1 et vos points de vie maximum de 6.",
+								"Augmente votre CA de 2 et vos points de vie maximum de 12. Vous gagnez une réduction de dégâts additionnel pour chaque point de CA que donne cette compétence."
 							],
 							"position": [
 								2,
@@ -98,11 +93,11 @@
 						{
 							"id": 4,
 							"name": "Enchaînement",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Touchez une cible permet d'en toucher une autre dans votre allonge lui infligeant 50% des dégâts.", 
-								"Touchez une cible permet d'en toucher une autre dans votre allonge lui infligeant 100% des dégâts."
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts).",
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts cumulable augmente à chaque cible touché)."
 							],
 							"position": [
 								3,
@@ -120,7 +115,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez quatre dés de supériorité majeur et apprenez trois Manœuvres (voir sous-classe maître de guerre). Ces dés de supériorité spécial ont une valeur de 1d12."
+								"Vous obtenez quatre dés de supériorité majeur et apprenez trois Manœuvres (voir sous-classe maître de guerre). Ces dés de supériorité ont une valeur de 1d12."
 							],
 							"position": [
 								3,
@@ -135,11 +130,10 @@
 						{
 							"id": 6,
 							"name": "Folie sanguinaire",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez 50% des dégâts infligez sous forme de soin. Revient après un repos long",
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez 100% des dégâts infligez sous forme de soin. Revient après un repos long"
+								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin. Revient après un repos long."
 							],	
 							"position": [
 								3,
@@ -153,13 +147,12 @@
 						},
 						{
 							"id": 7,
-							"name": "Cri de guerre",
-							"maxRank": 3,
+							"name": "Cri de ralliement",
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 5m. Pour un total de 25 points de mana vivant.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 10m. Pour un total de 20 points de mana vivant.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage aux deux prochaine attaques des alliés dans un rayon de 15m. Pour un total de 20 points de mana vivant."
+								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 20m. Ne fonctionne qu'une fois par combat.",
+								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage au deux prochaines attaques des alliés dans un rayon de 25m. Ne fonctionne qu'une fois par combat. Lorsqu'un allié dans votre allonge utilise son premier avantage vous gagnez 3d(niveau de votre alliée) points de vie temporaire."
 							],
 							"position": [
 								3,
@@ -174,12 +167,11 @@
 						{
 							"id": 8,
 							"name": "Frappe lourde",
-							"maxRank": 3,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme.",
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +6 au jet de touché infligeant 2,5x (arrondi supérieur) fois les dégats normaux de l'arme.",
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +7 au jet de touché infligeant 3x les dégats normaux de l'arme."
+								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +3 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible.",
+								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible. Cette attaque ne prend pas en compte les résistances physique de la cible."
 							],
 							"position": [
 								4,
@@ -213,11 +205,10 @@
 						{
 							"id": 10,
 							"name": "Machine de guerre",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Si durant un tour vous effectuées et réussissez le maximum d'attaque possible sur votre personnage, vous gagnez une attaque supplémentaire jusqu'à la fin de votre round.",
-								"Si durant un tour vous effectuées et réussissez le maximum d'attaque possible sur votre personnage, vous gagnez deux attaque supplémentaire jusqu'à la fin de votre round."
+								"Lorsque vous avez l'avantage quand vous faites une attaque à l'aide d'une arme, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de round, vous gagnez une attaque supplémentaire."
 							],
 							"position": [
 								4,
@@ -235,8 +226,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Quand vous avez roll un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (cumulable 3 fois) jusqu'à la fin d'un repos long lorsque naturel ou dans le cas d'une armure non magique ; permanent.",
-								"Quand vous avez roll un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (cumulable 3 fois) jusqu'à la fin d'un repos long lorsque naturel ou dans le cas d'une armure non magique ; permanent."
+								"Quand vous avez un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (jusqu'à 4 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent/.",
+								"Quand vous avez un jet de toucher supérieur à 4 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (jusqu'à 6 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent."
 							],
 							"position": [
 								5,
@@ -273,7 +264,7 @@
 							"currentRank": 0,
 							"rankDescription": [
 								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus et la moitier de vos points de déplacement vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. Utilisable une fois entre chaque repos long.",
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un jet de sauvegarde de dextérité (JDS = votre force), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
+								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un DC de sauvegarde de dextérité (DC = 8 + Force + Maîtrise), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
 							],
 							"position": [
 								5,
@@ -291,8 +282,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de 1/4.",
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier."
+								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier.",
+								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier. Vous ignorez l'impact du wound threashold."
 							],
 							"position": [
 								6,
@@ -307,11 +298,11 @@
 						{
 							"id": 15,
 							"name": "Saccager",
-							"maxRank": 5,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les attaques supplémentaire octroyé par Machine de guerre obtienne un avantage.",
-								"Les attaques supplémentaire octroyé par Machine de guerre obtienne un avantage et inflige 1d20 points de dégâts supplémentaires."
+								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage.",
+								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage et inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
 							],
 							"position": [
 								6,
@@ -333,7 +324,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 6d10 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, possède des actions légendaires, ou si le MD décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 75 points de mana vivant."
+								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 6d10 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, possède des actions légendaires, ou si le MD décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 33 points de mana vivant et utilisable une seule fois entre chaque repos long."
 							],
 							"position": [
 								7,
@@ -350,353 +341,6 @@
 							}
 						}
 					]
-				},
-				
-				{
-					"id": 2,
-					"name": "Noir",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Complotiste",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous gagnez un bonus de +2 lorsque vous faites un jets de charisme qui peut résulter à une mauvaise action ou un but personnel.",
-								"Vous gagnez un bonus de +4 lorsque vous faites un jets de charisme qui peut résulter à une mauvaise action ou un but personnel.",
-								"Vous gagnez un bonus de +6 lorsque vous faites un jets de charisme qui peut résulter à une mauvaise action ou un but personnel."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Menace de mort",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous effectué un jet d'intimidation sur une créature neutre qui comprend votre langue hors combat vous gagnez un bonus de +2 et en cas de réusite, la cible est effrayé pendant 1d4 heures.",
-								"Lorsque vous effectué un jet d'intimidation sur une créature neutre qui comprend votre langue hors combat vous gagnez un bonus de +4 et en cas de réusite, la cible est effrayé pendant 2d5 heures."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Passe partout",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de crocheter une porte non magique à l'aide d'outil construit à partir de mana vivant. Pour un total de 5 points.",
-								"Vous permet de crocheter une porte non magique et vous permet d'identifier le fonctionnement des portes magiques ; à l'aide d'outil construit à partir de mana vivant et votre acuité. Pour un total de 5 points."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 3,
-							"name": "Insaisisable",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Quand un ou plusieur individu vous poursuit, vous gagnez un bonus de +3 à votre vitesse et vous n'êtes plus ralenti par les passages étroits.",
-								"Quand un ou plusieur individu vous poursuit, vous gagnez un bonus de +5 à votre vitesse et vous n'êtes plus ralenti par les passages étroits, les terrains difficiles et vous avez un avantage quand vous escalader un mur."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 4,
-							"name": "Ombre",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Quand vous effectué un jet de furtivité, vous avez un avantage lorsqu'il fait nuit.",
-								"Quand vous effectué un jet de furtivité, vous avez un avantage lorsqu'il fait nuit. Les cibles dans un rayon supérieur à 2,5m autour de vous ont un désavantage à leur jet de perception pour remarquez votre présence."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Mauvaise influence",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Ghostly Strike",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Improved Ambush",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical strike chance of your Ambush ability by 15%.",
-								"Increases the critical strike chance of your Ambush ability by 30%.",
-								"Increases the critical strike chance of your Ambush ability by 45%."
-							],
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Setup",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Sap",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 30% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 60% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 90% chance to return to stealth mode after using your Sap ability."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Serrated Blades",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 10%. The amount of Armor reduced increases with your level.<br/><em>(ignores 100 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 20%. The amount of Armor reduced increases with your level.<br/><em>(ignores 200 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 30%. The amount of Armor reduced increases with your level.<br/><em>(ignores 300 Armor at level 60)</em>"
-							],
-							"rankData": [
-								1.67,
-								3.33,
-								5
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 11,
-							"name": "Heightened Senses",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%. More effective than Heightened Senses (Rank 1)."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Preparation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When activated, this ability immediately finishes the cooldown on your other Rogue abilities."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Dirty Deeds",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10.",
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Hemorrhage",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"An instant strike that damages the opponent and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 3. Lasts 30 charges or 15 sec. Awards 1 combo point."
-							],
-							"position": [
-								5,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20,
-								"skill": {
-									"id": 10,
-									"skillPoints": 3
-								}
-							}
-						},
-						{
-							"id": 15,
-							"name": "Deadliness",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Attack Power by 2%.",
-								"Increases your Attack Power by 4%.",
-								"Increases your Attack Power by 6%.",
-								"Increases your Attack Power by 8%.",
-								"Increases your Attack Power by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 16,
-							"name": "Premeditation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
-				},
-				{
-					
 				}
 			]
 		},
@@ -716,14 +360,11 @@
 						{
 							"id": 0,
 							"name": "Résistance à la douleur",
-							"maxRank": 5,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d12 (avant le jet de dégâts) pour un total de 25 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d14 (avant le jet de dégâts) pour un total de 25 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 (avant le jet de dégâts) pour un total de 20 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 + 2 (avant le jet de dégâts) pour un total de 20 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 + 4 (avant le jet de dégâts) pour un total de 20 points de mana vivant."
+								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé.",
+								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
 							],
 							"position": [
 								1,
@@ -735,12 +376,11 @@
 						{
 							"id": 1,
 							"name": "Cruauté",
-							"maxRank": 3,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente vos dégâts de 1d8 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d10 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d12 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition."
+								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
+								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) + maîtrise (uniquement sur le premier coup) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition. Lorsque vous infligez une blessure à une cible sous condition, vous lui infligez une blessure d'un degré supérieur."
 							],
 							"position": [
 								1,
@@ -755,8 +395,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Quand vous effrayez une cible, cette dernière vous infliges 1d10 dégâts en moins.",
-								"Quand vous effrayez une cible, cette dernière vous infliges 1d12 dégâts en moins."
+								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 5 ou plus, la cible est effrayé pendant 6d10 minutes.",
+								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 3 ou plus, la cible est effrayé pendant 9d10 minutes. Quand une créature à peur de vous, elle doit réussir un DD10, en cas d'échec elle essaye à tout pris de sortir du combat si possible."
 							],
 							"position": [
 								2,
@@ -771,12 +411,11 @@
 						{
 							"id": 3,
 							"name": "Peau de fer",
-							"maxRank": 3,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente votre CA de 1 et vos points de vie de 6.",
-								"Augmente votre CA de 2 et vos points de vie de 12.",
-								"Augmente votre CA de 3 et vos points de vie de 18."
+								"Augmente votre CA de 1 et vos points de vie maximum de 6.",
+								"Augmente votre CA de 2 et vos points de vie maximum de 12. Vous gagnez une réduction de dégâts additionnel pour chaque point de CA que donne cette compétence."
 							],
 							"position": [
 								2,
@@ -791,11 +430,11 @@
 						{
 							"id": 4,
 							"name": "Enchaînement",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Touchez une cible permet d'en toucher une autre dans votre allonge lui infligeant 50% des dégâts.", 
-								"Touchez une cible permet d'en toucher une autre dans votre allonge lui infligeant 100% des dégâts."
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts).",
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts cumulable augmente à chaque cible touché)."
 							],
 							"position": [
 								3,
@@ -809,11 +448,11 @@
 						},
 						{
 							"id": 5,
-							"name": "Cicatrice de guerre",
+							"name": "Suprématie martiale",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Votre constitution est augmenté de 2. Pour chaque coup infligeant plus de 1/3 de votre total de vie vous gagnez une lésion, lors d'un repos long toutes les lésions sont convertis en cicatrice. Pour chacune des cicatrices vous gagnez 1d4 points de vie max."
+								"Vous obtenez quatre dés de supériorité majeur et apprenez trois Manœuvres (voir sous-classe maître de guerre). Ces dés de supériorité ont une valeur de 1d12."
 							],
 							"position": [
 								3,
@@ -828,11 +467,10 @@
 						{
 							"id": 6,
 							"name": "Folie sanguinaire",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez 50% des dégâts infligez sous forme de soin. Revient après un repos long",
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez 100% des dégâts infligez sous forme de soin. Revient après un repos long"
+								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin. Revient après un repos long."
 							],	
 							"position": [
 								3,
@@ -846,13 +484,12 @@
 						},
 						{
 							"id": 7,
-							"name": "Cri de guerre",
-							"maxRank": 3,
+							"name": "Cri de ralliement",
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 5m. Pour un total de 25 points de mana vivant.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 10m. Pour un total de 20 points de mana vivant.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage aux deux prochaine attaques des alliés dans un rayon de 15m. Pour un total de 20 points de mana vivant."
+								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 20m. Ne fonctionne qu'une fois par combat.",
+								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage au deux prochaines attaques des alliés dans un rayon de 25m. Ne fonctionne qu'une fois par combat. Lorsqu'un allié dans votre allonge utilise son premier avantage vous gagnez 3d(niveau de votre alliée) points de vie temporaire."
 							],
 							"position": [
 								3,
@@ -867,12 +504,11 @@
 						{
 							"id": 8,
 							"name": "Frappe lourde",
-							"maxRank": 3,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme.",
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +6 au jet de touché infligeant 2,5x (arrondi supérieur) fois les dégats normaux de l'arme.",
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +7 au jet de touché infligeant 3x les dégats normaux de l'arme."
+								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +3 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible.",
+								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible. Cette attaque ne prend pas en compte les résistances physique de la cible."
 							],
 							"position": [
 								4,
@@ -906,11 +542,10 @@
 						{
 							"id": 10,
 							"name": "Machine de guerre",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Si durant un tour vous effectuées et réussissez le maximum d'attaque possible sur votre personnage, vous gagnez une attaque supplémentaire jusqu'à la fin de votre round.",
-								"Si durant un tour vous effectuées et réussissez le maximum d'attaque possible sur votre personnage, vous gagnez deux attaque supplémentaire jusqu'à la fin de votre round."
+								"Lorsque vous avez l'avantage quand vous faites une attaque à l'aide d'une arme, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de round, vous gagnez une attaque supplémentaire."
 							],
 							"position": [
 								4,
@@ -928,8 +563,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Quand vous avez roll un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (cumulable 3 fois) jusqu'à la fin d'un repos long lorsque naturel ou dans le cas d'une armure non magique ; permanent.",
-								"Quand vous avez roll un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (cumulable 3 fois) jusqu'à la fin d'un repos long lorsque naturel ou dans le cas d'une armure non magique ; permanent."
+								"Quand vous avez un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (jusqu'à 4 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent/.",
+								"Quand vous avez un jet de toucher supérieur à 4 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (jusqu'à 6 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent."
 							],
 							"position": [
 								5,
@@ -943,11 +578,11 @@
 						},
 						{
 							"id": 12,
-							"name": "Classe2",
+							"name": "Poigne du mastodonte",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"placeholder."
+								"Si votre force est égale ou supérieur à 20, vous permet d'utiliser les armes demandent deux mains avec une seule."
 							],
 							"position": [
 								5,
@@ -966,7 +601,7 @@
 							"currentRank": 0,
 							"rankDescription": [
 								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus et la moitier de vos points de déplacement vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. Utilisable une fois entre chaque repos long.",
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un jet de sauvegarde de dextérité (JDS = votre force), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
+								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un DC de sauvegarde de dextérité (DC = 8 + Force + Maîtrise), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
 							],
 							"position": [
 								5,
@@ -984,8 +619,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de 1/4.",
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier."
+								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier.",
+								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier. Vous ignorez l'impact du wound threashold."
 							],
 							"position": [
 								6,
@@ -1000,11 +635,11 @@
 						{
 							"id": 15,
 							"name": "Saccager",
-							"maxRank": 5,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les attaques supplémentaire octroyé par Machine de guerre obtienne un avantage.",
-								"Les attaques supplémentaire octroyé par Machine de guerre obtienne un avantage et inflige 1d20 points de dégâts supplémentaires."
+								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage.",
+								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage et inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
 							],
 							"position": [
 								6,
@@ -1022,11 +657,11 @@
 						},
 						{
 							"id": 16,
-							"name": "Classe",
+							"name": "Frappe mortelle",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Placeholder."
+								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 6d10 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, possède des actions légendaires, ou si le MD décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 33 points de mana vivant et utilisable une seule fois entre chaque repos long."
 							],
 							"position": [
 								7,
@@ -1036,334 +671,6 @@
 							"faded": false,
 							"requirements": {
 								"specPoints": 15,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
-				},
-				{
-					"id": 1,
-					"name": "Blanc",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Healing Focus",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 35% chance to avoid interruption caused by damage while casting any healing spell.",
-								"Gives you a 70% chance to avoid interruption caused by damage while casting any healing spell."
-							],
-							"position": [
-								1,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Improved Renew",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your Renew spell by 5%.",
-								"Increases the amount healed by your Renew spell by 10%.",
-								"Increases the amount healed by your Renew spell by 15%."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Holy Specialization",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical effect chance of your Holy spells by 1%.",
-								"Increases the critical effect chance of your Holy spells by 2%.",
-								"Increases the critical effect chance of your Holy spells by 3%.",
-								"Increases the critical effect chance of your Holy spells by 4%.",
-								"Increases the critical effect chance of your Holy spells by 5%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 3,
-							"name": "Spell Warding",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces all spell damage taken by 2%.",
-								"Reduces all spell damage taken by 4%.",
-								"Reduces all spell damage taken by 6%.",
-								"Reduces all spell damage taken by 8%.",
-								"Reduces all spell damage taken by 10%."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Divine Fury",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.1 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.2 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.3 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.4 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Holy Nova",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes an explosion of holy light around the caster, causing 28 to 33 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 52 to 61. These effects cause no threat."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Blessed Recovery",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"After being struck by a melee or ranged critical hit, heal 8% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 16% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 25% of the damage taken over 6 sec."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Inspiration",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your target's armor by 8% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 16% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 25% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell."
-							],
-							"position": [
-								3,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Holy Reach",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 10%.",
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 20%."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 5%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 10%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 15%."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Searing Light",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage of your Smite and Holy Fire spells by 5%.",
-								"Increases the damage of your Smite and Holy Fire spells by 10%."
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 4,
-									"skillPoints": 5
-								}
-							}
-						},
-						{
-							"id": 11,
-							"name": "Improved Prayer of Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Prayer of Healing spell by 10%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 20%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 30%."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Spirit of Redemption",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Upon death, the priest becomes the Spirit of Redemption for 10 sec. The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects. While in this form the priest can cast any healing spell free of cost. When the effect ends, the priest dies."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Spiritual Guidance",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases spell damage and healing by up to 5% of your total Spirit.",
-								"Increases spell damage and healing by up to 10% of your total Spirit.",
-								"Increases spell damage and healing by up to 15% of your total Spirit.",
-								"Increases spell damage and healing by up to 20% of your total Spirit.",
-								"Increases spell damage and healing by up to 25% of your total Spirit."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Spiritual Healing",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your healing spells by 2%.",
-								"Increases the amount healed by your healing spells by 4%.",
-								"Increases the amount healed by your healing spells by 6%.",
-								"Increases the amount healed by your healing spells by 8%.",
-								"Increases the amount healed by your healing spells by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 15,
-							"name": "Lightwell",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Creates a holy Lightwell near the priest. Members of your raid or party can click the Lightwell to restore 800 health over 10 sec. Being attacked cancels the effect. Lightwell lasts for 3 min or 5 charges."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
 								"skill": {
 									"id": 12,
 									"skillPoints": 1
@@ -1659,334 +966,6 @@
 							}
 						}
 					]
-				},
-				{
-					"id": 1,
-					"name": "Blanc----------------------------------------",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Healing Focus",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 35% chance to avoid interruption caused by damage while casting any healing spell.",
-								"Gives you a 70% chance to avoid interruption caused by damage while casting any healing spell."
-							],
-							"position": [
-								1,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Improved Renew",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your Renew spell by 5%.",
-								"Increases the amount healed by your Renew spell by 10%.",
-								"Increases the amount healed by your Renew spell by 15%."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Holy Specialization",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical effect chance of your Holy spells by 1%.",
-								"Increases the critical effect chance of your Holy spells by 2%.",
-								"Increases the critical effect chance of your Holy spells by 3%.",
-								"Increases the critical effect chance of your Holy spells by 4%.",
-								"Increases the critical effect chance of your Holy spells by 5%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 3,
-							"name": "Spell Warding",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces all spell damage taken by 2%.",
-								"Reduces all spell damage taken by 4%.",
-								"Reduces all spell damage taken by 6%.",
-								"Reduces all spell damage taken by 8%.",
-								"Reduces all spell damage taken by 10%."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Divine Fury",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.1 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.2 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.3 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.4 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Holy Nova",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes an explosion of holy light around the caster, causing 28 to 33 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 52 to 61. These effects cause no threat."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Blessed Recovery",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"After being struck by a melee or ranged critical hit, heal 8% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 16% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 25% of the damage taken over 6 sec."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Inspiration",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your target's armor by 8% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 16% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 25% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell."
-							],
-							"position": [
-								3,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Holy Reach",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 10%.",
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 20%."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 5%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 10%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 15%."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Searing Light",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage of your Smite and Holy Fire spells by 5%.",
-								"Increases the damage of your Smite and Holy Fire spells by 10%."
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 4,
-									"skillPoints": 5
-								}
-							}
-						},
-						{
-							"id": 11,
-							"name": "Improved Prayer of Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Prayer of Healing spell by 10%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 20%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 30%."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Spirit of Redemption",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Upon death, the priest becomes the Spirit of Redemption for 10 sec. The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects. While in this form the priest can cast any healing spell free of cost. When the effect ends, the priest dies."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Spiritual Guidance",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases spell damage and healing by up to 5% of your total Spirit.",
-								"Increases spell damage and healing by up to 10% of your total Spirit.",
-								"Increases spell damage and healing by up to 15% of your total Spirit.",
-								"Increases spell damage and healing by up to 20% of your total Spirit.",
-								"Increases spell damage and healing by up to 25% of your total Spirit."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Spiritual Healing",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your healing spells by 2%.",
-								"Increases the amount healed by your healing spells by 4%.",
-								"Increases the amount healed by your healing spells by 6%.",
-								"Increases the amount healed by your healing spells by 8%.",
-								"Increases the amount healed by your healing spells by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 15,
-							"name": "Lightwell",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Creates a holy Lightwell near the priest. Members of your raid or party can click the Lightwell to restore 800 health over 10 sec. Being attacked cancels the effect. Lightwell lasts for 3 min or 5 charges."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
 				}
 			]
 		},
@@ -2006,14 +985,11 @@
 						{
 							"id": 0,
 							"name": "Résistance à la douleur",
-							"maxRank": 5,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d12 (avant le jet de dégâts) pour un total de 25 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d14 (avant le jet de dégâts) pour un total de 25 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 (avant le jet de dégâts) pour un total de 20 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 + 2 (avant le jet de dégâts) pour un total de 20 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 + 4 (avant le jet de dégâts) pour un total de 20 points de mana vivant."
+								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé.",
+								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
 							],
 							"position": [
 								1,
@@ -2025,12 +1001,11 @@
 						{
 							"id": 1,
 							"name": "Cruauté",
-							"maxRank": 3,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente vos dégâts de 1d8 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d10 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d12 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition."
+								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
+								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) + maîtrise (uniquement sur le premier coup) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition. Lorsque vous infligez une blessure à une cible sous condition, vous lui infligez une blessure d'un degré supérieur."
 							],
 							"position": [
 								1,
@@ -2045,8 +1020,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Quand vous effrayez une cible, cette dernière vous infliges 1d10 dégâts en moins.",
-								"Quand vous effrayez une cible, cette dernière vous infliges 1d12 dégâts en moins."
+								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 5 ou plus, la cible est effrayé pendant 6d10 minutes.",
+								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 3 ou plus, la cible est effrayé pendant 9d10 minutes. Quand une créature à peur de vous, elle doit réussir un DD10, en cas d'échec elle essaye à tout pris de sortir du combat si possible."
 							],
 							"position": [
 								2,
@@ -2061,12 +1036,11 @@
 						{
 							"id": 3,
 							"name": "Peau de fer",
-							"maxRank": 3,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente votre CA de 1 et vos points de vie de 6.",
-								"Augmente votre CA de 2 et vos points de vie de 12.",
-								"Augmente votre CA de 3 et vos points de vie de 18."
+								"Augmente votre CA de 1 et vos points de vie maximum de 6.",
+								"Augmente votre CA de 2 et vos points de vie maximum de 12. Vous gagnez une réduction de dégâts additionnel pour chaque point de CA que donne cette compétence."
 							],
 							"position": [
 								2,
@@ -2081,11 +1055,11 @@
 						{
 							"id": 4,
 							"name": "Enchaînement",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Touchez une cible permet d'en toucher une autre dans votre allonge lui infligeant 50% des dégâts.", 
-								"Touchez une cible permet d'en toucher une autre dans votre allonge lui infligeant 100% des dégâts."
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts).",
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts cumulable augmente à chaque cible touché)."
 							],
 							"position": [
 								3,
@@ -2103,7 +1077,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez quatre dés de supériorité majeur et apprenez trois Manœuvres (voir sous-classe maître de guerre). Ces dés de supériorité spécial ont une valeur de 1d12."
+								"Vous obtenez quatre dés de supériorité majeur et apprenez trois Manœuvres (voir sous-classe maître de guerre). Ces dés de supériorité ont une valeur de 1d12."
 							],
 							"position": [
 								3,
@@ -2118,11 +1092,10 @@
 						{
 							"id": 6,
 							"name": "Folie sanguinaire",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez 50% des dégâts infligez sous forme de soin. Revient après un repos long",
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez 100% des dégâts infligez sous forme de soin. Revient après un repos long"
+								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin. Revient après un repos long."
 							],	
 							"position": [
 								3,
@@ -2136,13 +1109,12 @@
 						},
 						{
 							"id": 7,
-							"name": "Cri de guerre",
-							"maxRank": 3,
+							"name": "Cri de ralliement",
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 5m. Pour un total de 25 points de mana vivant.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 10m. Pour un total de 20 points de mana vivant.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage aux deux prochaine attaques des alliés dans un rayon de 15m. Pour un total de 20 points de mana vivant."
+								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 20m. Ne fonctionne qu'une fois par combat.",
+								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage au deux prochaines attaques des alliés dans un rayon de 25m. Ne fonctionne qu'une fois par combat. Lorsqu'un allié dans votre allonge utilise son premier avantage vous gagnez 3d(niveau de votre alliée) points de vie temporaire."
 							],
 							"position": [
 								3,
@@ -2157,12 +1129,11 @@
 						{
 							"id": 8,
 							"name": "Frappe lourde",
-							"maxRank": 3,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme.",
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +6 au jet de touché infligeant 2,5x (arrondi supérieur) fois les dégats normaux de l'arme.",
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +7 au jet de touché infligeant 3x les dégats normaux de l'arme."
+								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +3 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible.",
+								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible. Cette attaque ne prend pas en compte les résistances physique de la cible."
 							],
 							"position": [
 								4,
@@ -2196,11 +1167,10 @@
 						{
 							"id": 10,
 							"name": "Machine de guerre",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Si durant un tour vous effectuées et réussissez le maximum d'attaque possible sur votre personnage, vous gagnez une attaque supplémentaire jusqu'à la fin de votre round.",
-								"Si durant un tour vous effectuées et réussissez le maximum d'attaque possible sur votre personnage, vous gagnez deux attaque supplémentaire jusqu'à la fin de votre round."
+								"Lorsque vous avez l'avantage quand vous faites une attaque à l'aide d'une arme, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de round, vous gagnez une attaque supplémentaire."
 							],
 							"position": [
 								4,
@@ -2218,8 +1188,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Quand vous avez roll un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (cumulable 3 fois) jusqu'à la fin d'un repos long lorsque naturel ou dans le cas d'une armure non magique ; permanent.",
-								"Quand vous avez roll un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (cumulable 3 fois) jusqu'à la fin d'un repos long lorsque naturel ou dans le cas d'une armure non magique ; permanent."
+								"Quand vous avez un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (jusqu'à 4 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent/.",
+								"Quand vous avez un jet de toucher supérieur à 4 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (jusqu'à 6 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent."
 							],
 							"position": [
 								5,
@@ -2256,7 +1226,7 @@
 							"currentRank": 0,
 							"rankDescription": [
 								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus et la moitier de vos points de déplacement vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. Utilisable une fois entre chaque repos long.",
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un jet de sauvegarde de dextérité (JDS = votre force), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
+								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un DC de sauvegarde de dextérité (DC = 8 + Force + Maîtrise), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
 							],
 							"position": [
 								5,
@@ -2274,8 +1244,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de 1/4.",
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier."
+								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier.",
+								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier. Vous ignorez l'impact du wound threashold."
 							],
 							"position": [
 								6,
@@ -2290,11 +1260,11 @@
 						{
 							"id": 15,
 							"name": "Saccager",
-							"maxRank": 5,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les attaques supplémentaire octroyé par Machine de guerre obtienne un avantage.",
-								"Les attaques supplémentaire octroyé par Machine de guerre obtienne un avantage et inflige 1d20 points de dégâts supplémentaires."
+								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage.",
+								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage et inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
 							],
 							"position": [
 								6,
@@ -2316,7 +1286,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 6d10 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, possède des actions légendaires, ou si le MD décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 75 points de mana vivant."
+								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 6d10 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, possède des actions légendaires, ou si le MD décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 33 points de mana vivant et utilisable une seule fois entre chaque repos long."
 							],
 							"position": [
 								7,
@@ -2326,357 +1296,6 @@
 							"faded": false,
 							"requirements": {
 								"specPoints": 15,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
-				},
-				{
-					"id": 1,
-					"name": "Noir",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Master of Deception",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance enemies have to detect you while in Stealth mode.",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 1).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 2).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 3).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 4)."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Opportunity",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 4%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 8%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 12%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 16%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 20%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Sleight of Hand",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
-								"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 3,
-							"name": "Elusiveness",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
-								"Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Camouflage",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec.",
-								"Increases your speed while stealthed by 6% and reduces the cooldown of your Stealth ability by 2 sec.",
-								"Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 sec.",
-								"Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 sec.",
-								"Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Initiative",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Ghostly Strike",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Improved Ambush",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical strike chance of your Ambush ability by 15%.",
-								"Increases the critical strike chance of your Ambush ability by 30%.",
-								"Increases the critical strike chance of your Ambush ability by 45%."
-							],
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Setup",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Sap",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 30% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 60% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 90% chance to return to stealth mode after using your Sap ability."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Serrated Blades",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 10%. The amount of Armor reduced increases with your level.<br/><em>(ignores 100 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 20%. The amount of Armor reduced increases with your level.<br/><em>(ignores 200 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 30%. The amount of Armor reduced increases with your level.<br/><em>(ignores 300 Armor at level 60)</em>"
-							],
-							"rankData": [
-								1.67,
-								3.33,
-								5
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 11,
-							"name": "Heightened Senses",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%. More effective than Heightened Senses (Rank 1)."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Preparation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When activated, this ability immediately finishes the cooldown on your other Rogue abilities."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Dirty Deeds",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10.",
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Hemorrhage",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"An instant strike that damages the opponent and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 3. Lasts 30 charges or 15 sec. Awards 1 combo point."
-							],
-							"position": [
-								5,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20,
-								"skill": {
-									"id": 10,
-									"skillPoints": 3
-								}
-							}
-						},
-						{
-							"id": 15,
-							"name": "Deadliness",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Attack Power by 2%.",
-								"Increases your Attack Power by 4%.",
-								"Increases your Attack Power by 6%.",
-								"Increases your Attack Power by 8%.",
-								"Increases your Attack Power by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 16,
-							"name": "Premeditation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
 								"skill": {
 									"id": 12,
 									"skillPoints": 1
@@ -3020,357 +1639,6 @@
 							}
 						}
 					]
-				},
-				{
-					"id": 1,
-					"name": "Noir",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Master of Deception",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance enemies have to detect you while in Stealth mode.",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 1).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 2).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 3).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 4)."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Opportunity",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 4%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 8%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 12%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 16%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 20%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Sleight of Hand",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
-								"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 3,
-							"name": "Elusiveness",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
-								"Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Camouflage",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec.",
-								"Increases your speed while stealthed by 6% and reduces the cooldown of your Stealth ability by 2 sec.",
-								"Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 sec.",
-								"Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 sec.",
-								"Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Initiative",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Ghostly Strike",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Improved Ambush",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical strike chance of your Ambush ability by 15%.",
-								"Increases the critical strike chance of your Ambush ability by 30%.",
-								"Increases the critical strike chance of your Ambush ability by 45%."
-							],
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Setup",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Sap",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 30% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 60% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 90% chance to return to stealth mode after using your Sap ability."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Serrated Blades",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 10%. The amount of Armor reduced increases with your level.<br/><em>(ignores 100 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 20%. The amount of Armor reduced increases with your level.<br/><em>(ignores 200 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 30%. The amount of Armor reduced increases with your level.<br/><em>(ignores 300 Armor at level 60)</em>"
-							],
-							"rankData": [
-								1.67,
-								3.33,
-								5
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 11,
-							"name": "Heightened Senses",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%. More effective than Heightened Senses (Rank 1)."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Preparation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When activated, this ability immediately finishes the cooldown on your other Rogue abilities."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Dirty Deeds",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10.",
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Hemorrhage",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"An instant strike that damages the opponent and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 3. Lasts 30 charges or 15 sec. Awards 1 combo point."
-							],
-							"position": [
-								5,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20,
-								"skill": {
-									"id": 10,
-									"skillPoints": 3
-								}
-							}
-						},
-						{
-							"id": 15,
-							"name": "Deadliness",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Attack Power by 2%.",
-								"Increases your Attack Power by 4%.",
-								"Increases your Attack Power by 6%.",
-								"Increases your Attack Power by 8%.",
-								"Increases your Attack Power by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 16,
-							"name": "Premeditation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
 				}
 			]
 		},
@@ -3690,357 +1958,6 @@
 								"skill": {
 									"id": 14,
 									"skillPoints": 3
-								}
-							}
-						}
-					]
-				},
-				{
-					"id": 1,
-					"name": "Noir",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Master of Deception",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance enemies have to detect you while in Stealth mode.",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 1).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 2).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 3).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 4)."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Opportunity",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 4%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 8%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 12%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 16%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 20%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Sleight of Hand",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
-								"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 3,
-							"name": "Elusiveness",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
-								"Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Camouflage",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec.",
-								"Increases your speed while stealthed by 6% and reduces the cooldown of your Stealth ability by 2 sec.",
-								"Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 sec.",
-								"Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 sec.",
-								"Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Initiative",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Ghostly Strike",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Improved Ambush",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical strike chance of your Ambush ability by 15%.",
-								"Increases the critical strike chance of your Ambush ability by 30%.",
-								"Increases the critical strike chance of your Ambush ability by 45%."
-							],
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Setup",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Sap",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 30% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 60% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 90% chance to return to stealth mode after using your Sap ability."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Serrated Blades",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 10%. The amount of Armor reduced increases with your level.<br/><em>(ignores 100 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 20%. The amount of Armor reduced increases with your level.<br/><em>(ignores 200 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 30%. The amount of Armor reduced increases with your level.<br/><em>(ignores 300 Armor at level 60)</em>"
-							],
-							"rankData": [
-								1.67,
-								3.33,
-								5
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 11,
-							"name": "Heightened Senses",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%. More effective than Heightened Senses (Rank 1)."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Preparation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When activated, this ability immediately finishes the cooldown on your other Rogue abilities."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Dirty Deeds",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10.",
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Hemorrhage",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"An instant strike that damages the opponent and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 3. Lasts 30 charges or 15 sec. Awards 1 combo point."
-							],
-							"position": [
-								5,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20,
-								"skill": {
-									"id": 10,
-									"skillPoints": 3
-								}
-							}
-						},
-						{
-							"id": 15,
-							"name": "Deadliness",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Attack Power by 2%.",
-								"Increases your Attack Power by 4%.",
-								"Increases your Attack Power by 6%.",
-								"Increases your Attack Power by 8%.",
-								"Increases your Attack Power by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 16,
-							"name": "Premeditation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
 								}
 							}
 						}
@@ -4395,334 +2312,6 @@
 							}
 						}
 					]
-				},
-				{
-					"id": 1,
-					"name": "Blanc",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Healing Focus",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 35% chance to avoid interruption caused by damage while casting any healing spell.",
-								"Gives you a 70% chance to avoid interruption caused by damage while casting any healing spell."
-							],
-							"position": [
-								1,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Improved Renew",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your Renew spell by 5%.",
-								"Increases the amount healed by your Renew spell by 10%.",
-								"Increases the amount healed by your Renew spell by 15%."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Holy Specialization",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical effect chance of your Holy spells by 1%.",
-								"Increases the critical effect chance of your Holy spells by 2%.",
-								"Increases the critical effect chance of your Holy spells by 3%.",
-								"Increases the critical effect chance of your Holy spells by 4%.",
-								"Increases the critical effect chance of your Holy spells by 5%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 3,
-							"name": "Spell Warding",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces all spell damage taken by 2%.",
-								"Reduces all spell damage taken by 4%.",
-								"Reduces all spell damage taken by 6%.",
-								"Reduces all spell damage taken by 8%.",
-								"Reduces all spell damage taken by 10%."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Divine Fury",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.1 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.2 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.3 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.4 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Holy Nova",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes an explosion of holy light around the caster, causing 28 to 33 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 52 to 61. These effects cause no threat."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Blessed Recovery",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"After being struck by a melee or ranged critical hit, heal 8% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 16% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 25% of the damage taken over 6 sec."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Inspiration",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your target's armor by 8% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 16% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 25% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell."
-							],
-							"position": [
-								3,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Holy Reach",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 10%.",
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 20%."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 5%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 10%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 15%."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Searing Light",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage of your Smite and Holy Fire spells by 5%.",
-								"Increases the damage of your Smite and Holy Fire spells by 10%."
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 4,
-									"skillPoints": 5
-								}
-							}
-						},
-						{
-							"id": 11,
-							"name": "Improved Prayer of Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Prayer of Healing spell by 10%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 20%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 30%."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Spirit of Redemption",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Upon death, the priest becomes the Spirit of Redemption for 10 sec. The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects. While in this form the priest can cast any healing spell free of cost. When the effect ends, the priest dies."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Spiritual Guidance",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases spell damage and healing by up to 5% of your total Spirit.",
-								"Increases spell damage and healing by up to 10% of your total Spirit.",
-								"Increases spell damage and healing by up to 15% of your total Spirit.",
-								"Increases spell damage and healing by up to 20% of your total Spirit.",
-								"Increases spell damage and healing by up to 25% of your total Spirit."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Spiritual Healing",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your healing spells by 2%.",
-								"Increases the amount healed by your healing spells by 4%.",
-								"Increases the amount healed by your healing spells by 6%.",
-								"Increases the amount healed by your healing spells by 8%.",
-								"Increases the amount healed by your healing spells by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 15,
-							"name": "Lightwell",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Creates a holy Lightwell near the priest. Members of your raid or party can click the Lightwell to restore 800 health over 10 sec. Being attacked cancels the effect. Lightwell lasts for 3 min or 5 charges."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
 				}
 			]
 		},
@@ -5069,357 +2658,6 @@
 							}
 						}
 					]
-				},
-				{
-					"id": 1,
-					"name": "Noir",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Master of Deception",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance enemies have to detect you while in Stealth mode.",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 1).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 2).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 3).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 4)."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Opportunity",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 4%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 8%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 12%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 16%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 20%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Sleight of Hand",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
-								"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 3,
-							"name": "Elusiveness",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
-								"Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Camouflage",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec.",
-								"Increases your speed while stealthed by 6% and reduces the cooldown of your Stealth ability by 2 sec.",
-								"Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 sec.",
-								"Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 sec.",
-								"Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Initiative",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Ghostly Strike",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Improved Ambush",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical strike chance of your Ambush ability by 15%.",
-								"Increases the critical strike chance of your Ambush ability by 30%.",
-								"Increases the critical strike chance of your Ambush ability by 45%."
-							],
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Setup",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Sap",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 30% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 60% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 90% chance to return to stealth mode after using your Sap ability."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Serrated Blades",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 10%. The amount of Armor reduced increases with your level.<br/><em>(ignores 100 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 20%. The amount of Armor reduced increases with your level.<br/><em>(ignores 200 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 30%. The amount of Armor reduced increases with your level.<br/><em>(ignores 300 Armor at level 60)</em>"
-							],
-							"rankData": [
-								1.67,
-								3.33,
-								5
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 11,
-							"name": "Heightened Senses",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%. More effective than Heightened Senses (Rank 1)."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Preparation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When activated, this ability immediately finishes the cooldown on your other Rogue abilities."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Dirty Deeds",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10.",
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Hemorrhage",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"An instant strike that damages the opponent and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 3. Lasts 30 charges or 15 sec. Awards 1 combo point."
-							],
-							"position": [
-								5,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20,
-								"skill": {
-									"id": 10,
-									"skillPoints": 3
-								}
-							}
-						},
-						{
-							"id": 15,
-							"name": "Deadliness",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Attack Power by 2%.",
-								"Increases your Attack Power by 4%.",
-								"Increases your Attack Power by 6%.",
-								"Increases your Attack Power by 8%.",
-								"Increases your Attack Power by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 16,
-							"name": "Premeditation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
 				}
 			]
 		},
@@ -5454,12 +2692,12 @@
 						},
 						{
 							"id": 1,
-							"name": "Rétablissement béni",
+							"name": "Réplica divin",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Pour 25 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins d'une heure).",
-								"Pour 20 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins de deux heures)."
+								"Pour 33 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins d'une heure).",
+								"Pour 25 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins de deux heures)."
 							
 							],
 							"position": [
@@ -5471,7 +2709,7 @@
 						},
 						{
 							"id": 2,
-							"name": "Bénédiction cicatrisante",
+							"name": "Faveur cicatrisante",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
@@ -5490,11 +2728,11 @@
 						},
 						{
 							"id": 3,
-							"name": "Création de composant sacré",
+							"name": "Création d'eau bénite",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Crée eau bénite contre mana vivant."
+								"Lors d'un repos court ou long, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'eau bénite (par tranche de 25 points par dose). L'eau bénite que vous avez conçu confères une réduction de 5 points de dégâts contre les dégâts nécrotique lors que vous appliquez l'eau sur votre corps. Sur une arme les dégâts ignore les résistances sur les morts vivants. Sur un Mort-vivant il doit réussir un DC 15 de Sagesse, en cas d'échec il gagne deux niveaux d'épuisement non cumulable. Tous ces effets ont une durée de 1 heures."
 							],
 							"position": [
 								2,
@@ -5509,10 +2747,10 @@
 						{
 							"id": 4,
 							"name": "Miracle",
-							"maxRank": 3,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Soin blessure -> traité"
+								"Une fois toutes les 10 semaines vous pouvez utilisez le sort 'Guérison'. Invoquer une telle magie peut avoir des conséquences. vous obtenez un niveau d'affaiblisement égal à 6 moins votre maximum de niveau d'emplacement de sort."
 	
 							],
 							"position": [
@@ -5522,7 +2760,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
@@ -5531,7 +2769,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez une bénédiction de votre dieu et obtenez une branche spéciale correspondant à son domaine."
+								"Vous obtenez une bénédiction majeur de votre dieu et obtenez une branche spéciale correspondant à son domaine."
 							],
 							"position": [
 								3,
@@ -5540,13 +2778,13 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
 							"id": 6,
 							"name": "Appel divin",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
 								"Lorsque vous utilisez votre canalisation divine, lancer 1d20 (DC 10). En cas de réusite votre prochaine utilisation de capacité de domaine niveau 1 s'applique à 10 ennemis/alliés/objets ce trouvant à moins de 15 mètre de vous."
@@ -5558,17 +2796,16 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
 							"id": 7,
-							"name": "Foi inflexible",
-							"maxRank": 2,
+							"name": "Croisade contre l'Impie",
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Resistance jet de sauvegarde.",
-								"Increases your chance to resist Fear and Disorient effects by an additional 10%."
+								"Vos aptitudes (hors sort) s'appliquant aux mort-vivants concerne maintenant aussi les fiélons ainsi que les aberrations (marche aussi dans l'autre sens)."
 							],
 							"position": [
 								3,
@@ -5577,20 +2814,16 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
 							"id": 8,
 							"name": "Illumination",
-							"maxRank": 5,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell.",
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 40% chance to gain Mana equal to the base cost of the spell.",
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 60% chance to gain Mana equal to the base cost of the spell.",
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 80% chance to gain Mana equal to the base cost of the spell.",
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 100% chance to gain Mana equal to the base cost of the spell."
+								"Lorsque vous faites un coup critique, vous entendez une prophétie/avertisement de votre dieu et regagnez 25 points de mana vivant et une charge d'énergie divine."
 							],
 							"position": [
 								4,
@@ -5599,17 +2832,17 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 15
+								"specPoints": 9
 							}
 						},
 						{
 							"id": 9,
-							"name": "Improved Blessing of Wisdom",
+							"name": "Main de protection",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Increases the effect of your Blessing of Wisdom spell by 10%.",
-								"Increases the effect of your Blessing of Wisdom spell by 20%."
+								"Vous gagnez +1 à tous vos jets de sauvegarde.",
+								"Vous gagnez +1 à tous vos jets de sauvegarde. Tout les trois repos long vous pouvez convertir un échec d'un jet de sauvegarde en succès."
 							],
 							"position": [
 								4,
@@ -5618,12 +2851,12 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 15
+								"specPoints": 9
 							}
 						},
 						{
 							"id": 10,
-							"name": "Divine Favor",
+							"name": "Classe",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -5636,7 +2869,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 20,
+								"specPoints": 12,
 								"skill": {
 									"id": 8,
 									"skillPoints": 5
@@ -5660,7 +2893,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 20
+								"specPoints": 12
 							}
 						},
 						{
@@ -5682,12 +2915,12 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 25
+								"specPoints": 15
 							}
 						},
 						{
 							"id": 13,
-							"name": "Holy Shock",
+							"name": "Classe",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -5700,337 +2933,9 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 30,
+								"specPoints": 18,
 								"skill": {
 									"id": 10,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
-				},
-				{
-					"id": 1,
-					"name": "Blanc",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Healing Focus",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 35% chance to avoid interruption caused by damage while casting any healing spell.",
-								"Gives you a 70% chance to avoid interruption caused by damage while casting any healing spell."
-							],
-							"position": [
-								1,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Improved Renew",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your Renew spell by 5%.",
-								"Increases the amount healed by your Renew spell by 10%.",
-								"Increases the amount healed by your Renew spell by 15%."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Holy Specialization",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical effect chance of your Holy spells by 1%.",
-								"Increases the critical effect chance of your Holy spells by 2%.",
-								"Increases the critical effect chance of your Holy spells by 3%.",
-								"Increases the critical effect chance of your Holy spells by 4%.",
-								"Increases the critical effect chance of your Holy spells by 5%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 3,
-							"name": "Spell Warding",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces all spell damage taken by 2%.",
-								"Reduces all spell damage taken by 4%.",
-								"Reduces all spell damage taken by 6%.",
-								"Reduces all spell damage taken by 8%.",
-								"Reduces all spell damage taken by 10%."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Divine Fury",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.1 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.2 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.3 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.4 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Holy Nova",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes an explosion of holy light around the caster, causing 28 to 33 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 52 to 61. These effects cause no threat."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Blessed Recovery",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"After being struck by a melee or ranged critical hit, heal 8% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 16% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 25% of the damage taken over 6 sec."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Inspiration",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your target's armor by 8% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 16% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 25% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell."
-							],
-							"position": [
-								3,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Holy Reach",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 10%.",
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 20%."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 5%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 10%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 15%."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Searing Light",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage of your Smite and Holy Fire spells by 5%.",
-								"Increases the damage of your Smite and Holy Fire spells by 10%."
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 4,
-									"skillPoints": 5
-								}
-							}
-						},
-						{
-							"id": 11,
-							"name": "Improved Prayer of Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Prayer of Healing spell by 10%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 20%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 30%."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Spirit of Redemption",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Upon death, the priest becomes the Spirit of Redemption for 10 sec. The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects. While in this form the priest can cast any healing spell free of cost. When the effect ends, the priest dies."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Spiritual Guidance",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases spell damage and healing by up to 5% of your total Spirit.",
-								"Increases spell damage and healing by up to 10% of your total Spirit.",
-								"Increases spell damage and healing by up to 15% of your total Spirit.",
-								"Increases spell damage and healing by up to 20% of your total Spirit.",
-								"Increases spell damage and healing by up to 25% of your total Spirit."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Spiritual Healing",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your healing spells by 2%.",
-								"Increases the amount healed by your healing spells by 4%.",
-								"Increases the amount healed by your healing spells by 6%.",
-								"Increases the amount healed by your healing spells by 8%.",
-								"Increases the amount healed by your healing spells by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 15,
-							"name": "Lightwell",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Creates a holy Lightwell near the priest. Members of your raid or party can click the Lightwell to restore 800 health over 10 sec. Being attacked cancels the effect. Lightwell lasts for 3 min or 5 charges."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
 									"skillPoints": 1
 								}
 							}
@@ -6359,334 +3264,6 @@
 							}
 						}
 					]
-				},
-				{
-					"id": 1,
-					"name": "Blanc",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Healing Focus",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 35% chance to avoid interruption caused by damage while casting any healing spell.",
-								"Gives you a 70% chance to avoid interruption caused by damage while casting any healing spell."
-							],
-							"position": [
-								1,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Improved Renew",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your Renew spell by 5%.",
-								"Increases the amount healed by your Renew spell by 10%.",
-								"Increases the amount healed by your Renew spell by 15%."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Holy Specialization",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical effect chance of your Holy spells by 1%.",
-								"Increases the critical effect chance of your Holy spells by 2%.",
-								"Increases the critical effect chance of your Holy spells by 3%.",
-								"Increases the critical effect chance of your Holy spells by 4%.",
-								"Increases the critical effect chance of your Holy spells by 5%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 3,
-							"name": "Spell Warding",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces all spell damage taken by 2%.",
-								"Reduces all spell damage taken by 4%.",
-								"Reduces all spell damage taken by 6%.",
-								"Reduces all spell damage taken by 8%.",
-								"Reduces all spell damage taken by 10%."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Divine Fury",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.1 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.2 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.3 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.4 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Holy Nova",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes an explosion of holy light around the caster, causing 28 to 33 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 52 to 61. These effects cause no threat."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Blessed Recovery",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"After being struck by a melee or ranged critical hit, heal 8% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 16% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 25% of the damage taken over 6 sec."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Inspiration",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your target's armor by 8% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 16% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 25% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell."
-							],
-							"position": [
-								3,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Holy Reach",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 10%.",
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 20%."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 5%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 10%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 15%."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Searing Light",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage of your Smite and Holy Fire spells by 5%.",
-								"Increases the damage of your Smite and Holy Fire spells by 10%."
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 4,
-									"skillPoints": 5
-								}
-							}
-						},
-						{
-							"id": 11,
-							"name": "Improved Prayer of Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Prayer of Healing spell by 10%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 20%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 30%."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Spirit of Redemption",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Upon death, the priest becomes the Spirit of Redemption for 10 sec. The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects. While in this form the priest can cast any healing spell free of cost. When the effect ends, the priest dies."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Spiritual Guidance",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases spell damage and healing by up to 5% of your total Spirit.",
-								"Increases spell damage and healing by up to 10% of your total Spirit.",
-								"Increases spell damage and healing by up to 15% of your total Spirit.",
-								"Increases spell damage and healing by up to 20% of your total Spirit.",
-								"Increases spell damage and healing by up to 25% of your total Spirit."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Spiritual Healing",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your healing spells by 2%.",
-								"Increases the amount healed by your healing spells by 4%.",
-								"Increases the amount healed by your healing spells by 6%.",
-								"Increases the amount healed by your healing spells by 8%.",
-								"Increases the amount healed by your healing spells by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 15,
-							"name": "Lightwell",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Creates a holy Lightwell near the priest. Members of your raid or party can click the Lightwell to restore 800 health over 10 sec. Being attacked cancels the effect. Lightwell lasts for 3 min or 5 charges."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
 				}
 			]
 		},
@@ -7010,359 +3587,7 @@
 							}
 						}
 					]
-				},
-				{
-					"id": 1,
-					"name": "Noir",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Master of Deception",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance enemies have to detect you while in Stealth mode.",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 1).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 2).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 3).",
-								"Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 4)."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Opportunity",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 4%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 8%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 12%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 16%.",
-								"Increases the damage dealt when striking from behind with your Backstab, Garrote, or Ambush abilities by 20%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Sleight of Hand",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduction of your Feint ability by 10%.",
-								"Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduction of your Feint ability by 20%."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 3,
-							"name": "Elusiveness",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
-								"Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Camouflage",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec.",
-								"Increases your speed while stealthed by 6% and reduces the cooldown of your Stealth ability by 2 sec.",
-								"Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 sec.",
-								"Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 sec.",
-								"Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Initiative",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
-								"Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Ghostly Strike",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Improved Ambush",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical strike chance of your Ambush ability by 15%.",
-								"Increases the critical strike chance of your Ambush ability by 30%.",
-								"Increases the critical strike chance of your Ambush ability by 45%."
-							],
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Setup",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
-								"Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Sap",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 30% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 60% chance to return to stealth mode after using your Sap ability.",
-								"Gives you a 90% chance to return to stealth mode after using your Sap ability."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Serrated Blades",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 10%. The amount of Armor reduced increases with your level.<br/><em>(ignores 100 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 20%. The amount of Armor reduced increases with your level.<br/><em>(ignores 200 Armor at level 60)</em>",
-								"Causes your attacks to ignore {value} of your target's Armor and increases the damage dealt by your Rupture ability by 30%. The amount of Armor reduced increases with your level.<br/><em>(ignores 300 Armor at level 60)</em>"
-							],
-							"rankData": [
-								1.67,
-								3.33,
-								5
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 11,
-							"name": "Heightened Senses",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
-								"Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%. More effective than Heightened Senses (Rank 1)."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Preparation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When activated, this ability immediately finishes the cooldown on your other Rogue abilities."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Dirty Deeds",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10.",
-								"Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Hemorrhage",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"An instant strike that damages the opponent and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 3. Lasts 30 charges or 15 sec. Awards 1 combo point."
-							],
-							"position": [
-								5,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20,
-								"skill": {
-									"id": 10,
-									"skillPoints": 3
-								}
-							}
-						},
-						{
-							"id": 15,
-							"name": "Deadliness",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your Attack Power by 2%.",
-								"Increases your Attack Power by 4%.",
-								"Increases your Attack Power by 6%.",
-								"Increases your Attack Power by 8%.",
-								"Increases your Attack Power by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 16,
-							"name": "Premeditation",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
-				}
-			]
+				}			]
 		},
 		{
 			"id": 12,
@@ -7708,334 +3933,6 @@
 							"faded": false,
 							"requirements": {
 								"specPoints": 30
-							}
-						}
-					]
-				},
-				{
-					"id": 1,
-					"name": "Blanc",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Healing Focus",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Gives you a 35% chance to avoid interruption caused by damage while casting any healing spell.",
-								"Gives you a 70% chance to avoid interruption caused by damage while casting any healing spell."
-							],
-							"position": [
-								1,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Improved Renew",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your Renew spell by 5%.",
-								"Increases the amount healed by your Renew spell by 10%.",
-								"Increases the amount healed by your Renew spell by 15%."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Holy Specialization",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the critical effect chance of your Holy spells by 1%.",
-								"Increases the critical effect chance of your Holy spells by 2%.",
-								"Increases the critical effect chance of your Holy spells by 3%.",
-								"Increases the critical effect chance of your Holy spells by 4%.",
-								"Increases the critical effect chance of your Holy spells by 5%."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 3,
-							"name": "Spell Warding",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces all spell damage taken by 2%.",
-								"Reduces all spell damage taken by 4%.",
-								"Reduces all spell damage taken by 6%.",
-								"Reduces all spell damage taken by 8%.",
-								"Reduces all spell damage taken by 10%."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Divine Fury",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.1 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.2 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.3 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.4 sec.",
-								"Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.5 sec."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Holy Nova",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Causes an explosion of holy light around the caster, causing 28 to 33 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 52 to 61. These effects cause no threat."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 6,
-							"name": "Blessed Recovery",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"After being struck by a melee or ranged critical hit, heal 8% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 16% of the damage taken over 6 sec.",
-								"After being struck by a melee or ranged critical hit, heal 25% of the damage taken over 6 sec."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 7,
-							"name": "Inspiration",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases your target's armor by 8% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 16% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-								"Increases your target's armor by 25% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell."
-							],
-							"position": [
-								3,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Holy Reach",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 10%.",
-								"Increases the range of your Smite and Holy Fire spells and the radius of your Prayer of Healing and Holy Nova spells by 20%."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 9,
-							"name": "Improved Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 5%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 10%.",
-								"Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 15%."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 10,
-							"name": "Searing Light",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the damage of your Smite and Holy Fire spells by 5%.",
-								"Increases the damage of your Smite and Holy Fire spells by 10%."
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 4,
-									"skillPoints": 5
-								}
-							}
-						},
-						{
-							"id": 11,
-							"name": "Improved Prayer of Healing",
-							"maxRank": 3,
-							"currentRank": 0,
-							"rankDescription": [
-								"Reduces the Mana cost of your Prayer of Healing spell by 10%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 20%.",
-								"Reduces the Mana cost of your Prayer of Healing spell by 30%."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 12,
-							"name": "Spirit of Redemption",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Upon death, the priest becomes the Spirit of Redemption for 10 sec. The Spirit of Redemption cannot move, attack, be attacked or targeted by any spells or effects. While in this form the priest can cast any healing spell free of cost. When the effect ends, the priest dies."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Spiritual Guidance",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases spell damage and healing by up to 5% of your total Spirit.",
-								"Increases spell damage and healing by up to 10% of your total Spirit.",
-								"Increases spell damage and healing by up to 15% of your total Spirit.",
-								"Increases spell damage and healing by up to 20% of your total Spirit.",
-								"Increases spell damage and healing by up to 25% of your total Spirit."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Spiritual Healing",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Increases the amount healed by your healing spells by 2%.",
-								"Increases the amount healed by your healing spells by 4%.",
-								"Increases the amount healed by your healing spells by 6%.",
-								"Increases the amount healed by your healing spells by 8%.",
-								"Increases the amount healed by your healing spells by 10%."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25
-							}
-						},
-						{
-							"id": 15,
-							"name": "Lightwell",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Creates a holy Lightwell near the priest. Members of your raid or party can click the Lightwell to restore 800 health over 10 sec. Being attacked cancels the effect. Lightwell lasts for 3 min or 5 charges."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
 							}
 						}
 					]
