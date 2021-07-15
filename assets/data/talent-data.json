@@ -282,8 +282,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier.",
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier. Vous ignorez l'impact du wound threashold."
+								"Les dégâts du premier coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Il faut qu'il y ait au moins 10 minutes entre chaque combat.",
+								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 10 minutes entre chaque combat."
 							],
 							"position": [
 								6,
@@ -324,7 +324,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 6d10 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, possède des actions légendaires, ou si le MD décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 33 points de mana vivant et utilisable une seule fois entre chaque repos long."
+								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 6d10 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, ou si le MJ décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 50 points de mana vivant et utilisable une seule fois entre chaque repos long."
 							],
 							"position": [
 								7,
@@ -448,11 +448,11 @@
 						},
 						{
 							"id": 5,
-							"name": "Suprématie martiale",
+							"name": "Inconscience brutale",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez quatre dés de supériorité majeur et apprenez trois Manœuvres (voir sous-classe maître de guerre). Ces dés de supériorité ont une valeur de 1d12."
+								"Quand vous prenez plus 20% de votre vie en dégâts, vous gagnez une marque (avec une apparence qui change en fonction du type de dégâts). Lors d'un repos court ou long toutes ces marques sont convertie en cicatrice. Chaque cicatrice donne 1d5 points de vie temporaire qui sont actif uniquement pendant un tour après avoir utilisé Attaque téméraire. Vous pouvez voir un maximum de point de vie temporaire égale à 5 fois votre niveau de barbare. Vous commencez avec une cicatrice pour chaque Blessure et 1d5 cicatrice supplémentaire."
 							],
 							"position": [
 								3,
@@ -578,11 +578,11 @@
 						},
 						{
 							"id": 12,
-							"name": "Poigne du mastodonte",
+							"name": "Rage anabolisante",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Si votre force est égale ou supérieur à 20, vous permet d'utiliser les armes demandent deux mains avec une seule."
+								"Sous l'effet de 'Rage' vous gagnez 10 points de force et de dextérité. Quand vous utiliser l'action 'Attaquer' après s'être déplacé en ligne droite de plus de 5 mètre, vous pouvez faire un coup de pied ou un coup de tête (pour une action bonus) qui inflige des dégâts égal à votre total de point de force et peut mettre au sol/repousser la cible de 5 mètres si elle échoue un DC Force 20 (DC En fonctin de sa taille)."
 							],
 							"position": [
 								5,
@@ -619,8 +619,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier.",
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier. Vous ignorez l'impact du wound threashold."
+								"Les dégâts du premier coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Il faut qu'il y ait au moins 10 minutes entre chaque combat.",
+								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 10 minutes entre chaque combat."
 							],
 							"position": [
 								6,
@@ -657,11 +657,11 @@
 						},
 						{
 							"id": 16,
-							"name": "Frappe mortelle",
+							"name": "Ignorer la douleur",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 6d10 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, possède des actions légendaires, ou si le MD décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 33 points de mana vivant et utilisable une seule fois entre chaque repos long."
+								"Sous l'effet de la 'Rage' vous ignorez les effets négatifs du damage threashold et des blessures non-mortelle. Tant que vous êtes sous la 'Rage' vous ignorez les dégâts supplémentaire causé en cas d'échec d'un jet de sauvegarde."
 							],
 							"position": [
 								7,
@@ -712,12 +712,12 @@
 						},
 						{
 							"id": 1,
-							"name": "Rétablissement béni",
+							"name": "Réplication divine",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Pour 25 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins d'une heure).",
-								"Pour 20 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins de deux heures)."
+								"Pour 33 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins d'une heure).",
+								"Pour 25 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins de deux heures)."
 							
 							],
 							"position": [
@@ -748,11 +748,11 @@
 						},
 						{
 							"id": 3,
-							"name": "Création de composant sacré",
+							"name": "Création d'eau bénite",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Crée eau bénite contre mana vivant."
+								"Lors d'un repos court ou long, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'eau bénite (par tranche de 25 points par dose). L'eau bénite que vous avez conçu confères une réduction de 5 points de dégâts contre les dégâts nécrotique lors que vous appliquez l'eau sur votre corps. Sur une arme les dégâts ignore les résistances sur les morts vivants. Sur un Mort-vivant il doit réussir un DC 15 de Sagesse, en cas d'échec il gagne deux niveaux d'épuisement non cumulable. Tous ces effets ont une durée de 1 heures."
 							],
 							"position": [
 								2,
@@ -767,10 +767,10 @@
 						{
 							"id": 4,
 							"name": "Miracle",
-							"maxRank": 3,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Soin blessure -> traité"
+								"Une fois toutes les 10 semaines vous pouvez utilisez le sort 'Guérison'. Invoquer une telle magie peut avoir des conséquences. vous obtenez un niveau d'affaiblisement égal à 6 moins votre maximum de niveau d'emplacement de sort."
 	
 							],
 							"position": [
@@ -780,7 +780,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
@@ -789,7 +789,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez une bénédiction de votre dieu et obtenez une branche spéciale correspondant à son domaine."
+								"Vous obtenez une bénédiction majeur de votre dieu et obtenez une branche spéciale correspondant à son domaine."
 							],
 							"position": [
 								3,
@@ -798,16 +798,16 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
 							"id": 6,
-							"name": "Appel divin",
-							"maxRank": 2,
+							"name": "Réceptacle d'énergie sublime",
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous utilisez votre canalisation divine, lancer 1d20 (DC 10). En cas de réusite votre prochaine utilisation de capacité de domaine niveau 1 s'applique à 10 ennemis/alliés/objets ce trouvant à moins de 15 mètre de vous."
+								"Des effets cosmétique en fonction de votre dieu apparaissent sur votre corps. Vos canalisation d'énergie divine sont renforcé de façon permanente."
 							],
 							"position": [
 								3,
@@ -816,17 +816,16 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
 							"id": 7,
-							"name": "Foi inflexible",
-							"maxRank": 2,
+							"name": "Croisade contre l'Impie",
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Resistance jet de sauvegarde.",
-								"Increases your chance to resist Fear and Disorient effects by an additional 10%."
+								"Vos aptitudes (hors sort) s'appliquant aux mort-vivants concerne maintenant aussi les fiélons ainsi que les aberrations (marche aussi dans l'autre sens)."
 							],
 							"position": [
 								3,
@@ -835,20 +834,16 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
 							"id": 8,
 							"name": "Illumination",
-							"maxRank": 5,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell.",
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 40% chance to gain Mana equal to the base cost of the spell.",
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 60% chance to gain Mana equal to the base cost of the spell.",
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 80% chance to gain Mana equal to the base cost of the spell.",
-								"After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 100% chance to gain Mana equal to the base cost of the spell."
+								"Lorsque vous faites un coup critique, vous entendez une prophétie/avertisement de votre dieu et regagnez 25 points de mana vivant et une charge d'énergie divine."
 							],
 							"position": [
 								4,
@@ -857,17 +852,17 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 15
+								"specPoints": 9
 							}
 						},
 						{
 							"id": 9,
-							"name": "Improved Blessing of Wisdom",
+							"name": "Main de protection",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Increases the effect of your Blessing of Wisdom spell by 10%.",
-								"Increases the effect of your Blessing of Wisdom spell by 20%."
+								"Vous gagnez +1 à tous vos jets de sauvegarde.",
+								"Vous gagnez +2 à tous vos jets de sauvegarde. Tout les trois repos long vous pouvez convertir un échec d'un jet de sauvegarde en réusite."
 							],
 							"position": [
 								4,
@@ -876,12 +871,12 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 15
+								"specPoints": 9
 							}
 						},
 						{
 							"id": 10,
-							"name": "Divine Favor",
+							"name": "Classe",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -894,7 +889,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 20,
+								"specPoints": 12,
 								"skill": {
 									"id": 8,
 									"skillPoints": 5
@@ -918,7 +913,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 20
+								"specPoints": 12
 							}
 						},
 						{
@@ -940,12 +935,12 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 25
+								"specPoints": 15
 							}
 						},
 						{
 							"id": 13,
-							"name": "Holy Shock",
+							"name": "Classe",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -958,7 +953,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 30,
+								"specPoints": 18,
 								"skill": {
 									"id": 10,
 									"skillPoints": 1
@@ -1244,8 +1239,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier.",
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier. Vous ignorez l'impact du wound threashold."
+								"Les dégâts du premier coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Il faut qu'il y ait au moins 10 minutes entre chaque combat.",
+								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 10 minutes entre chaque combat."
 							],
 							"position": [
 								6,
@@ -2599,8 +2594,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de 1/4.",
-								"Les dégâts du premier coup que vous essuyez lors d'un round est réduit de moitier."
+								"Les dégâts du premier coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Il faut qu'il y ait au moins 10 minutes entre chaque combat.",
+								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 10 minutes entre chaque combat."
 							],
 							"position": [
 								6,
@@ -2692,7 +2687,7 @@
 						},
 						{
 							"id": 1,
-							"name": "Réplica divin",
+							"name": "Réplication divine",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
@@ -2709,7 +2704,7 @@
 						},
 						{
 							"id": 2,
-							"name": "Faveur cicatrisante",
+							"name": "Bénédiction cicatrisante",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
