@@ -96,8 +96,8 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts).",
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts cumulable augmente à chaque cible touché)."
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
 							],
 							"position": [
 								3,
@@ -133,7 +133,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin. Revient après un repos long."
+								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin (maximum 50%). Revient après un repos long."
 							],	
 							"position": [
 								3,
@@ -186,11 +186,10 @@
 						{
 							"id": 9,
 							"name": "Argument du Bourreau",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Infliger un coup fatal à un ennemi vous rend 3d10 point de vie temporaire et 3d10 points de mana vivant.",
-								"Infliger un coup fatal à un ennemi vous rend 4d10 point de vie temporaire et 4d10 points de mana vivant."
+								"Infliger un coup fatal à un ennemi de CR 1 ou supérieur vous rend 3d10 points de mana vivant."
 							],
 							"position": [
 								4,
@@ -208,7 +207,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous avez l'avantage quand vous faites une attaque à l'aide d'une arme, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de round, vous gagnez une attaque supplémentaire."
+								"Lorsque vous avez réussie une attaque avec avantage, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de votre round, vous gagnez un avantage à votre prochaine attaque."
 							],
 							"position": [
 								4,
@@ -245,7 +244,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Si votre force est égale ou supérieur à 20, vous permet d'utiliser les armes demandent deux mains avec une seule."
+								"Si votre force est égale ou supérieur à 18, vous permet d'utiliser les armes demandent deux mains avec une seule sans aucun problème. Avec deux mains vous pouvez utiliser des armes de guerre d'un poids de maximum 50 kilogrammes."
 							],
 							"position": [
 								5,
@@ -301,8 +300,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage.",
-								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage et inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
+								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
+								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire. L'attaques supplémentaire octroyé par Saccager inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
 							],
 							"position": [
 								6,
@@ -314,7 +313,7 @@
 								"specPoints": 15,
 								"skill": {
 									"id": 10,
-									"skillPoints": 2
+									"skillPoints": 1
 								}
 							}
 						},
@@ -433,8 +432,8 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts).",
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts cumulable augmente à chaque cible touché)."
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
 							],
 							"position": [
 								3,
@@ -448,7 +447,7 @@
 						},
 						{
 							"id": 5,
-							"name": "Inconscience brutale",
+							"name": "Cicatrice du fou furieux",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -470,8 +469,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin. Revient après un repos long."
-							],	
+								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin (maximum 50%). Revient après un repos long."							],	
 							"position": [
 								3,
 								3
@@ -523,12 +521,10 @@
 						{
 							"id": 9,
 							"name": "Argument du Bourreau",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Infliger un coup fatal à un ennemi vous rend 3d10 point de vie temporaire et 3d10 points de mana vivant.",
-								"Infliger un coup fatal à un ennemi vous rend 4d10 point de vie temporaire et 4d10 points de mana vivant."
-							],
+								"Infliger un coup fatal à un ennemi de CR 1 ou supérieur vous rend 3d10 points de mana vivant."							],
 							"position": [
 								4,
 								2
@@ -545,7 +541,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous avez l'avantage quand vous faites une attaque à l'aide d'une arme, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de round, vous gagnez une attaque supplémentaire."
+								"Lorsque vous avez réussie une attaque avec avantage, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de votre round, vous gagnez un avantage à votre prochaine attaque."
 							],
 							"position": [
 								4,
@@ -638,8 +634,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage.",
-								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage et inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
+								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
+								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire. L'attaques supplémentaire octroyé par Saccager inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
 							],
 							"position": [
 								6,
@@ -651,7 +647,7 @@
 								"specPoints": 15,
 								"skill": {
 									"id": 10,
-									"skillPoints": 2
+									"skillPoints": 1
 								}
 							}
 						},
@@ -700,8 +696,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous gagnez un bonus de caractéristique en fonction du dieu que vous avez choisis.",
-								"Vous gagnez un bonus de caractéristique en fonction du dieu que vous avez choisis et vous pouvez ajoutez à vos attaques votre maîtrise (de type de dégâts correspondant à votre dieu)."
+								"Vous gagnez un bonus de caractéristique en fonction du dieu que vous avez choisis (+2 au total).",
+								"Vous gagnez un bonus de caractéristique en fonction du dieu que vous avez choisis (+3 au total) et vous pouvez ajoutez à vos attaques votre maîtrise (de type de dégâts correspondant à votre dieu)."
 							],
 							"position": [
 								1,
@@ -733,8 +729,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après un repos long ou court, vous gagnez des points de vie temporaire égale à 15 fois votre maximum d'énergie divine.",
-								"Après un repos long ou court, vous gagnez des points de vie temporaire égale à 20 fois votre maximum d'énergie divine. Lorsque ces points de vie temporaire atteingne 0, une onde de choc sacrée repousse toutes les cibles ennemis dans un rayon de 3m autour de vous, les cibles doivent réussir un jet de sauvegarde de Sagesse ou être repoussé de 5m en arrière et subissent un effet en fonction de votre Dieu."
+								"Après un repos long ou court, vous gagnez des points de vie temporaire égale à 15 fois votre maximum d'énergie divine plus 1d6 fois votre niveau de classe.",
+								"Après un repos long ou court, vous gagnez des points de vie temporaire égale à 20 fois votre maximum d'énergie divine plus 1d7 fois votre niveau de classe. Lorsque ces points de vie temporaire atteingne 0, une onde de choc sacrée repousse toutes les cibles ennemis dans un rayon de 3m autour de vous, les cibles doivent réussir un DC de Dextérité ou être repoussé de 5m en arrière et subissent un effet en fonction de votre Dieu."
 							],
 							"position": [
 								2,
@@ -748,11 +744,11 @@
 						},
 						{
 							"id": 3,
-							"name": "Création d'eau bénite",
+							"name": "Eau bénite",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lors d'un repos court ou long, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'eau bénite (par tranche de 25 points par dose). L'eau bénite que vous avez conçu confères une réduction de 5 points de dégâts contre les dégâts nécrotique lors que vous appliquez l'eau sur votre corps. Sur une arme les dégâts ignore les résistances sur les morts vivants. Sur un Mort-vivant il doit réussir un DC 15 de Sagesse, en cas d'échec il gagne deux niveaux d'épuisement non cumulable. Tous ces effets ont une durée de 1 heures."
+								"Lors d'un repos court ou long, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'eau bénite (par tranche de 25 points par dose). L'eau bénite que vous avez conçu confères une résistance contre les dégâts nécrotique lors que vous appliquez l'eau sur votre corps. Sur une arme les dégâts ignore les résistances sur les morts vivants et leurs inflige 1d10 dégâts radiants supplémentaire. Sur un Mort-vivant il doit réussir un DC 12 + (Maîtrise de celui qui a crée l'eau) de Sagesse, en cas d'échec il gagne trois niveaux d'épuisement non cumulable. Tous ces effets ont une durée de 1 heures."
 							],
 							"position": [
 								2,
@@ -770,7 +766,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Une fois toutes les 10 semaines vous pouvez utilisez le sort 'Guérison'. Invoquer une telle magie peut avoir des conséquences. vous obtenez un niveau d'affaiblisement égal à 6 moins votre maximum de niveau d'emplacement de sort."
+								"Une fois toutes les 10 semaines vous pouvez utilisez le sort 'Guérison' dans les situations critique. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber dans l'inconscience vous pouvez utiliser votre réaction pour lancer le sort. Si vous tombez inconscient le sort ce lance automatiquement."
 	
 							],
 							"position": [
@@ -789,7 +785,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez une bénédiction majeur de votre dieu et obtenez une branche spéciale correspondant à son domaine."
+								"Vous obtenez une bénédiction majeur de votre dieu et obtenez une branche spéciale correspondant à ses capacités."
 							],
 							"position": [
 								3,
@@ -803,11 +799,11 @@
 						},
 						{
 							"id": 6,
-							"name": "Réceptacle d'énergie sublime",
+							"name": "Réceptacle de énergie sublime",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Des effets cosmétique en fonction de votre dieu apparaissent sur votre corps. Vos canalisation d'énergie divine sont renforcé de façon permanente."
+								"Des effets cosmétique lié au folklore de votre dieu apparaissent sur votre corps. Vos canalisation d'énergie divine sont grandement amélioré de façon permanente (En discuter avec le MJ)."
 							],
 							"position": [
 								3,
@@ -821,7 +817,7 @@
 						},
 						{
 							"id": 7,
-							"name": "Croisade contre l'Impie",
+							"name": "Croisade contre le Mal",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -861,8 +857,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous gagnez +1 à tous vos jets de sauvegarde.",
-								"Vous gagnez +2 à tous vos jets de sauvegarde. Tout les trois repos long vous pouvez convertir un échec d'un jet de sauvegarde en réusite."
+								"Vous gagnez +1 à tous vos jets de sauvegarde. Tout les deux repos long vous pouvez convertir un de vos échec de jet de sauvegarde en réussite.",
+								"Vous gagnez +2 à tous vos jets de sauvegarde. Tout les deux repos long (Deux charges maximum) vous pouvez convertir un de vos (ou de vos alliées) échec de jet de sauvegarde en réussite"
 							],
 							"position": [
 								4,
@@ -1053,8 +1049,8 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts).",
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher et elle subis -1 dégâts cumulable augmente à chaque cible touché)."
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
 							],
 							"position": [
 								3,
@@ -1090,8 +1086,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin. Revient après un repos long."
-							],	
+								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin (maximum 50%). Revient après un repos long."							],	
 							"position": [
 								3,
 								3
@@ -1143,11 +1138,10 @@
 						{
 							"id": 9,
 							"name": "Argument du Bourreau",
-							"maxRank": 2,
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Infliger un coup fatal à un ennemi vous rend 3d10 point de vie temporaire et 3d10 points de mana vivant.",
-								"Infliger un coup fatal à un ennemi vous rend 4d10 point de vie temporaire et 4d10 points de mana vivant."
+								"Infliger un coup fatal à un ennemi de CR 1 ou supérieur vous rend 3d10 points de mana vivant."								
 							],
 							"position": [
 								4,
@@ -1165,7 +1159,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous avez l'avantage quand vous faites une attaque à l'aide d'une arme, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de round, vous gagnez une attaque supplémentaire."
+								"Lorsque vous avez réussie une attaque avec avantage, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de votre round, vous gagnez un avantage à votre prochaine attaque."
 							],
 							"position": [
 								4,
@@ -1258,8 +1252,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage.",
-								"L'attaques supplémentaire octroyé par Machine de guerre obtient un avantage et inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
+								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
+								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire. L'attaques supplémentaire octroyé par Saccager inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
 							],
 							"position": [
 								6,
@@ -1271,7 +1265,7 @@
 								"specPoints": 15,
 								"skill": {
 									"id": 10,
-									"skillPoints": 2
+									"skillPoints": 1
 								}
 							}
 						},
@@ -1334,7 +1328,7 @@
 							"currentRank": 0,
 							"rankDescription": [
 								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé).",
-								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement. Vous gagnez un nombre de points à convertir égale à 10 fois votre niveau d'incantation (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé)."
+								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement. Vous gagnez un nombre de points de mana vivant maximum égale à 10 fois votre niveau d'incantation (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé)."
 							],
 							"position": [
 								1,
@@ -1349,7 +1343,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane."
+								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
 							],
 							"position": [
 								1,
@@ -1364,8 +1358,8 @@
 							"maxRank": 3,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d6 supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d8 supplémentaire (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
 							],
 							"position": [
 								1,
@@ -1436,8 +1430,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet d'augmenter/réduire la portée/rayon d'un sort de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve à proximité de la cible).",
-								"Vous permet d'augmenter/réduire la portée/rayon d'un sort de 100% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve à proximité de la cible)."
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
 							],
 							"position": [
 								3,
@@ -1489,7 +1483,7 @@
 						{
 							"id": 9,
 							"name": "Armure de Archimage",
-							"maxRank": 1,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
 								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts.",
@@ -1511,8 +1505,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure simple.",
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure simple. Si la cible subis cet effet une deuxième fois, le degré de la blessure augmente."
+								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave.",
+								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave. La cible subit (votre maîtrise)d10 supplémentaire dans le cas d'un échec."
 							],
 							"position": [
 								4,
@@ -1545,7 +1539,7 @@
 						},
 						{
 							"id": 12,
-							"name": "Presence of Mind",
+							"name": "",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -2404,8 +2398,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Touchez une cible permet d'en toucher une autre dans votre allonge lui infligeant 50% des dégâts.", 
-								"Touchez une cible permet d'en toucher une autre dans votre allonge lui infligeant 100% des dégâts."
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
 							],
 							"position": [
 								3,
@@ -2441,8 +2435,7 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez 50% des dégâts infligez sous forme de soin. Revient après un repos long",
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez 100% des dégâts infligez sous forme de soin. Revient après un repos long"
+								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin (maximum 50%). Revient après un repos long."
 							],	
 							"position": [
 								3,
@@ -2519,8 +2512,7 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Si durant un tour vous effectuées et réussissez le maximum d'attaque possible sur votre personnage, vous gagnez une attaque supplémentaire jusqu'à la fin de votre round.",
-								"Si durant un tour vous effectuées et réussissez le maximum d'attaque possible sur votre personnage, vous gagnez deux attaque supplémentaire jusqu'à la fin de votre round."
+								"Lorsque vous avez réussie une attaque avec avantage, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de votre round, vous gagnez un avantage à votre prochaine attaque."
 							],
 							"position": [
 								4,
@@ -2613,8 +2605,8 @@
 							"maxRank": 5,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les attaques supplémentaire octroyé par Machine de guerre obtienne un avantage.",
-								"Les attaques supplémentaire octroyé par Machine de guerre obtienne un avantage et inflige 1d20 points de dégâts supplémentaires."
+								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
+								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire. L'attaques supplémentaire octroyé par Saccager inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
 							],
 							"position": [
 								6,
@@ -2626,7 +2618,7 @@
 								"specPoints": 15,
 								"skill": {
 									"id": 10,
-									"skillPoints": 2
+									"skillPoints": 1
 								}
 							}
 						},
@@ -2675,8 +2667,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous gagnez un bonus de caractéristique en fonction du dieu que vous avez choisis.",
-								"Vous gagnez un bonus de caractéristique en fonction du dieu que vous avez choisis et vous pouvez ajoutez à vos attaques votre maîtrise (de type de dégâts correspondant à votre dieu)."
+								"Vous gagnez un bonus de caractéristique en fonction du dieu que vous avez choisis (+2 au total).",
+								"Vous gagnez un bonus de caractéristique en fonction du dieu que vous avez choisis (+3 au total) et vous pouvez ajoutez à vos attaques votre maîtrise (de type de dégâts correspondant à votre dieu)."
 							],
 							"position": [
 								1,
@@ -2708,8 +2700,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après un repos long ou court, vous gagnez des points de vie temporaire égale à 15 fois votre maximum d'énergie divine.",
-								"Après un repos long ou court, vous gagnez des points de vie temporaire égale à 20 fois votre maximum d'énergie divine. Lorsque ces points de vie temporaire atteingne 0, une onde de choc sacrée repousse toutes les cibles ennemis dans un rayon de 3m autour de vous, les cibles doivent réussir un jet de sauvegarde de Sagesse ou être repoussé de 5m en arrière et subissent un effet en fonction de votre Dieu."
+								"Après un repos long ou court, vous gagnez des points de vie temporaire égale à 15 fois votre maximum d'énergie divine plus 1d6 fois votre niveau de classe.",
+								"Après un repos long ou court, vous gagnez des points de vie temporaire égale à 20 fois votre maximum d'énergie divine plus 1d7 fois votre niveau de classe. Lorsque ces points de vie temporaire atteingne 0, une onde de choc sacrée repousse toutes les cibles ennemis dans un rayon de 3m autour de vous, les cibles doivent réussir un DC de Dextérité ou être repoussé de 5m en arrière et subissent un effet en fonction de votre Dieu."
 							],
 							"position": [
 								2,
@@ -2723,11 +2715,11 @@
 						},
 						{
 							"id": 3,
-							"name": "Création d'eau bénite",
+							"name": "Eau bénite",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lors d'un repos court ou long, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'eau bénite (par tranche de 25 points par dose). L'eau bénite que vous avez conçu confères une réduction de 5 points de dégâts contre les dégâts nécrotique lors que vous appliquez l'eau sur votre corps. Sur une arme les dégâts ignore les résistances sur les morts vivants. Sur un Mort-vivant il doit réussir un DC 15 de Sagesse, en cas d'échec il gagne deux niveaux d'épuisement non cumulable. Tous ces effets ont une durée de 1 heures."
+								"Lors d'un repos court ou long, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'eau bénite (par tranche de 25 points par dose). L'eau bénite que vous avez conçu confères une résistance contre les dégâts nécrotique lors que vous appliquez l'eau sur votre corps. Sur une arme les dégâts ignore les résistances sur les morts vivants et leurs inflige 1d10 dégâts radiants supplémentaire. Sur un Mort-vivant il doit réussir un DC 12 + (Maîtrise de celui qui a crée l'eau) de Sagesse, en cas d'échec il gagne trois niveaux d'épuisement non cumulable. Tous ces effets ont une durée de 1 heures."
 							],
 							"position": [
 								2,
@@ -2745,7 +2737,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Une fois toutes les 10 semaines vous pouvez utilisez le sort 'Guérison'. Invoquer une telle magie peut avoir des conséquences. vous obtenez un niveau d'affaiblisement égal à 6 moins votre maximum de niveau d'emplacement de sort."
+								"Une fois toutes les 10 semaines vous pouvez utilisez le sort 'Guérison' dans les situations critique. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber dans l'inconscience vous pouvez utiliser votre réaction pour lancer le sort. Si vous tombez inconscient le sort ce lance automatiquement."
 	
 							],
 							"position": [
@@ -2764,7 +2756,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez une bénédiction majeur de votre dieu et obtenez une branche spéciale correspondant à son domaine."
+								"Vous obtenez une bénédiction majeur de votre dieu et obtenez une branche spéciale correspondant à ses capacités."
 							],
 							"position": [
 								3,
@@ -2778,11 +2770,11 @@
 						},
 						{
 							"id": 6,
-							"name": "Appel divin",
+							"name": "Appel Divin",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous utilisez votre canalisation divine, lancer 1d20 (DC 10). En cas de réusite votre prochaine utilisation de capacité de domaine niveau 1 s'applique à 10 ennemis/alliés/objets ce trouvant à moins de 15 mètre de vous."
+								"Lorsque vous utilisez votre canalisation divine, faites un DC10 de Sagesse. En cas de réusite votre prochaine utilisation de capacité de domaine niveau 1 s'applique à 10 ennemis/alliés/objets ce trouvant à moins de 15 mètre de vous."
 							],
 							"position": [
 								3,
@@ -2796,7 +2788,7 @@
 						},
 						{
 							"id": 7,
-							"name": "Croisade contre l'Impie",
+							"name": "Croisade contre le Mal",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -2836,8 +2828,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous gagnez +1 à tous vos jets de sauvegarde.",
-								"Vous gagnez +1 à tous vos jets de sauvegarde. Tout les trois repos long vous pouvez convertir un échec d'un jet de sauvegarde en succès."
+								"Vous gagnez +1 à tous vos jets de sauvegarde. Tout les deux repos long vous pouvez convertir un de vos échec de jet de sauvegarde en réussite.",
+								"Vous gagnez +2 à tous vos jets de sauvegarde. Tout les deux repos long (Deux charges maximum) vous pouvez convertir un de vos (ou de vos alliées) échec de jet de sauvegarde en réussite"
 							],
 							"position": [
 								4,
