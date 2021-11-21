@@ -2,7 +2,7 @@
   <div class="talent-tree-panel">
     <h3 class="talent-tree-title">
       {{tree.name}}
-      <span class="talent-tree-points">({{tree.skillPoints}})</span>
+      
     </h3>
     <div class="talent-tree" :style="getTreeBackgroundImage">
       <skill

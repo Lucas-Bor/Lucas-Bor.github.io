@@ -6,11 +6,11 @@
       <p
         class="tooltip-requirement"
         v-if="skill.requirements.skill"
-      >Il faut investir {{skill.requirements.skill.skillPoints}} points dans la compètence "{{ requiredSkillName }}" avant de pouvoir investir dans cette compètence.</p>
+      >Il faut investir {{skill.requirements.skill.skillPoints}} points dans la compétence "{{ requiredSkillName }}" avant de pouvoir investir dans cette compétence.</p>
       <p
         class="tooltip-requirement"
         v-if="skill.requirements.specPoints"
-      >Il faut dèpenser un total de {{skill.requirements.specPoints}} points pour dèbloquer ce tier dans l'arbre de compétence {{treeName}}.</p>
+      >Il faut dépenser un total de {{skill.requirements.specPoints}} points pour débloquer ce tier dans l'arbre de compétence {{treeName}}.</p>
     </div>
     <div v-if="hasNextRank">
       <p class="tooltip-next-rank">Rang suivant :</p>

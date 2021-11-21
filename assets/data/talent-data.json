@@ -9,14 +9,157 @@
 	"classes": [
 		{
 			"id": 0,
-			"name": "Fighter",
-			"availableSkillPoints": 41,
+			"name": "Guerrier",
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
 				{
 					"id": 1,
-					"name": "Rouge",
+					"name": "Blanc - Haute Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+					{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							2,
+							2
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							2,
+							3
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							3,
+							1
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						3,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						4,
+						1
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						4,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						5,
+						2
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						5,
+						3
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						2,
+						2
+					],
+					"enabled": true,
+					"faded": false
+					}
+						]
+					},
+				{
+					"id": 1,
+					"name": "Rouge - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
@@ -340,13 +483,141 @@
 							}
 						}
 					]
+				},
+				{
+					"id": 1,
+					"name": "Noir - Faible Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+						{
+								"id": 0,
+							"name": "Le Guerrier",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+							],
+							"position": [
+								2,
+								1
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Le Guerrier",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+							],
+							"position": [
+								2,
+								4
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Le Guerrier",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+							],
+							"position": [
+								3,
+								2
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							3,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							4,
+							2
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							4,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							5,
+							1
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							5,
+							4
+						],
+						"enabled": true,
+						"faded": false
+						}
+					]
 				}
 			]
 		},
 		{
 			"id": 1,
 			"name": "Barbarian",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -681,7 +952,7 @@
 		{
 			"id": 2,
 			"name": "Monk",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -1016,7 +1287,7 @@
 		{
 			"id": 3,
 			"name": "Paladin",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -1294,7 +1565,7 @@
 		{
 			"id": 4,
 			"name": "Cleric",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -1572,7 +1843,7 @@
 		{
 			"id": 5,
 			"name": "Sorcerer",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -1725,11 +1996,11 @@
 						},
 						{
 							"id": 8,
-							"name": "Conception de sort techniquement approuvable",
+							"name": "Méta-expert",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Entre chaque session, vous pouvez dans votre grimoire écrire un sort assez spécifique pour ne pas déjà exister dans la grande liste des sorts (Voir avec MJ)."
+								"Vous avez accès à plus de métamagie (voir règle optionnel), votre total de point de sorcelerie est doublé."
 							],
 							"position": [
 								3,
@@ -1818,11 +2089,11 @@
 						},
 						{
 							"id": 13,
-							"name": "classe",
+							"name": "Méta-évolution",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Increases your maximum Mana by 2%."
+								"Vous avez débloquez des méta-magies supérieur (voir règle optionnel), vous pouvez changer de méta-magie lors de repos court ou long."
 							],
 							"position": [
 								5,
@@ -1856,11 +2127,11 @@
 						},
 						{
 							"id": 15,
-							"name": "classe",
+							"name": "Maîtrise d'origine",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"When activated, your spells deal 30% more damage while costing 30% more mana to cast. This effect lasts 15 sec."
+								"Vous maîtrisez l'origine de votre source de magie. Vous gagnez une compétence en fonction de la source de magie qui définie le pouvoir magique de votre ensorceleur."
 							],
 							"position": [
 								7,
@@ -1876,7 +2147,7 @@
 		{
 			"id": 6,
 			"name": "Bard",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -2029,11 +2300,11 @@
 						},
 						{
 							"id": 8,
-							"name": "Conception de sort techniquement approuvable",
+							"name": "Partition - Chaîne de sort",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Entre chaque session, vous pouvez dans votre grimoire écrire un sort assez spécifique pour ne pas déjà exister dans la grande liste des sorts (Voir avec MJ)."
+								"A l'aide d'un bout de papier de bonne qualité et de l'encre, vous pouvez écrire un parchemin de sort spécial unique à votre barde. Dans cette partition jusqu'à 3 sorts peut être inscrit, vous pouvez mettre un total de niveau sort égale à votre niveau de Barde que vous devez répartir sur les 3 sorts. Si vous avez la partition dans votre inventaire, vous pouvez utiliser votre action pour la jouer. Lorsque vous jouez, votre vitesse de déplacement est réduit de moitier et vous ne pouvez effectué d'action bonus ou de réaction (voir Concentration dans Incantation). Si au tour précédent vous avez effectué l'action 'Jouer', au début de votre tour les sorts emmagasiner dans la partition sont relâché sur des cibles de votre choix. Pour rétablir la magie présente dans la partition il faut que vous passez un minimum de 1h à 'recharger' la partition avec soit des emplacements de sorts (de même niveau que le sort) ou bien à l'aide de dès d'inspiration bardique."
 							],
 							"position": [
 								3,
@@ -2180,7 +2451,7 @@
 		{
 			"id": 7,
 			"name": "Ranger",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -2530,7 +2801,7 @@
 		{
 			"id": 8,
 			"name": "Rogue",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -2874,7 +3145,7 @@
 		{
 			"id": 9,
 			"name": "Artificier",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -3178,7 +3449,7 @@
 		{
 			"id": 10,
 			"name": "Wizard",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -3331,11 +3602,11 @@
 						},
 						{
 							"id": 8,
-							"name": "Conception de sort techniquement approuvable",
+							"name": "Réécriture partielle de la réalité",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Entre chaque session, vous pouvez dans votre grimoire écrire un sort assez spécifique pour ne pas déjà exister dans la grande liste des sorts (Voir avec MJ)."
+								"Entre chaque session vous pouvez altérer une propriété (propriété qui provient d'un sort de magicien de niveau égale ou inférieur au sort modifié) d'un sort (type de propriété : composante, distance, rayon, forme, temps d'incantation ou autre à voir avec le MJ). Cependant lors de l'incantation du sort modifier ce dernier coûte en plus un emplacement de niveau 1 ou supérieur."
 							],
 							"position": [
 								3,
@@ -3424,11 +3695,11 @@
 						},
 						{
 							"id": 13,
-							"name": "classe",
+							"name": "Conception de sort techniquement approuvable",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Increases your maximum Mana by 2%."
+								"Vous obtenez une compréhension assez grande de l'inscription de la magie à travers votre grimoire pour crée des sorts n'existant pas encore dans votre réalité. Entre chaque session, vous pouvez dans votre grimoire écrire un sort assez spécifique pour ne pas déjà exister dans la grande liste des sorts, en fonction de ses effets le niveau de puissance d'incantation et de composante peut variée."
 							],
 							"position": [
 								5,
@@ -3482,7 +3753,7 @@
 		{
 			"id": 11,
 			"name": "Warlock",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [
@@ -3635,12 +3906,12 @@
 						},
 						{
 							"id": 8,
-							"name": "Conception de sort techniquement approuvable",
+							"name": "Pacte d'Outremonde",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Entre chaque session, vous pouvez dans votre grimoire écrire un sort assez spécifique pour ne pas déjà exister dans la grande liste des sorts (Voir avec MJ)."
-							],
+								"Votre capacité de pacte est amélioré de façon permanente et gagne les capacités supplémentaire suivante ; Pacte de la Grande Chaîne - Vous pouvez invoquer des créatures du même type que votre patron d'une puissance égale à la moitier arrondi à l'inférieur de votre niveau de sorcier. Pacte de la Lame et du Bouclier - Vous pouvez matérialisé une armure en plus de l'arme, elle fonctionne comme l'arme que vous pouvez invoquer. Pacte du Grimoire - Vous pouvez choisir un nombre de sort égale à votre maîtrise de la même façon que les sorts mineur, lors d'un gain de niveau d'emplacement de sort vous pouvez changer les sorts du grimoire (uniquement les sorts non-mineur)."
+							], 
 							"position": [
 								3,
 								3
@@ -3785,7 +4056,7 @@
 		{
 			"id": 12,
 			"name": "Druid",
-			"availableSkillPoints": 51,
+			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
 			"talentTrees": [

@@ -23,24 +23,7 @@
         v-bind:constants="data.constants"
       ></class-panel>
       <talent-path v-bind:currentClass="data.classes[data.currentClass]"></talent-path>
-      <div class="talent-actions">
-        <button class="button" @click="popupImportActive=true">
-          <i class="material-icons md-18">cloud_download</i> Importer
-        </button>
-        <button class="button" @click="popupExportChoiceActive=true">
-          <i class="material-icons md-18">cloud_upload</i> Exporter
-        </button>
-        <button class="button" @click="saveTalentTrees">
-          <i class="material-icons md-18">save_alt</i> Sauvegardé
-        </button>
-      </div>
     </main>
-    <footer>
-      <p class="footer-info">
-        Â utilisation privé.
-        <br />Why are you gay ?
-      </p>
-    </footer>
     <div class="centerx">
       <vs-popup
         class="popup"

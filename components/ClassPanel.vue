@@ -39,7 +39,7 @@ export default {
         this.classType.availableSkillPoints + points;
     },
     increaseRequiredLevel: function() {
-      if (this.classType.requiredLevel == 0) this.classType.requiredLevel = 10;
+      if (this.classType.requiredLevel == 0) this.classType.requiredLevel = 1;
       else this.classType.requiredLevel++;
 
       this.checkMaxLevel();
