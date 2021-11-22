@@ -3074,291 +3074,283 @@
 					}
 						]
 					},
-				{
-					"id": 0,
-					"name": "Vert - Couleur de l'âme",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Comme une ombre",
-							"maxRank": 2,
-							"currentRank": 0,
-							"position": [
-								1,
-								2
-							],
-							"rankDescription": [
-								
-
-								"Pour 25 points de mana vivant et pour le prix d'une action, vous vous retrouvez sous l'effet du sort Invisibilité pour 1 minute.",
-								"Pour 25 points de mana vivantet pour le prix d'une action ou d'une réaction, vous vous retrouvez sous l'effet du sort Invisibilité pour 1 minute."
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "vif comme le vent",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								1,
-								3
-							],
-							"rankDescription": [
-								"Ajoute le bonus de maitrise à votre CA. Ce bonus ne s'applique pas au moment du calcul des"
-							],
-							"enabled": true,
-							"faded": false
-						},
-						
-						{
-							"id": 3,
-							"name": "Coup vicieux",
-							"maxRank": 2,
-							"currentRank": 0,
-							"position": [
-								2,
-								1
-							],
-							"rankDescription": [
-								"Si vous attaquez une créature par ses flancs ou par derrière vous pouvez ajouter la moitié de votre bonus de maitrise aux dégats inffligés.",
-								"Si vous attaquez une créature par ses flancs ou par derrière vous pouvez ajouter la totalité de votre bonus de maitrise aux dégats inffligés."
-								
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 4,
-							"name": "Visez les points faibles",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								2,
-								2
-							],
-							"rankDescription": [
-								
-								"Votre expérience de la filouterie vous permets de porter vos coups avec une précision mortelle. Lorsque vous infligez des dégats à une créature à l'aide de votre arme, celle ci entre sous l'état Endolori (désaventages aux jets d'attaques) pendant 1 tour. "
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 5,
-							"name": "Oeil aguerri",
-							"maxRank": 2,
-							"currentRank": 0,
-							"position": [
-								2,
-								3
-							],
-							"rankDescription": [
-								
-								"Votre experience vous permet de flairer le coup fourrer, vous ajoutez votre bonus de maitrise à votre perception passive.",
-								"Votre experience vous permet de flairer le coup fourrer, vous ajoutez votre bonus de maitrise à votre perception passive. De plus, vous avez avantage aux jets de perceptions contre les créatures représentant une menace."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						
-						{
-							"id": 7,
-							"name": "Trappeur",
-							"maxRank": 2,
-							"currentRank": 0,
-							"position": [
-								3,
-								1
-							],
-							"rankDescription": [
-								
-								"Vous avez développer une grande expertise du piégage ou des embuscades.Vous obtenez un avantage à tous vos jets de perception pour deceler la présence de piège. De plus, vous pouvez construire un piège infligeant 3d6 dégats (percants, contendant ou tranchant à la discrétion du MJ) avec le materiel que vous disposez dans votre sac et en un temps de 2 minutes.",
-								"Vous avez développer une grande expertise du piégage ou des embuscades.Vous obtenez un avantage à tous vos jets de perception pour deceler la présence de piège. De plus, vous pouvez construire un piège infligeant 5d6 dégats (percants, contendant ou tranchant à la discrétion du MJ) et infligeant l'état Sonné pour un tour avec le materiel que vous disposez dans votre sac et en un temps de 2 minutes.."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Chasseur",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								3,
-								3
-							],
-							"rankDescription": [
-								"Lorsque vous pistez une créature sur une distance d'un Km ou plus ou que vous prenez 2 tours de combats pour observer ses déplacements et sa facons de combatre tout en étant considéré comme étant Concentré, vous obtenez avantage à tous vos jets contre la créature et ceux-ci lui infligeront 2x plus de dommage. Lorsque la créature fait  partie de vos Ennemis jurés, seul un tour d'observation est néccéssaire ou bien un pistage sur une distance de 100m. "
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10,
-								"skill": {
-									"id": 5,
-									"skillPoints": 5
+					{
+						"id": 1,
+						"name": "Vert - Couleur de l'âme",
+						"skillPoints": 0,
+						"currentSkillTier": 0,
+						"skills": [
+							{
+								"id": 0,
+								"name": "Comme une ombre",
+								"maxRank": 2,
+								"currentRank": 0,
+								"position": [
+									1,
+									2
+								],
+								"rankDescription": [
+									
+	
+									"Pour 25 points de mana vivant et pour le prix d'une action, vous vous retrouvez sous l'effet du sort Invisibilité pour 1 minute.",
+									"Pour 25 points de mana vivantet pour le prix d'une action ou d'une réaction, vous vous retrouvez sous l'effet du sort Invisibilité pour 1 minute."
+								],
+								"enabled": true,
+								"faded": false
+							},
+							{
+								"id": 1,
+								"name": "vif comme le vent",
+								"maxRank": 1,
+								"currentRank": 0,
+								"position": [
+									1,
+									3
+								],
+								"rankDescription": [
+									"Ajoute le bonus de maitrise à votre CA. Ce bonus ne s'applique pas au moment du calcul des"
+								],
+								"enabled": true,
+								"faded": false
+							},
+							
+							{
+								"id": 3,
+								"name": "Coup vicieux",
+								"maxRank": 2,
+								"currentRank": 0,
+								"position": [
+									2,
+									1
+								],
+								"rankDescription": [
+									"Si vous attaquez une créature par ses flancs ou par derrière vous pouvez ajouter la moitié de votre bonus de maitrise aux dégats inffligés.",
+									"Si vous attaquez une créature par ses flancs ou par derrière vous pouvez ajouter la totalité de votre bonus de maitrise aux dégats inffligés."
+									
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 3
+								}
+							},
+							{
+								"id": 4,
+								"name": "Visez les points faibles",
+								"maxRank": 1,
+								"currentRank": 0,
+								"position": [
+									2,
+									2
+								],
+								"rankDescription": [
+									
+									"Votre expérience de la filouterie vous permets de porter vos coups avec une précision mortelle. Lorsque vous infligez des dégats à une créature à l'aide de votre arme, celle ci entre sous l'état Endolori (désaventages aux jets d'attaques) pendant 1 tour. "
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 3
+								}
+							},
+							{
+								"id": 5,
+								"name": "Oeil aguerri",
+								"maxRank": 2,
+								"currentRank": 0,
+								"position": [
+									2,
+									3
+								],
+								"rankDescription": [
+									
+									"Votre experience vous permet de flairer le coup fourrer, vous ajoutez votre bonus de maitrise à votre perception passive.",
+									"Votre experience vous permet de flairer le coup fourrer, vous ajoutez votre bonus de maitrise à votre perception passive. De plus, vous avez avantage aux jets de perceptions contre les créatures représentant une menace."
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 3
+								}
+							},
+							
+							{
+								"id": 7,
+								"name": "Trappeur",
+								"maxRank": 2,
+								"currentRank": 0,
+								"position": [
+									3,
+									1
+								],
+								"rankDescription": [
+									
+									"Vous avez développer une grande expertise du piégage ou des embuscades.Vous obtenez un avantage à tous vos jets de perception pour deceler la présence de piège. De plus, vous pouvez construire un piège infligeant 3d6 dégats (percants, contendant ou tranchant à la discrétion du MJ) avec le materiel que vous disposez dans votre sac et en un temps de 2 minutes.",
+									"Vous avez développer une grande expertise du piégage ou des embuscades.Vous obtenez un avantage à tous vos jets de perception pour deceler la présence de piège. De plus, vous pouvez construire un piège infligeant 5d6 dégats (percants, contendant ou tranchant à la discrétion du MJ) et infligeant l'état Sonné pour un tour avec le materiel que vous disposez dans votre sac et en un temps de 2 minutes.."
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 8,
+								"name": "Chasseur",
+								"maxRank": 1,
+								"currentRank": 0,
+								"position": [
+									3,
+									3
+								],
+								"rankDescription": [
+									"Lorsque vous pistez une créature sur une distance d'un Km ou plus ou que vous prenez 2 tours de combats pour observer ses déplacements et sa facons de combatre tout en étant considéré comme étant Concentré, vous obtenez avantage à tous vos jets contre la créature et ceux-ci lui infligeront 2x plus de dommage. Lorsque la créature fait  partie de vos Ennemis jurés, seul un tour d'observation est néccéssaire ou bien un pistage sur une distance de 100m. "
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 9,
+								"name": "Agilité féline",
+								"maxRank": 2,
+								"currentRank": 0,
+								"position": [
+									3,
+									4
+								],
+								"rankDescription": [
+									"Augmente votre vitesse de déplacement de 50%, et permet d'escalader des surfaces en ne depensant leur hauteur en mouvement et sans effectuer de jets d'acrobatie.",
+									"Augmente votre vitesse de déplacement de 100%, et permet d'escalader des surfaces en ne depensant leur hauteur en mouvement et sans effectuer de jets d'acrobatie. De plus, l'action Se desengager ne compte plus que comme une action bonus."
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 10,
+								"name": "Perfidie intrinsèque",
+								"maxRank": 1,
+								"currentRank": 0,
+								"position": [
+									4,
+									2
+								],
+								"rankDescription": [
+									
+									"Votre perfidie s'est inscrite au fond de votre ame et votre corps. Celui-ci produit un sang toxique. Contre 10PV max vous pouvez produire une dose (poison actif sur une arme pendant 1minute)du poison Sang d'assassin. Au bout de 24h les PV max sont récupérés mais le poison redevient du simple sang."
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 9,
+									"skill": {
+										"id": 3,
+										"skillPoints": 1
+									}
+								}
+							},
+							{
+								"id": 11,
+								"name": "Génération de munition",
+								"maxRank": 1,
+								"currentRank": 0,
+								"position": [
+									4,
+									3
+								],
+								"rankDescription": [
+									
+									"Contre 10 points de mana vivant vous pouvez générer une munition spécrale (dague ou flèche) magique ignorant les résistances et l'armure de la cible. De plus chaque impact de ces projectiles draine 15 points de mana vivant à la cible touchée. Si vous décidez d'utiliser la dague pour frapper celle-ci disparaitra après avoir porté le premier coup."
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 9
+								}
+							},
+							{
+								"id": 12,
+								"name": "Connaissance de la nature profonde",
+								"maxRank": 1,
+								"currentRank": 0,
+								"position": [
+									5,
+									2
+								],
+								"rankDescription": [
+								   
+									"Les aventages liés à vos terrains de prédilection s'étendent maintenant à tout type d'environnement naturel. De plus, vous pouvez choisir un type d'ennemi juré supplémentaire."
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 12
+								}
+							},
+							{
+								"id": 13,
+								"name": "Dans la pénombre",
+								"maxRank": 2,
+								"currentRank": 0,
+								"position": [
+									5,
+									3
+								],
+								"rankDescription": [
+									
+									"Vous ne souffrez plus de malus dans le noir, même complet.",
+									"Vous ne souffrez plus de malus dans le noir, même complet. De plus dans la pénombre (lumière faible ou inférieur) vous vous déplacez comme une ombre. Tous vos déplacements ignorent les attaques d'opportunité et l'action se désengager est gratuite. "
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 12
+								}
+							},
+							{
+								"id": 14,
+								"name": "Surinage en règle",
+								"maxRank": 1,
+								"currentRank": 0,
+								"position": [
+									6,
+									2
+								],
+								"rankDescription": [
+									
+									"Lorsque vous attaquez une créature par surprise celle-ci subit une mort instanée si votre arme permet de la tuer en un seul coup (créature de taille grande ou inférieur, possédant -de 70PV et n'étant pas relié à la vie par un dispositif magique)."
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 15
+								}
+							},
+							{
+								"id": 15,
+								"name": "Appel de la nature",
+								"maxRank": 1,
+								"currentRank": 0,
+								"position": [
+									7,
+									2
+								],
+								"rankDescription": [
+									""
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 18
 								}
 							}
-						},
-						{
-							"id": 9,
-							"name": "Agilité féline",
-							"maxRank": 2,
-							"currentRank": 0,
-							"position": [
-								3,
-								4
-							],
-							"rankDescription": [
-								"Augmente votre vitesse de déplacement de 50%, et permet d'escalader des surfaces en ne depensant leur hauteur en mouvement et sans effectuer de jets d'acrobatie.",
-								"Augmente votre vitesse de déplacement de 100%, et permet d'escalader des surfaces en ne depensant leur hauteur en mouvement et sans effectuer de jets d'acrobatie. De plus, l'action Se desengager ne compte plus que comme une action bonus."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 10,
-							"name": "Perfidie intrinsèque",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								4,
-								2
-							],
-							"rankDescription": [
-								
-								"Votre perfidie s'est inscrite au fond de votre ame et votre corps. Celui-ci produit un sang toxique. Contre 10PV max vous pouvez produire une dose (poison actif sur une arme pendant 1minute)du poison Sang d'assassin. Au bout de 24h les PV max sont récupérés mais le poison redevient du simple sang."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 4,
-									"skillPoints": 5
-								}
-							}
-						},
-						{
-							"id": 11,
-							"name": "Génération de munition",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								4,
-								3
-							],
-							"rankDescription": [
-								
-								"Contre 10 points de mana vivant vous pouvez générer une munition spécrale (dague ou flèche) magique ignorant les résistances et l'armure de la cible. De plus chaque impact de ces projectiles draine 15 points de mana vivant à la cible touchée. Si vous décidez d'utiliser la dague pour frapper celle-ci disparaitra après avoir porté le premier coup."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 12,
-							"name": "Connaissance de la nature profonde",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								5,
-								2
-							],
-							"rankDescription": [
-						       
-								"Les aventages liés à vos terrains de prédilection s'étendent maintenant à tout type d'environnement naturel. De plus, vous pouvez choisir un type d'ennemi juré supplémentaire."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Dans la pénombre",
-							"maxRank": 2,
-							"currentRank": 0,
-							"position": [
-								5,
-								3
-							],
-							"rankDescription": [
-								
-								"Vous ne souffrez plus de malus dans le noir, même complet.",
-								"Vous ne souffrez plus de malus dans le noir, même complet. De plus dans la pénombre (lumière faible ou inférieur) vous vous déplacez comme une ombre. Tous vos déplacements ignorent les attaques d'opportunité et l'action se désengager est gratuite. "
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Surinage en règle",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								6,
-								2
-							],
-							"rankDescription": [
-								
-								"Lorsque vous attaquez une créature par surprise celle-ci subit une mort instanée si votre arme permet de la tuer en un seul coup (créature de taille grande ou inférieur, possédant -de 70PV et n'étant pas relié à la vie par un dispositif magique)."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						},
-						{
-							"id": 15,
-							"name": "Appel de la nature",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								7,
-								2
-							],
-							"rankDescription": [
-								""
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30
-							}
-						}
-					]
-				},
+						]			
+					},
 				{
 					"id": 1,
 					"name": "Noir - Faible Intensité",
@@ -3735,7 +3727,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 5
+								"specPoints": 3
 							}
 						},
 						
@@ -3756,7 +3748,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
@@ -3774,11 +3766,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10,
-								"skill": {
-									"id": 5,
-									"skillPoints": 5
-								}
+								"specPoints": 6
 							}
 						},
 						{
@@ -3797,7 +3785,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 10
+								"specPoints": 6
 							}
 						},
 						{
@@ -3816,10 +3804,10 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 15,
+								"specPoints": 9,
 								"skill": {
-									"id": 4,
-									"skillPoints": 5
+									"id": 3,
+									"skillPoints": 1
 								}
 							}
 						},
@@ -3839,7 +3827,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 15
+								"specPoints": 9
 							}
 						},
 						{
@@ -3858,7 +3846,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 20
+								"specPoints": 12
 							}
 						},
 						{
@@ -3878,7 +3866,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 20
+								"specPoints": 12
 							}
 						},
 						{
@@ -3897,11 +3885,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 25,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
+								"specPoints": 15
 							}
 						},
 						{
@@ -3919,7 +3903,7 @@
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 30
+								"specPoints": 18
 							}
 						}
 					]			
@@ -4480,7 +4464,10 @@
 								2
 							],
 							"enabled": false,
-							"faded": false
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
 						},
 						{
 							"id": 15,
@@ -5055,7 +5042,10 @@
 								2
 							],
 							"enabled": false,
-							"faded": false
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
 						},
 						{
 							"id": 15,
@@ -5070,7 +5060,10 @@
 								2
 							],
 							"enabled": false,
-							"faded": false
+							"faded": false,
+							"requirements": {
+								"specPoints": 18
+							}
 						}
 					]
 				},
@@ -5630,7 +5623,10 @@
 								2
 							],
 							"enabled": false,
-							"faded": false
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
 						},
 						{
 							"id": 15,
@@ -6205,7 +6201,10 @@
 								2
 							],
 							"enabled": false,
-							"faded": false
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
 						},
 						{
 							"id": 15,
@@ -6780,7 +6779,10 @@
 								2
 							],
 							"enabled": false,
-							"faded": false
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
 						},
 						{
 							"id": 15,
@@ -7355,7 +7357,10 @@
 								2
 							],
 							"enabled": false,
-							"faded": false
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
 						},
 						{
 							"id": 15,
