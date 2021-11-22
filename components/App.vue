@@ -1,7 +1,7 @@
 <template>
   <div>
     <main>
-      <h1 class="main-title">Arbre du mana vivant </h1>
+      <h1 class="main-title">Arbre du mana vivant V0.5 (L'équilibrage de 4 heures du mat')</h1>
       <ul class="class-list">
         <class-list
           v-for="classType in data.classes"
