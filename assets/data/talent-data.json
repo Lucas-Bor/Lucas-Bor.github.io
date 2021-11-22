@@ -616,7 +616,7 @@
 		},
 		{
 			"id": 1,
-			"name": "Barbarian",
+			"name": "Barbare",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -766,7 +766,7 @@
 					},
 				{
 					"id": 1,
-					"name": "Rouge",
+					"name": "Rouge - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
@@ -1222,7 +1222,7 @@
 		
 		{
 			"id": 2,
-			"name": "Monk",
+			"name": "Moine",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -1372,7 +1372,7 @@
 					},
 				{
 					"id": 1,
-					"name": "Rouge",
+					"name": "Rouge - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
@@ -1978,7 +1978,7 @@
 					},
 				{
 					"id": 0,
-					"name": "Jaune",
+					"name": "Jaune - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
@@ -2095,7 +2095,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Des effets cosmétique lié au folklore de votre dieu apparaissent sur votre corps. Vos canalisation d'énergie divine sont grandement amélioré de façon permanente (En discuter avec le MJ)."
+								"Des effets cosmétique lié au folklore de votre dieu apparaissent sur votre corps. Vos canalisation d'énergie divine sont grandement amélioré de façon permanente (Laisser le MJ 5 minutes pour inventer une capacité car il a pas pensé à faire un truc original pour chaque dieu...)."
 							],
 							"position": [
 								3,
@@ -2377,7 +2377,7 @@
 		},
 		{
 			"id": 4,
-			"name": "Cleric",
+			"name": "Clerc",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -2527,7 +2527,7 @@
 					},
 				{
 					"id": 0,
-					"name": "Jaune",
+					"name": "Jaune - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
@@ -2553,8 +2553,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Pour 33 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins d'une heure).",
-								"Pour 25 points de mana vivant, vous pouvez relancer un sort ou une capacité de classe JAUNE (qui a été lancé il y a moins de deux heures)."
+								"Pour 33 points de mana vivant, vous pouvez relancer un sort ou une capacité de mana vivant JAUNE (qui a été lancé il y a moins d'une heure).",
+								"Pour 25 points de mana vivant, vous pouvez relancer un sort ou une capacité de mana vivant JAUNE (qui a été lancé il y a moins de deux heures)."
 							
 							],
 							"position": [
@@ -2926,582 +2926,7 @@
 		},
 		{
 			"id": 5,
-			"name": "Sorcerer",
-			"availableSkillPoints": 20,
-			"requiredLevel": 0,
-			"talentPath": [],
-			"talentTrees": [
-				{
-					"id": 1,
-					"name": "Blanc - Haute Intensité",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-					{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							2,
-							2
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							2,
-							3
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							3,
-							1
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						3,
-						4
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						4,
-						1
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						4,
-						4
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						5,
-						2
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						5,
-						3
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						2,
-						2
-					],
-					"enabled": true,
-					"faded": false
-					}
-					]
-				},
-				{
-					"id": 0,
-					"name": "Bleu",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Transmutation du mana vivant",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé).",
-								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement. Vous gagnez un nombre de points de mana vivant maximum égale à 10 fois votre niveau d'incantation (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé)."
-							],
-							"position": [
-								1,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Oeil arcanique",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Spécialisation",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 3,
-							"name": "Magie instable",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 1d8 dans la table des Métamagies et cette dernière s'applique à votre sort.",
-								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 2d4 dans une sélection de quatre Métamagies (désigné entre session) et ces dernières s'applique à votre sort."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 4,
-							"name": "Absorption magique",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
-								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 5,
-							"name": "Concentration arcanique",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 6,
-							"name": "Manipulation de sort",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 7,
-							"name": "Transfusion du mana vivant",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant.",
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant. Si vous aviez une fiole ou autre objet similaire, vous pouvez liquidifier votre mana vivant et le verser dans une fiole, chaque centilitre vaut pour vous 2 points de mana vivant et rendent 1 points à celui qui boit. "
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 8,
-							"name": "Méta-expert",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous avez accès à plus de métamagie (voir règle optionnel), votre total de point de sorcelerie est doublé."
-							],
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 9,
-							"name": "Armure de Archimage",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts.",
-								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts. Vous pouvez utiliser un emplacement de sort pour temporairement renforcer votre armure de mage, pendant 1 minutes vous gagnez +1 CA par niveau de l'emplacement de sort et perdez -1 CA par coup reçu jusqu'à que le surplus de CA soit égale à 0."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 10,
-							"name": "Sort mortel",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort.",
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort. La cible subit (votre maîtrise)d10 supplémentaire dans le cas d'un échec."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 11,
-							"name": "Extraction du mana vivant",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous pouvez effectuer l'action 'Extraction du mana vivant' en étant au contact d'une cible au bout de 30 secondes vous arrachez tout le mana vivant de la cible. Vous regagnez ce que la cible à perdu et cette dernière prend 1d8 dégâts nécrotique pour chaque tranche de 5 points perdu. Si la cible est encore vivante, elle perd du mana vivant maximum égale à la moitié du total de points perdu, et regagne 2d5 par repos long jusqu'à atteindre la limite originel."
-
-							],
-							"position": [
-								4,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 12,
-							"name": "Esprit supérieur",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Durant un votre round, vous pouvez utiliser une action bonus pour entrer dans un état de concentration supérieur. Tant que vous êtes dans cet état vous pouvez lancez deux sorts en simultané par tour. Les sorts doivent être cependant de la même école et demander les mêmes types de composante. Vous pouvez sortir de l'état de concentration de la même façon que la régle à propos de la 'Concentration'. Vous pouvez rentrer dans cet état qu'une seule fois lors d'un repos long."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 13,
-							"name": "Méta-évolution",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous avez débloquez des méta-magies supérieur (voir règle optionnel), vous pouvez changer de méta-magie lors de repos court ou long."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12,
-								"skill": {
-									"id": 8,
-									"skillPoints": 1
-								}
-							}
-						},
-						{
-							"id": 14,
-							"name": "Théoréme de Dalgure Audur",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 3), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d7 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 2.",
-								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 5), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d6 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 3."
-							],
-							"position": [
-								6,
-								2
-							],
-							"enabled": false,
-							"faded": false
-						},
-						{
-							"id": 15,
-							"name": "Maîtrise d'origine",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous maîtrisez l'origine de votre source de magie. Vous gagnez une compétence en fonction de la source de magie qui définie le pouvoir magique de votre ensorceleur."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false
-						}
-					]
-				},
-				{
-					"id": 1,
-					"name": "Noir - Faible Intensité",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-								"id": 0,
-							"name": "Le Guerrier",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-								"id": 0,
-							"name": "Le Guerrier",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-							],
-							"position": [
-								2,
-								4
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-								"id": 0,
-							"name": "Le Guerrier",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							3,
-							3
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							4,
-							2
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							4,
-							3
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							5,
-							1
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							5,
-							4
-						],
-						"enabled": true,
-						"faded": false
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 6,
-			"name": "Bard",
+			"name": "Ranger",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -3651,7 +3076,1137 @@
 					},
 				{
 					"id": 0,
-					"name": "Bleu",
+					"name": "Vert - Couleur de l'âme",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+						{
+							"id": 0,
+							"name": "Comme une ombre",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								1,
+								2
+							],
+							"rankDescription": [
+								
+
+								"Pour 25 points de mana vivant et pour le prix d'une action, vous vous retrouvez sous l'effet du sort Invisibilité pour 1 minute.",
+								"Pour 25 points de mana vivantet pour le prix d'une action ou d'une réaction, vous vous retrouvez sous l'effet du sort Invisibilité pour 1 minute."
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 1,
+							"name": "vif comme le vent",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								1,
+								3
+							],
+							"rankDescription": [
+								"Ajoute le bonus de maitrise à votre CA. Ce bonus ne s'applique pas au moment du calcul des"
+							],
+							"enabled": true,
+							"faded": false
+						},
+						
+						{
+							"id": 3,
+							"name": "Coup vicieux",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								2,
+								1
+							],
+							"rankDescription": [
+								"Si vous attaquez une créature par ses flancs ou par derrière vous pouvez ajouter la moitié de votre bonus de maitrise aux dégats inffligés.",
+								"Si vous attaquez une créature par ses flancs ou par derrière vous pouvez ajouter la totalité de votre bonus de maitrise aux dégats inffligés."
+								
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 4,
+							"name": "Visez les points faibles",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								2,
+								2
+							],
+							"rankDescription": [
+								
+								"Votre expérience de la filouterie vous permets de porter vos coups avec une précision mortelle. Lorsque vous infligez des dégats à une créature à l'aide de votre arme, celle ci entre sous l'état Endolori (désaventages aux jets d'attaques) pendant 1 tour. "
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 5,
+							"name": "Oeil aguerri",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								2,
+								3
+							],
+							"rankDescription": [
+								
+								"Votre experience vous permet de flairer le coup fourrer, vous ajoutez votre bonus de maitrise à votre perception passive.",
+								"Votre experience vous permet de flairer le coup fourrer, vous ajoutez votre bonus de maitrise à votre perception passive. De plus, vous avez avantage aux jets de perceptions contre les créatures représentant une menace."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 5
+							}
+						},
+						
+						{
+							"id": 7,
+							"name": "Trappeur",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								3,
+								1
+							],
+							"rankDescription": [
+								
+								"Vous avez développer une grande expertise du piégage ou des embuscades.Vous obtenez un avantage à tous vos jets de perception pour deceler la présence de piège. De plus, vous pouvez construire un piège infligeant 3d6 dégats (percants, contendant ou tranchant à la discrétion du MJ) avec le materiel que vous disposez dans votre sac et en un temps de 2 minutes.",
+								"Vous avez développer une grande expertise du piégage ou des embuscades.Vous obtenez un avantage à tous vos jets de perception pour deceler la présence de piège. De plus, vous pouvez construire un piège infligeant 5d6 dégats (percants, contendant ou tranchant à la discrétion du MJ) et infligeant l'état Sonné pour un tour avec le materiel que vous disposez dans votre sac et en un temps de 2 minutes.."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 10
+							}
+						},
+						{
+							"id": 8,
+							"name": "Chasseur",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								3,
+								3
+							],
+							"rankDescription": [
+								"Lorsque vous pistez une créature sur une distance d'un Km ou plus ou que vous prenez 2 tours de combats pour observer ses déplacements et sa facons de combatre tout en étant considéré comme étant Concentré, vous obtenez avantage à tous vos jets contre la créature et ceux-ci lui infligeront 2x plus de dommage. Lorsque la créature fait  partie de vos Ennemis jurés, seul un tour d'observation est néccéssaire ou bien un pistage sur une distance de 100m. "
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 10,
+								"skill": {
+									"id": 5,
+									"skillPoints": 5
+								}
+							}
+						},
+						{
+							"id": 9,
+							"name": "Agilité féline",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								3,
+								4
+							],
+							"rankDescription": [
+								"Augmente votre vitesse de déplacement de 50%, et permet d'escalader des surfaces en ne depensant leur hauteur en mouvement et sans effectuer de jets d'acrobatie.",
+								"Augmente votre vitesse de déplacement de 100%, et permet d'escalader des surfaces en ne depensant leur hauteur en mouvement et sans effectuer de jets d'acrobatie. De plus, l'action Se desengager ne compte plus que comme une action bonus."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 10
+							}
+						},
+						{
+							"id": 10,
+							"name": "Perfidie intrinsèque",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								4,
+								2
+							],
+							"rankDescription": [
+								
+								"Votre perfidie s'est inscrite au fond de votre ame et votre corps. Celui-ci produit un sang toxique. Contre 10PV max vous pouvez produire une dose (poison actif sur une arme pendant 1minute)du poison Sang d'assassin. Au bout de 24h les PV max sont récupérés mais le poison redevient du simple sang."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 15,
+								"skill": {
+									"id": 4,
+									"skillPoints": 5
+								}
+							}
+						},
+						{
+							"id": 11,
+							"name": "Génération de munition",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								4,
+								3
+							],
+							"rankDescription": [
+								
+								"Contre 10 points de mana vivant vous pouvez générer une munition spécrale (dague ou flèche) magique ignorant les résistances et l'armure de la cible. De plus chaque impact de ces projectiles draine 15 points de mana vivant à la cible touchée. Si vous décidez d'utiliser la dague pour frapper celle-ci disparaitra après avoir porté le premier coup."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
+						},
+						{
+							"id": 12,
+							"name": "Connaissance de la nature profonde",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								5,
+								2
+							],
+							"rankDescription": [
+						       
+								"Les aventages liés à vos terrains de prédilection s'étendent maintenant à tout type d'environnement naturel. De plus, vous pouvez choisir un type d'ennemi juré supplémentaire."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 20
+							}
+						},
+						{
+							"id": 13,
+							"name": "Dans la pénombre",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								5,
+								3
+							],
+							"rankDescription": [
+								
+								"Vous ne souffrez plus de malus dans le noir, même complet.",
+								"Vous ne souffrez plus de malus dans le noir, même complet. De plus dans la pénombre (lumière faible ou inférieur) vous vous déplacez comme une ombre. Tous vos déplacements ignorent les attaques d'opportunité et l'action se désengager est gratuite. "
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 20
+							}
+						},
+						{
+							"id": 14,
+							"name": "Surinage en règle",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								6,
+								2
+							],
+							"rankDescription": [
+								
+								"Lorsque vous attaquez une créature par surprise celle-ci subit une mort instanée si votre arme permet de la tuer en un seul coup (créature de taille grande ou inférieur, possédant -de 70PV et n'étant pas relié à la vie par un dispositif magique)."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 25,
+								"skill": {
+									"id": 12,
+									"skillPoints": 1
+								}
+							}
+						},
+						{
+							"id": 15,
+							"name": "Appel de la nature",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								7,
+								2
+							],
+							"rankDescription": [
+								""
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 30
+							}
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "Noir - Faible Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+						{
+								"id": 0,
+							"name": "Le Guerrier",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+							],
+							"position": [
+								2,
+								1
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Le Guerrier",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+							],
+							"position": [
+								2,
+								4
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Le Guerrier",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+							],
+							"position": [
+								3,
+								2
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							3,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							4,
+							2
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							4,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							5,
+							1
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							5,
+							4
+						],
+						"enabled": true,
+						"faded": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 6,
+			"name": "Roublard",
+			"availableSkillPoints": 20,
+			"requiredLevel": 0,
+			"talentPath": [],
+			"talentTrees": [
+				{
+					"id": 1,
+					"name": "Blanc - Haute Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+					{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							2,
+							2
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							2,
+							3
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							3,
+							1
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						3,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						4,
+						1
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						4,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						5,
+						2
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						5,
+						3
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						2,
+						2
+					],
+					"enabled": true,
+					"faded": false
+					}
+						]
+					},
+				{
+					"id": 1,
+					"name": "Vert - Couleur de l'âme",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+						{
+							"id": 0,
+							"name": "Comme une ombre",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								1,
+								2
+							],
+							"rankDescription": [
+								
+
+								"Pour 25 points de mana vivant et pour le prix d'une action, vous vous retrouvez sous l'effet du sort Invisibilité pour 1 minute.",
+								"Pour 25 points de mana vivantet pour le prix d'une action ou d'une réaction, vous vous retrouvez sous l'effet du sort Invisibilité pour 1 minute."
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 1,
+							"name": "vif comme le vent",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								1,
+								3
+							],
+							"rankDescription": [
+								"Ajoute le bonus de maitrise à votre CA. Ce bonus ne s'applique pas au moment du calcul des"
+							],
+							"enabled": true,
+							"faded": false
+						},
+						
+						{
+							"id": 3,
+							"name": "Coup vicieux",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								2,
+								1
+							],
+							"rankDescription": [
+								"Si vous attaquez une créature par ses flancs ou par derrière vous pouvez ajouter la moitié de votre bonus de maitrise aux dégats inffligés.",
+								"Si vous attaquez une créature par ses flancs ou par derrière vous pouvez ajouter la totalité de votre bonus de maitrise aux dégats inffligés."
+								
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 4,
+							"name": "Visez les points faibles",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								2,
+								2
+							],
+							"rankDescription": [
+								
+								"Votre expérience de la filouterie vous permets de porter vos coups avec une précision mortelle. Lorsque vous infligez des dégats à une créature à l'aide de votre arme, celle ci entre sous l'état Endolori (désaventages aux jets d'attaques) pendant 1 tour. "
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 5,
+							"name": "Oeil aguerri",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								2,
+								3
+							],
+							"rankDescription": [
+								
+								"Votre experience vous permet de flairer le coup fourrer, vous ajoutez votre bonus de maitrise à votre perception passive.",
+								"Votre experience vous permet de flairer le coup fourrer, vous ajoutez votre bonus de maitrise à votre perception passive. De plus, vous avez avantage aux jets de perceptions contre les créatures représentant une menace."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 5
+							}
+						},
+						
+						{
+							"id": 7,
+							"name": "Trappeur",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								3,
+								1
+							],
+							"rankDescription": [
+								
+								"Vous avez développer une grande expertise du piégage ou des embuscades.Vous obtenez un avantage à tous vos jets de perception pour deceler la présence de piège. De plus, vous pouvez construire un piège infligeant 3d6 dégats (percants, contendant ou tranchant à la discrétion du MJ) avec le materiel que vous disposez dans votre sac et en un temps de 2 minutes.",
+								"Vous avez développer une grande expertise du piégage ou des embuscades.Vous obtenez un avantage à tous vos jets de perception pour deceler la présence de piège. De plus, vous pouvez construire un piège infligeant 5d6 dégats (percants, contendant ou tranchant à la discrétion du MJ) et infligeant l'état Sonné pour un tour avec le materiel que vous disposez dans votre sac et en un temps de 2 minutes.."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 10
+							}
+						},
+						{
+							"id": 8,
+							"name": "Chasseur",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								3,
+								3
+							],
+							"rankDescription": [
+								"Lorsque vous pistez une créature sur une distance d'un Km ou plus ou que vous prenez 2 tours de combats pour observer ses déplacements et sa facons de combatre tout en étant considéré comme étant Concentré, vous obtenez avantage à tous vos jets contre la créature et ceux-ci lui infligeront 2x plus de dommage. Lorsque la créature fait  partie de vos Ennemis jurés, seul un tour d'observation est néccéssaire ou bien un pistage sur une distance de 100m. "
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 10,
+								"skill": {
+									"id": 5,
+									"skillPoints": 5
+								}
+							}
+						},
+						{
+							"id": 9,
+							"name": "Agilité féline",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								3,
+								4
+							],
+							"rankDescription": [
+								"Augmente votre vitesse de déplacement de 50%, et permet d'escalader des surfaces en ne depensant leur hauteur en mouvement et sans effectuer de jets d'acrobatie.",
+								"Augmente votre vitesse de déplacement de 100%, et permet d'escalader des surfaces en ne depensant leur hauteur en mouvement et sans effectuer de jets d'acrobatie. De plus, l'action Se desengager ne compte plus que comme une action bonus."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 10
+							}
+						},
+						{
+							"id": 10,
+							"name": "Perfidie intrinsèque",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								4,
+								2
+							],
+							"rankDescription": [
+								
+								"Votre perfidie s'est inscrite au fond de votre ame et votre corps. Celui-ci produit un sang toxique. Contre 10PV max vous pouvez produire une dose (poison actif sur une arme pendant 1minute)du poison Sang d'assassin. Au bout de 24h les PV max sont récupérés mais le poison redevient du simple sang."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 15,
+								"skill": {
+									"id": 4,
+									"skillPoints": 5
+								}
+							}
+						},
+						{
+							"id": 11,
+							"name": "Génération de munition",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								4,
+								3
+							],
+							"rankDescription": [
+								
+								"Contre 10 points de mana vivant vous pouvez générer une munition spécrale (dague ou flèche) magique ignorant les résistances et l'armure de la cible. De plus chaque impact de ces projectiles draine 15 points de mana vivant à la cible touchée. Si vous décidez d'utiliser la dague pour frapper celle-ci disparaitra après avoir porté le premier coup."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
+						},
+						{
+							"id": 12,
+							"name": "Connaissance de la nature profonde",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								5,
+								2
+							],
+							"rankDescription": [
+						       
+								"Les aventages liés à vos terrains de prédilection s'étendent maintenant à tout type d'environnement naturel. De plus, vous pouvez choisir un type d'ennemi juré supplémentaire."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 20
+							}
+						},
+						{
+							"id": 13,
+							"name": "Dans la pénombre",
+							"maxRank": 2,
+							"currentRank": 0,
+							"position": [
+								5,
+								3
+							],
+							"rankDescription": [
+								
+								"Vous ne souffrez plus de malus dans le noir, même complet.",
+								"Vous ne souffrez plus de malus dans le noir, même complet. De plus dans la pénombre (lumière faible ou inférieur) vous vous déplacez comme une ombre. Tous vos déplacements ignorent les attaques d'opportunité et l'action se désengager est gratuite. "
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 20
+							}
+						},
+						{
+							"id": 14,
+							"name": "Surinage en règle",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								6,
+								2
+							],
+							"rankDescription": [
+								
+								"Lorsque vous attaquez une créature par surprise celle-ci subit une mort instanée si votre arme permet de la tuer en un seul coup (créature de taille grande ou inférieur, possédant -de 70PV et n'étant pas relié à la vie par un dispositif magique)."
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 25,
+								"skill": {
+									"id": 12,
+									"skillPoints": 1
+								}
+							}
+						},
+						{
+							"id": 15,
+							"name": "Appel de la nature",
+							"maxRank": 1,
+							"currentRank": 0,
+							"position": [
+								7,
+								2
+							],
+							"rankDescription": [
+								""
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 30
+							}
+						}
+					]			
+				},
+				{
+					"id": 1,
+					"name": "Noir - Faible Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+						{
+								"id": 0,
+							"name": "Le Guerrier",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+							],
+							"position": [
+								2,
+								1
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Le Guerrier",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+							],
+							"position": [
+								2,
+								4
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Le Guerrier",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+							],
+							"position": [
+								3,
+								2
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							3,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							4,
+							2
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							4,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							5,
+							1
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							5,
+							4
+						],
+						"enabled": true,
+						"faded": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "Barde",
+			"availableSkillPoints": 20,
+			"requiredLevel": 0,
+			"talentPath": [],
+			"talentTrees": [
+				{
+					"id": 1,
+					"name": "Blanc - Haute Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+					{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							2,
+							2
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							2,
+							3
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+							"id": 0,
+						"name": "Le Guerrier",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+						],
+						"position": [
+							3,
+							1
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						3,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						4,
+						1
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						4,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						5,
+						2
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						5,
+						3
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Le Guerrier",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+					],
+					"position": [
+						2,
+						2
+					],
+					"enabled": true,
+					"faded": false
+					}
+						]
+					},
+				{
+					"id": 0,
+					"name": "Bleu - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
@@ -4075,8 +4630,8 @@
 			]
 		},
 		{
-			"id": 7,
-			"name": "Ranger",
+			"id": 8,
+			"name": "Ensorceleur",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -4222,703 +4777,73 @@
 					"enabled": true,
 					"faded": false
 					}
-						]
-					},
-				{
-					"id": 0,
-					"name": "Vert------------------------",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Improved Wrath",
-							"maxRank": 5,
-							"currentRank": 0,
-							"position": [
-								1,
-								1
-							],
-							"rankDescription": [
-								"Reduces the cast time of your Wrath spell by 0.1 sec.",
-								"Reduces the cast time of your Wrath spell by 0.2 sec.",
-								"Reduces the cast time of your Wrath spell by 0.3 sec.",
-								"Reduces the cast time of your Wrath spell by 0.4 sec.",
-								"Reduces the cast time of your Wrath spell by 0.5 sec."
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Nature's Grasp",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								1,
-								2
-							],
-							"rankDescription": [
-								"While active, any time an enemy strikes the caster they have a 35% chance to become afflicted by Entangling Roots (Rank 1). Only useable outdoors. 1 charge. Lasts 45 sec."
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Improved Nature's Grasp",
-							"maxRank": 4,
-							"currentRank": 0,
-							"position": [
-								1,
-								3
-							],
-							"rankDescription": [
-								"Increases the chance for your Nature's Grasp to entangle an enemy by 15%.",
-								"Increases the chance for your Nature's Grasp to entangle an enemy by 30%.",
-								"Increases the chance for your Nature's Grasp to entangle an enemy by 45%.",
-								"Increases the chance for your Nature's Grasp to entangle an enemy by 65%."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"skill": {
-									"id": 1,
-									"skillPoints": 1
-								}
-							}
-						},
-						{
-							"id": 3,
-							"name": "Improved Entangling Roots",
-							"maxRank": 3,
-							"currentRank": 0,
-							"position": [
-								2,
-								1
-							],
-							"rankDescription": [
-								"Gives you a 40% chance to avoid interruption caused by damage while casting Entangling Roots.",
-								"Gives you a 70% chance to avoid interruption caused by damage while casting Entangling Roots.",
-								"Gives you a 100% chance to avoid interruption caused by damage while casting Entangling Roots."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 4,
-							"name": "Improved Moonfire",
-							"maxRank": 5,
-							"currentRank": 0,
-							"position": [
-								2,
-								2
-							],
-							"rankDescription": [
-								"Increases the damage and critical strike chance of your Moonfire spell by 2%.",
-								"Increases the damage and critical strike chance of your Moonfire spell by 4%.",
-								"Increases the damage and critical strike chance of your Moonfire spell by 6%.",
-								"Increases the damage and critical strike chance of your Moonfire spell by 8%.",
-								"Increases the damage and critical strike chance of your Moonfire spell by 10%."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 5,
-							"name": "Natural Weapons",
-							"maxRank": 5,
-							"currentRank": 0,
-							"position": [
-								2,
-								3
-							],
-							"rankDescription": [
-								"Increases the damage you deal with physical attacks in all forms by 2%.",
-								"Increases the damage you deal with physical attacks in all forms by 4%.",
-								"Increases the damage you deal with physical attacks in all forms by 6%.",
-								"Increases the damage you deal with physical attacks in all forms by 8%.",
-								"Increases the damage you deal with physical attacks in all forms by 10%."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 6,
-							"name": "Natural Shapeshifter",
-							"maxRank": 3,
-							"currentRank": 0,
-							"position": [
-								2,
-								4
-							],
-							"rankDescription": [
-								"Reduces the mana cost of all shapeshifting by 10%.",
-								"Reduces the mana cost of all shapeshifting by 20%.",
-								"Reduces the mana cost of all shapeshifting by 30%."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 5
-							}
-						},
-						{
-							"id": 7,
-							"name": "Improved Thorns",
-							"maxRank": 3,
-							"currentRank": 0,
-							"position": [
-								3,
-								1
-							],
-							"rankDescription": [
-								"Increases damage caused by your Thorns spell by 25%.",
-								"Increases damage caused by your Thorns spell by 50%.",
-								"Increases damage caused by your Thorns spell by 75%."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 8,
-							"name": "Omen of Clarity",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								3,
-								3
-							],
-							"rankDescription": [
-								"Imbues the Druid with natural energy. Each of the Druid's melee attacks has a chance of causing the caster to enter a Clearcasting state. The Clearcasting state reduces the Mana, Rage or Energy cost of your next damage or healing spell or offensive ability by 100%. Lasts 10 min."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10,
-								"skill": {
-									"id": 5,
-									"skillPoints": 5
-								}
-							}
-						},
-						{
-							"id": 9,
-							"name": "Nature's Reach",
-							"maxRank": 2,
-							"currentRank": 0,
-							"position": [
-								3,
-								4
-							],
-							"rankDescription": [
-								"Increases the range of your Wrath, Entangling Roots, Faerie Fire, Moonfire, Starfire, and Hurricane spells by 10%.",
-								"Increases the range of your Wrath, Entangling Roots, Faerie Fire, Moonfire, Starfire, and Hurricane spells by 20%."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 10
-							}
-						},
-						{
-							"id": 10,
-							"name": "Vengeance",
-							"maxRank": 5,
-							"currentRank": 0,
-							"position": [
-								4,
-								2
-							],
-							"rankDescription": [
-								"Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by 20%.",
-								"Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by 40%.",
-								"Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by 60%.",
-								"Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by 80%.",
-								"Increases the critical strike damage bonus of your Starfire, Moonfire, and Wrath spells by 100%."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 4,
-									"skillPoints": 5
-								}
-							}
-						},
-						{
-							"id": 11,
-							"name": "Improved Starfire",
-							"maxRank": 5,
-							"currentRank": 0,
-							"position": [
-								4,
-								3
-							],
-							"rankDescription": [
-								"Reduces the cast time of Starfire by 0.1 sec and has a 3% chance to stun the target for 3 sec.",
-								"Reduces the cast time of Starfire by 0.2 sec and has a 6% chance to stun the target for 3 sec.",
-								"Reduces the cast time of Starfire by 0.3 sec and has a 9% chance to stun the target for 3 sec.",
-								"Reduces the cast time of Starfire by 0.4 sec and has a 12% chance to stun the target for 3 sec.",
-								"Reduces the cast time of Starfire by 0.5 sec and has a 15% chance to stun the target for 3 sec."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 12,
-							"name": "Nature's Grace",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								5,
-								2
-							],
-							"rankDescription": [
-								"All spell criticals grace you with a blessing of nature, reducing the casting time of your next spell by 0.5 sec."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 13,
-							"name": "Moonglow",
-							"maxRank": 3,
-							"currentRank": 0,
-							"position": [
-								5,
-								3
-							],
-							"rankDescription": [
-								"Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 3%.",
-								"Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 6%.",
-								"Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 9%."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 20
-							}
-						},
-						{
-							"id": 14,
-							"name": "Moonfury",
-							"maxRank": 5,
-							"currentRank": 0,
-							"position": [
-								6,
-								2
-							],
-							"rankDescription": [
-								"Increases the damage done by your Starfire, Moonfire and Wrath spells by 2%.",
-								"Increases the damage done by your Starfire, Moonfire and Wrath spells by 4%.",
-								"Increases the damage done by your Starfire, Moonfire and Wrath spells by 6%.",
-								"Increases the damage done by your Starfire, Moonfire and Wrath spells by 8%.",
-								"Increases the damage done by your Starfire, Moonfire and Wrath spells by 10%."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 25,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						},
-						{
-							"id": 15,
-							"name": "Moonkin Form",
-							"maxRank": 1,
-							"currentRank": 0,
-							"position": [
-								7,
-								2
-							],
-							"rankDescription": [
-								"Transforms the Druid into Moonkin Form. While in this form the armor contribution from items is increased by 360% and all party members within 30 yards have their spell critical chance increased by 3%. The Moonkin can only cast Balance spells while shapeshifted.<br><br>The act of shapeshifting frees the caster of Polymorph and Movement Impairing effects."
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 30
-							}
-						}
 					]
 				},
 				{
-					"id": 1,
-					"name": "Noir - Faible Intensité",
+					"id": 0,
+					"name": "Bleu - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
 						{
-								"id": 0,
-							"name": "Le Guerrier",
-							"maxRank": 1,
+							"id": 0,
+							"name": "Transmutation du mana vivant",
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
+								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé).",
+								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement. Vous gagnez un nombre de points de mana vivant maximum égale à 10 fois votre niveau d'incantation (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé)."
 							],
 							"position": [
-								2,
+								1,
 								1
 							],
 							"enabled": true,
 							"faded": false
 						},
 						{
-								"id": 0,
-							"name": "Le Guerrier",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-							],
-							"position": [
-								2,
-								4
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-								"id": 0,
-							"name": "Le Guerrier",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							3,
-							3
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							4,
-							2
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							4,
-							3
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							5,
-							1
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							5,
-							4
-						],
-						"enabled": true,
-						"faded": false
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 8,
-			"name": "Rogue",
-			"availableSkillPoints": 20,
-			"requiredLevel": 0,
-			"talentPath": [],
-			"talentTrees": [
-				{
-					"id": 1,
-					"name": "Blanc - Haute Intensité",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-					{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							2,
-							2
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							2,
-							3
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-							"id": 0,
-						"name": "Le Guerrier",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-						],
-						"position": [
-							3,
-							1
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						3,
-						4
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						4,
-						1
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						4,
-						4
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						5,
-						2
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						5,
-						3
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Le Guerrier",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Les guerriers apprennent l'essentiel de tous les styles de combat. Chaque guerrier peut balancer un coup de hache, parer avec une rapière, manier une épée longue ou une épée à deux mains, utiliser un arc et même piéger des adversaires dans un filet avec un certain degré d'habileté. De même, un guerrier connaît le maniement des boucliers et l'utilisation de toutes les formes d'armure. En plus de ce degré de familiarité de base, chaque guerrier se spécialise dans un certain style de combat. L'un sera concentré sur le tir à l'arc, un autre en combat avec deux armes à la fois et un autre augmentera ses compétences martiales avec de la magie. Cette combinaison de larges capacités générales et de spécialisations variées fait des guerriers les combattants supérieurs sur les champs de bataille et dans les donjons."
-					],
-					"position": [
-						2,
-						2
-					],
-					"enabled": true,
-					"faded": false
-					}
-						]
-					},
-				{
-					"id": 1,
-					"name": "Rouge",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Résistance à la douleur",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d12 (avant le jet de dégâts) pour un total de 25 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d14 (avant le jet de dégâts) pour un total de 25 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 (avant le jet de dégâts) pour un total de 20 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 + 2 (avant le jet de dégâts) pour un total de 20 points de mana vivant.",
-								"Après avoir reçu un coup vous pouvez utiliser votre réaction pour réduire les dégâts subis de 1d16 + 4 (avant le jet de dégâts) pour un total de 20 points de mana vivant."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
 							"id": 1,
-							"name": "Cruauté",
-							"maxRank": 3,
+							"name": "Oeil arcanique",
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente vos dégâts de 1d8 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d10 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d12 supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition."
+								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
 							],
 							"position": [
 								1,
-								3
+								2
 							],
 							"enabled": true,
 							"faded": false
 						},
 						{
 							"id": 2,
-							"name": "Intimidation amélioré",
+							"name": "Spécialisation",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Quand vous effrayez une cible, cette dernière vous infliges 1d10 dégâts en moins.",
-								"Quand vous effrayez une cible, cette dernière vous infliges 1d12 dégâts en moins."
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
 							],
 							"position": [
-								2,
-								2
+								1,
+								3
 							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
+							"enabled": true,
+							"faded": false
 						},
 						{
 							"id": 3,
-							"name": "Peau de fer",
-							"maxRank": 3,
+							"name": "Magie instable",
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente votre CA de 1 et vos points de vie de 6.",
-								"Augmente votre CA de 2 et vos points de vie de 12.",
-								"Augmente votre CA de 3 et vos points de vie de 18."
+								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 1d8 dans la table des Métamagies et cette dernière s'applique à votre sort.",
+								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 2d4 dans une sélection de quatre Métamagies (désigné entre session) et ces dernières s'applique à votre sort."
 							],
 							"position": [
 								2,
-								3
+								1
 							],
 							"enabled": false,
 							"faded": false,
@@ -4928,52 +4853,53 @@
 						},
 						{
 							"id": 4,
-							"name": "Enchaînement",
+							"name": "Absorption magique",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
+								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
+								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
 							],
 							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 5,
-							"name": "Special",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Dépent de la classe"
-							],
-							"position": [
-								3,
+								2,
 								2
 							],
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 6
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 5,
+							"name": "Concentration arcanique",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
+							],
+							"position": [
+								2,
+								3
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
 							}
 						},
 						{
 							"id": 6,
-							"name": "Folie sanguinaire",
+							"name": "Manipulation de sort",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin (maximum 50%). Revient après un repos long."
-							],	
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
+							],
 							"position": [
 								3,
-								3
+								1
 							],
 							"enabled": false,
 							"faded": false,
@@ -4983,17 +4909,16 @@
 						},
 						{
 							"id": 7,
-							"name": "Cri de guerre",
-							"maxRank": 3,
+							"name": "Transfusion du mana vivant",
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 5m. Pour un total de 25 points de mana vivant.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 10m. Pour un total de 20 points de mana vivant.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri qui donne l'avantage aux deux prochaine attaques des alliés dans un rayon de 15m. Pour un total de 20 points de mana vivant."
+								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant.",
+								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant. Si vous aviez une fiole ou autre objet similaire, vous pouvez liquidifier votre mana vivant et le verser dans une fiole, chaque centilitre vaut pour vous 2 points de mana vivant et rendent 1 points à celui qui boit. "
 							],
 							"position": [
 								3,
-								4
+								2
 							],
 							"enabled": false,
 							"faded": false,
@@ -5003,13 +4928,30 @@
 						},
 						{
 							"id": 8,
-							"name": "Frappe lourde",
-							"maxRank": 3,
+							"name": "Méta-expert",
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme.",
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +6 au jet de touché infligeant 2,5x (arrondi supérieur) fois les dégats normaux de l'arme.",
-								"Vous êtes capable d'utiliser deux actions 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +7 au jet de touché infligeant 3x les dégats normaux de l'arme."
+								"Vous avez accès à plus de métamagie (voir règle optionnel), votre total de point de sorcelerie est doublé."
+							],
+							"position": [
+								3,
+								3
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 6
+							}
+						},
+						{
+							"id": 9,
+							"name": "Armure de Archimage",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts.",
+								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts. Vous pouvez utiliser un emplacement de sort pour temporairement renforcer votre armure de mage, pendant 1 minutes vous gagnez +1 CA par niveau de l'emplacement de sort et perdez -1 CA par coup reçu jusqu'à que le surplus de CA soit égale à 0."
 							],
 							"position": [
 								4,
@@ -5022,13 +4964,13 @@
 							}
 						},
 						{
-							"id": 9,
-							"name": "Argument du Bourreau",
+							"id": 10,
+							"name": "Sort mortel",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Infliger un coup fatal à un ennemi vous rend 3d10 point de vie temporaire et 3d10 points de mana vivant.",
-								"Infliger un coup fatal à un ennemi vous rend 4d10 point de vie temporaire et 4d10 points de mana vivant."
+								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort.",
+								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort. La cible subit (votre maîtrise)d10 supplémentaire dans le cas d'un échec."
 							],
 							"position": [
 								4,
@@ -5041,16 +4983,17 @@
 							}
 						},
 						{
-							"id": 10,
-							"name": "Machine de guerre",
-							"maxRank": 2,
+							"id": 11,
+							"name": "Extraction du mana vivant",
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous avez réussie une attaque avec avantage, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de votre round, vous gagnez un avantage à votre prochaine attaque."
+								"Vous pouvez effectuer l'action 'Extraction du mana vivant' en étant au contact d'une cible au bout de 30 secondes vous arrachez tout le mana vivant de la cible. Vous regagnez ce que la cible à perdu et cette dernière prend 1d8 dégâts nécrotique pour chaque tranche de 5 points perdu. Si la cible est encore vivante, elle perd du mana vivant maximum égale à la moitié du total de points perdu, et regagne 2d5 par repos long jusqu'à atteindre la limite originel."
+
 							],
 							"position": [
 								4,
-								3
+								4
 							],
 							"enabled": false,
 							"faded": false,
@@ -5059,31 +5002,12 @@
 							}
 						},
 						{
-							"id": 11,
-							"name": "Fracasse-armure",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Quand vous avez roll un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (cumulable 3 fois) jusqu'à la fin d'un repos long lorsque naturel ou dans le cas d'une armure non magique ; permanent.",
-								"Quand vous avez roll un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (cumulable 3 fois) jusqu'à la fin d'un repos long lorsque naturel ou dans le cas d'une armure non magique ; permanent."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
 							"id": 12,
-							"name": "Classe2",
+							"name": "Esprit supérieur",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"placeholder."
+								"Durant un votre round, vous pouvez utiliser une action bonus pour entrer dans un état de concentration supérieur. Tant que vous êtes dans cet état vous pouvez lancez deux sorts en simultané par tour. Les sorts doivent être cependant de la même école et demander les mêmes types de composante. Vous pouvez sortir de l'état de concentration de la même façon que la régle à propos de la 'Concentration'. Vous pouvez rentrer dans cet état qu'une seule fois lors d'un repos long."
 							],
 							"position": [
 								5,
@@ -5097,86 +5021,56 @@
 						},
 						{
 							"id": 13,
-							"name": "Bond héroïque",
-							"maxRank": 2,
+							"name": "Méta-évolution",
+							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus et la moitier de vos points de déplacement vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. Utilisable une fois entre chaque repos long.",
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un jet de sauvegarde de dextérité (JDS = votre force), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
+								"Vous avez débloquez des méta-magies supérieur (voir règle optionnel), vous pouvez changer de méta-magie lors de repos court ou long."
 							],
 							"position": [
 								5,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 14,
-							"name": "Infaillible",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Il faut qu'il y ait au moins 10 minutes entre chaque combat.",
-								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 10 minutes entre chaque combat."
-							],
-							"position": [
-								6,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 15,
-							"name": "Saccager",
-							"maxRank": 5,
-							"currentRank": 0,
-							"rankDescription": [
-								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
-								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire. L'attaques supplémentaire octroyé par Saccager inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
-							],
-							"position": [
-								6,
 								3
 							],
 							"enabled": false,
 							"faded": false,
 							"requirements": {
-								"specPoints": 15,
+								"specPoints": 12,
 								"skill": {
-									"id": 10,
+									"id": 8,
 									"skillPoints": 1
 								}
 							}
 						},
 						{
-							"id": 16,
-							"name": "Classe",
+							"id": 14,
+							"name": "Théoréme de Dalgure Audur",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 3), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d7 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 2.",
+								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 5), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d6 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 3."
+							],
+							"position": [
+								6,
+								2
+							],
+							"enabled": false,
+							"faded": false
+						},
+						{
+							"id": 15,
+							"name": "Maîtrise d'origine",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Placeholder."
+								"Vous maîtrisez l'origine de votre source de magie. Vous gagnez une compétence en fonction de la source de magie qui définie le pouvoir magique de votre ensorceleur."
 							],
 							"position": [
 								7,
 								2
 							],
 							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
+							"faded": false
 						}
 					]
 				},
@@ -5462,7 +5356,7 @@
 					},
 				{
 					"id": 0,
-					"name": "Bleu",
+					"name": "Bleu - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
@@ -5887,7 +5781,7 @@
 		},
 		{
 			"id": 10,
-			"name": "Wizard",
+			"name": "Magicien",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -6037,7 +5931,7 @@
 					},
 				{
 					"id": 0,
-					"name": "Bleu",
+					"name": "Bleu - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
@@ -6462,7 +6356,7 @@
 		},
 		{
 			"id": 11,
-			"name": "Warlock",
+			"name": "Sorcier",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -6612,7 +6506,7 @@
 					},
 				{
 					"id": 0,
-					"name": "Bleu",
+					"name": "Bleu - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
@@ -7037,7 +6931,7 @@
 		},
 		{
 			"id": 12,
-			"name": "Druid",
+			"name": "Druide",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -7187,7 +7081,7 @@
 					},
 				{
 					"id": 0,
-					"name": "Bleu",
+					"name": "Bleu - Couleur de l'âme",
 					"skillPoints": 0,
 					"currentSkillTier": 0,
 					"skills": [
