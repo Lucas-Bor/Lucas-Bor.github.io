@@ -3256,7 +3256,7 @@
 									3
 								],
 								"rankDescription": [
-									"Contre 10 points de mana vivant vous pouvez dupliquer un objet et crée un objet magique qui est une version cristalline verte de l'objet. Quand vous lancer cette arme, l'objet devient un projectile magique similaire au sort 'Projectile magique' et draîne 20 points de mana vivant à la cible."
+									"Contre 10 points de mana vivant vous pouvez dupliquer un objet et crée un objet magique qui est une version cristalline verte de l'objet. Quand vous lancer cette arme, l'objet devient un projectile magique similaire au sort 'Projectile magique' infligeant des dégâts physique magique et draîne 20 points de mana vivant à la cible. Vous pouvez avoir jusqu'à 5 copie d'un objet en mêmes temps et si vous maîtriser l'objet vous pouvez ajouter votre maîtrise au jet de dégât."
 								], 
 								"enabled": false,
 								"faded": false,
@@ -3266,7 +3266,7 @@
 							},
 							{
 								"id": 12,
-								"name": "Connaissance de la nature profonde",
+								"name": "Maître rôdeur",
 								"maxRank": 1,
 								"currentRank": 0,
 								"position": [
@@ -3275,7 +3275,7 @@
 								],
 								"rankDescription": [
 								   
-									"Les aventages liés à vos terrains de prédilection s'étendent maintenant à tout type d'environnement naturel. De plus, vous pouvez choisir un type d'ennemi juré supplémentaire."
+									"Les avantages liés à vos terrains de prédilection s'étendent maintenant à tout type d'environnement naturel. De plus, vous pouvez ignorez les résistances de vos ennemis juré."
 								],
 								"enabled": false,
 								"faded": false,
@@ -3285,7 +3285,7 @@
 							},
 							{
 								"id": 13,
-								"name": "Dans la pénombre",
+								"name": "Regard Spectral",
 								"maxRank": 2,
 								"currentRank": 0,
 								"position": [
@@ -3305,7 +3305,7 @@
 							},
 							{
 								"id": 14,
-								"name": "Surinage en règle",
+								"name": "",
 								"maxRank": 1,
 								"currentRank": 0,
 								"position": [
@@ -3324,7 +3324,7 @@
 							},
 							{
 								"id": 15,
-								"name": "Appel de la nature",
+								"name": "",
 								"maxRank": 1,
 								"currentRank": 0,
 								"position": [
