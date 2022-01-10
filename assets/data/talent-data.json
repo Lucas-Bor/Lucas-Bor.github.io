@@ -134,8 +134,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -582,7 +582,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -726,8 +726,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -1172,7 +1172,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -1317,8 +1317,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -1764,7 +1764,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -1908,8 +1908,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -2298,7 +2298,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -2442,8 +2442,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -2832,7 +2832,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -2976,8 +2976,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -3365,7 +3365,7 @@
 							},
 							{
 								"id": 0,
-							"name": "Un Présentiment ?",
+							"name": "Un Présentiment",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -3509,8 +3509,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -3907,7 +3907,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -4051,8 +4051,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -4470,7 +4470,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -4614,8 +4614,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -5036,7 +5036,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -5180,8 +5180,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -5482,7 +5482,10 @@
 								2
 							],
 							"enabled": false,
-							"faded": false
+							"faded": false,
+							"requirements": {
+								"specPoints": 18
+							}
 						}
 					]
 				},
@@ -5599,7 +5602,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -5743,8 +5746,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -6038,7 +6041,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"When activated, your spells deal 30% more damage while costing 30% more mana to cast. This effect lasts 15 sec."
+								"Vous permet de crée un sort cataclysmique de niveau 10, pour le lancer il faut un emplacement de sort de chaque niveau."
 							],
 							"position": [
 								7,
@@ -6162,7 +6165,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -6306,8 +6309,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -6725,7 +6728,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
@@ -6869,8 +6872,8 @@
 						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
 					],
 					"position": [
-						2,
-						2
+						3,
+						1
 					],
 					"enabled": true,
 					"faded": false
@@ -7288,7 +7291,7 @@
 						},
 						{
 							"id": 0,
-						"name": "Un Présentiment ?",
+						"name": "Un Présentiment",
 						"maxRank": 1,
 						"currentRank": 0,
 						"rankDescription": [
