@@ -90,6 +90,7 @@ export default {
     });
   },
   computed: {
+    // eslint-disable-next-line vue/return-in-computed-property
     getGridPosition: function() {
       if (typeof this.skill.position !== "undefined") {
         return {
@@ -98,6 +99,7 @@ export default {
         };
       }
     },
+    // eslint-disable-next-line vue/return-in-computed-property
     skillRequirementArrow: function() {
       if (this.skill.requirements && this.skill.requirements.skill) {
         let requiredSkill = this.getSkill(this.skill.requirements.skill.id),
@@ -147,10 +149,22 @@ export default {
   methods: {
     onIncreaseSkillRank: function() {
       if (this.skill.enabled && this.availableSkillPoints > 0) {
-        if (this.skill.currentRank < this.skill.maxRank) {
+        if (this.skill.currentRank < this.skill.maxRank && this.tree.id == '2') {
           this.skill.currentRank++;
           this.$parent.$emit("decreaseAvailableSkillPoints");
           this.$parent.$emit("increaseRequiredLevel");
+          this.$parent.$emit(
+            "addToTalentPath",
+            this.tree.id,
+            this.skill.id,
+            this.skillIcon
+          );
+          this.$emit("increaseTreeSkillPoints");
+          this.$emit("increaseCurrentSkillTier", this.skill.position[0]);
+          this.checkSkillRequirements();
+        }
+        if (this.skill.currentRank < this.skill.maxRank && this.tree.id == '1') {
+          this.skill.currentRank++;
           this.$parent.$emit(
             "addToTalentPath",
             this.tree.id,

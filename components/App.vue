@@ -14,8 +14,7 @@
       </ul>
       <div class="talent-toolbar">
         <div class="talent-info">
-          <p class="talent-info-stat">Total de points : {{ skillPoints }}</p>
-          <p class="talent-info-stat">Niveau requis : {{ requiredLevel }}</p>
+          <p class="talent-info-stat">Niveau de classe requis : {{ requiredLevel }}</p>
         </div>
       </div>
       <class-panel
@@ -111,7 +110,7 @@ export default {
     },
     requiredLevel: function() {
       return this.data.classes[this.data.currentClass].requiredLevel;
-    }
+    },
   },
   methods: {
     popupImportMessage: function() {
