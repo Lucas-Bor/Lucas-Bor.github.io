@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: '/manatree/'
+  publicPath: '/mana-tree/'
 }
 
