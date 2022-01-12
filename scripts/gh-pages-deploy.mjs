@@ -13,7 +13,6 @@ import fs from "fs";
     await execa("git", ["--work-tree", folderName, "commit", "-m", "gh-pages"]);
     console.log("Pushing to gh-pages...");
     await execa("git", ["push", "origin", "HEAD:gh-pages", "--force"]);
-    await execa("rd", ["/s /q", folderName]);
     await execa("git", ["checkout", "-f", "master"]);
     await execa("git", ["branch", "-D", "gh-pages"]);
     console.log("Successfully deployed, check your settings");
