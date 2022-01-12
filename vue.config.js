@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/project name/'
+  publicPath: '/manatree/'
 }
 
 //.json
