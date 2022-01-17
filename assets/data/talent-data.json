@@ -154,8 +154,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé.",
-								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
+								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. Une fois sortie de la situation dangereuse ou 5 minutes après l'utilisation de la capacité, vous subissez les dégâts absorber d'un coup (ne peut pas être mortel).",
+								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. Une fois sortie de la situation dangereuse ou 5 minutes après l'utilisation de la capacité, vous subissez les dégâts absorber d'un coup (ne peut pas être mortel). En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
 							],
 							"position": [
 								1,
@@ -205,8 +205,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente votre CA de 1 et vos points de vie maximum de 6.",
-								"Augmente votre CA de 2 et vos points de vie maximum de 12. Vous gagnez une réduction de dégâts additionnel pour chaque point de CA que donne cette compétence."
+								"Augmente votre CA naturelle de 1 et à chaque gain de niveau vous gagnez 1d6 points de vie supplémentaire.",
+								"Augmente votre CA naturelle de 2 et à chaque gain de niveau vous gagnez 1d8 points de vie supplémentaire ou 5."
 							],
 							"position": [
 								2,
@@ -224,8 +224,8 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser une action bonus pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
+								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser une action bonus pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
 							],
 							"position": [
 								3,
@@ -261,7 +261,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin (maximum 50%). Revient après un repos long."
+								"Après avoir réussi un jet de touchez au corps à corps, vous pouvez utilisez cette capacité à l'aide d'une action bonus, les dégâts infligez vous soigne (maximum 50% du maximum de votre vie). Revient après un repos long."
 							],	
 							"position": [
 								3,
@@ -275,12 +275,12 @@
 						},
 						{
 							"id": 7,
-							"name": "Cri de ralliement",
+							"name": "Sursaut de puissance",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 20m. Ne fonctionne qu'une fois par combat.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage au deux prochaines attaques des alliés dans un rayon de 25m. Ne fonctionne qu'une fois par combat. Lorsqu'un allié dans votre allonge utilise son premier avantage vous gagnez 3d(niveau de votre alliée) points de vie temporaire."
+								"Lors d'un jet de force à l'aide d'une action bonus, vous pouvez utilisez 33 points de mana vivant pour gagner un modificateur de +10 pour ce jet.",
+								"Lors d'un jet de force ou de dextérité à l'aide d'une action bonus, vous pouvez utilisez 25 points de mana vivant pour gagner un modificateur de +12 pour ce jet."
 							],
 							"position": [
 								3,
@@ -298,8 +298,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +3 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible.",
-								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible. Cette attaque ne prend pas en compte les résistances physique de la cible."
+								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +3 au jet de touché infligeant 2x les dégats de l'arme et ignore l'armure non naturelle de la cible.",
+								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats de l'arme et ignore l'armure non naturelle de la cible. Cette attaque ne prend pas en compte les résistances physique de la cible."
 							],
 							"position": [
 								4,
@@ -317,7 +317,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Infliger un coup fatal à un ennemi de CR 1 ou supérieur vous rend 3d10 points de mana vivant."
+								"Infliger un coup fatal à un ennemi de CR 1 ou supérieur vous rend 3d10 points de mana vivant et de points de vie."
 							],
 							"position": [
 								4,
@@ -391,7 +391,7 @@
 							"currentRank": 0,
 							"rankDescription": [
 								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus et la moitier de vos points de déplacement vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. Utilisable une fois entre chaque repos long.",
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un DC de sauvegarde de dextérité (DC = 8 + Force + Maîtrise), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
+								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale au double de votre vitesse de déplacement et d'une distance de la même valeur. À l'impacte les cibles à moins de 5 mètres doivent effectué un DC 20 de sauvegarde de dextérité, en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court. Si vous sautez sur un individu il subit votre total de point en force."
 							],
 							"position": [
 								5,
@@ -409,8 +409,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Il faut qu'il y ait au moins 10 minutes entre chaque combat.",
-								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 10 minutes entre chaque combat."
+								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 5 minutes entre chaque combat.",
+								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 6 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Vous pouvez le faire jusqu'à deux fois. Il faut qu'il y ait au moins 5 minutes entre chaque combat."
 							],
 							"position": [
 								6,
@@ -429,7 +429,7 @@
 							"currentRank": 0,
 							"rankDescription": [
 								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
-								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire. L'attaques supplémentaire octroyé par Saccager inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
+								"Une fois par tour vous pouvez convertir un avantage en une attaque lourde. L'attaques supplémentaire octroyé par Saccager inflige 25 points de dégâts supplémentaires correspondant au type de l'arme."
 							],
 							"position": [
 								6,
@@ -451,7 +451,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 6d10 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, ou si le MJ décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 50 points de mana vivant et utilisable une seule fois entre chaque repos long."
+								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 12d20 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, ou si le MJ décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 50 points de mana vivant et utilisable une seule fois entre chaque repos long."
 							],
 							"position": [
 								7,
