@@ -1,3 +1,3 @@
 # manatree
 
-https://docs.google.com/spreadsheets/d/1nEXqsBC50fWdplYo3YlznK_kD_UQh7uJAu2nvtXhy-Y/edit?usp=sharing
+Sur google sheet faire fiche Dieu pour mana jaune, fiche sur l'intensité du mana et autre.
