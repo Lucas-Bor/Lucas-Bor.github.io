@@ -734,331 +734,333 @@
 					}
 						]
 					},
-				{
-					"id": 2,
-					"name": "Rouge - Couleur de l'âme",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Résistance à la douleur",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé.",
-								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Cruauté",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) + maîtrise (uniquement sur le premier coup) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition. Lorsque vous infligez une blessure à une cible sous condition, vous lui infligez une blessure d'un degré supérieur."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Intimidation amélioré",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 5 ou plus, la cible est effrayé pendant 6d10 minutes.",
-								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 3 ou plus, la cible est effrayé pendant 9d10 minutes. Quand une créature à peur de vous, elle doit réussir un DD10, en cas d'échec elle essaye à tout pris de sortir du combat si possible."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 3,
-							"name": "Peau de fer",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Augmente votre CA de 1 et vos points de vie maximum de 6.",
-								"Augmente votre CA de 2 et vos points de vie maximum de 12. Vous gagnez une réduction de dégâts additionnel pour chaque point de CA que donne cette compétence."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 4,
-							"name": "Enchaînement",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 5,
-							"name": "Cicatrice du fou furieux",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Quand vous prenez plus 20% de votre vie en dégâts, vous gagnez une marque (avec une apparence qui change en fonction du type de dégâts). Lors d'un repos court ou long toutes ces marques sont convertie en cicatrice. Chaque cicatrice donne 1d5 points de vie temporaire qui sont actif uniquement pendant un tour après avoir utilisé Attaque téméraire. Vous pouvez voir un maximum de point de vie temporaire égale à 5 fois votre niveau de barbare. Vous commencez avec une cicatrice pour chaque Blessure et 1d5 cicatrice supplémentaire."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 6,
-							"name": "Folie sanguinaire",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin (maximum 50%). Revient après un repos long."							],	
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 7,
-							"name": "Cri de ralliement",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 20m. Ne fonctionne qu'une fois par combat.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage au deux prochaines attaques des alliés dans un rayon de 25m. Ne fonctionne qu'une fois par combat. Lorsqu'un allié dans votre allonge utilise son premier avantage vous gagnez 3d(niveau de votre alliée) points de vie temporaire."
-							],
-							"position": [
-								3,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 8,
-							"name": "Frappe lourde",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +3 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible.",
-								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible. Cette attaque ne prend pas en compte les résistances physique de la cible."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 9,
-							"name": "Argument du Bourreau",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Infliger un coup fatal à un ennemi de CR 1 ou supérieur vous rend 3d10 points de mana vivant."							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 10,
-							"name": "Machine de guerre",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous avez réussie une attaque avec avantage, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de votre round, vous gagnez un avantage à votre prochaine attaque."
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 11,
-							"name": "Fracasse-armure",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Quand vous avez un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (jusqu'à 4 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent/.",
-								"Quand vous avez un jet de toucher supérieur à 4 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (jusqu'à 6 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 12,
-							"name": "Rage anabolisante",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Sous l'effet de 'Rage' vous gagnez 10 points de force et de dextérité. Quand vous utiliser l'action 'Attaquer' après s'être déplacé en ligne droite de plus de 5 mètre, vous pouvez faire un coup de pied ou un coup de tête (pour une action bonus) qui inflige des dégâts égal à votre total de point de force et peut mettre au sol/repousser la cible de 5 mètres si elle échoue un DC Force 20 (DC En fonctin de sa taille)."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 13,
-							"name": "Bond héroïque",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus et la moitier de vos points de déplacement vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. Utilisable une fois entre chaque repos long.",
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un DC de sauvegarde de dextérité (DC = 8 + Force + Maîtrise), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
-							],
-							"position": [
-								5,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 14,
-							"name": "Infaillible",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Il faut qu'il y ait au moins 10 minutes entre chaque combat.",
-								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 10 minutes entre chaque combat."
-							],
-							"position": [
-								6,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 15,
-							"name": "Saccager",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
-								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire. L'attaques supplémentaire octroyé par Saccager inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 10,
-									"skillPoints": 1
+					{
+						"id": 2,
+						"name": "Rouge - Couleur de l'âme",
+						"skillPoints": 0,
+						"currentSkillTier": 0,
+						"skills": [
+							{
+								"id": 0,
+								"name": "Résistance à la douleur",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. Une fois sortie de la situation dangereuse ou 5 minutes après l'utilisation de la capacité, vous subissez les dégâts absorber d'un coup (ne peut pas être mortel).",
+									"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. Une fois sortie de la situation dangereuse ou 5 minutes après l'utilisation de la capacité, vous subissez les dégâts absorber d'un coup (ne peut pas être mortel). En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
+								],
+								"position": [
+									1,
+									2
+								],
+								"enabled": true,
+								"faded": false
+							},
+							{
+								"id": 1,
+								"name": "Cruauté",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
+									"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) + maîtrise (uniquement sur le premier coup) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition. Lorsque vous infligez une blessure à une cible sous condition, vous lui infligez une blessure d'un degré supérieur."
+								],
+								"position": [
+									1,
+									3
+								],
+								"enabled": true,
+								"faded": false
+							},
+							{
+								"id": 2,
+								"name": "Intimidation amélioré",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 5 ou plus, la cible est effrayé pendant 6d10 minutes.",
+									"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 3 ou plus, la cible est effrayé pendant 9d10 minutes. Quand une créature à peur de vous, elle doit réussir un DD10, en cas d'échec elle essaye à tout pris de sortir du combat si possible."
+								],
+								"position": [
+									2,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 3
+								}
+							},
+							{
+								"id": 3,
+								"name": "Peau de fer",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Augmente votre CA naturelle de 1 et à chaque gain de niveau vous gagnez 1d6 points de vie supplémentaire.",
+									"Augmente votre CA naturelle de 2 et à chaque gain de niveau vous gagnez 1d8 points de vie supplémentaire ou 5."
+								],
+								"position": [
+									2,
+									3
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 3
+								}
+							},
+							{
+								"id": 4,
+								"name": "Enchaînement",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser une action bonus pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
+									"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser une action bonus pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
+								],
+								"position": [
+									3,
+									1
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 5,
+								"name": "Suprématie martiale",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Vous obtenez quatre dés de supériorité majeur et apprenez trois Manœuvres (voir sous-classe maître de guerre). Ces dés de supériorité ont une valeur de 1d12."
+								],
+								"position": [
+									3,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 6,
+								"name": "Folie sanguinaire",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Après avoir réussi un jet de touchez au corps à corps, vous pouvez utilisez cette capacité à l'aide d'une action bonus, les dégâts infligez vous soigne (maximum 50% du maximum de votre vie). Revient après un repos long."
+								],	
+								"position": [
+									3,
+									3
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 7,
+								"name": "Sursaut de puissance",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Lors d'un jet de force à l'aide d'une action bonus, vous pouvez utilisez 33 points de mana vivant pour gagner un modificateur de +10 pour ce jet.",
+									"Lors d'un jet de force ou de dextérité à l'aide d'une action bonus, vous pouvez utilisez 25 points de mana vivant pour gagner un modificateur de +12 pour ce jet."
+								],
+								"position": [
+									3,
+									4
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 8,
+								"name": "Frappe lourde",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +3 au jet de touché infligeant 2x les dégats de l'arme et ignore l'armure non naturelle de la cible.",
+									"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats de l'arme et ignore l'armure non naturelle de la cible. Cette attaque ne prend pas en compte les résistances physique de la cible."
+								],
+								"position": [
+									4,
+									1
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 9
+								}
+							},
+							{
+								"id": 9,
+								"name": "Argument du Bourreau",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Infliger un coup fatal à un ennemi de CR 1 ou supérieur vous rend 3d10 points de mana vivant et de points de vie."
+								],
+								"position": [
+									4,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 9
+								}
+							},
+							{
+								"id": 10,
+								"name": "Machine de guerre",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Lorsque vous avez réussie une attaque avec avantage, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de votre round, vous gagnez un avantage à votre prochaine attaque."
+								],
+								"position": [
+									4,
+									3
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 9
+								}
+							},
+							{
+								"id": 11,
+								"name": "Fracasse-armure",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Quand vous avez un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (jusqu'à 4 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent/.",
+									"Quand vous avez un jet de toucher supérieur à 4 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (jusqu'à 6 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent."
+								],
+								"position": [
+									5,
+									1
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 12
+								}
+							},
+							{
+								"id": 12,
+								"name": "Poigne du mastodonte",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Si votre force est égale ou supérieur à 18, vous permet d'utiliser les armes demandent deux mains avec une seule sans aucun problème. Avec deux mains vous pouvez utiliser des armes de guerre d'un poids de maximum 50 kilogrammes."
+								],
+								"position": [
+									5,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 12
+								}
+							},
+							{
+								"id": 13,
+								"name": "Bond héroïque",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus et la moitier de vos points de déplacement vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. Utilisable une fois entre chaque repos long.",
+									"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale au double de votre vitesse de déplacement et d'une distance de la même valeur. À l'impacte les cibles à moins de 5 mètres doivent effectué un DC 20 de sauvegarde de dextérité, en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court. Si vous sautez sur un individu il subit votre total de point en force."
+								],
+								"position": [
+									5,
+									4
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 12
+								}
+							},
+							{
+								"id": 14,
+								"name": "Infaillible",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 5 minutes entre chaque combat.",
+									"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 6 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Vous pouvez le faire jusqu'à deux fois. Il faut qu'il y ait au moins 5 minutes entre chaque combat."
+								],
+								"position": [
+									6,
+									1
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 15
+								}
+							},
+							{
+								"id": 15,
+								"name": "Saccager",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
+									"Une fois par tour vous pouvez convertir un avantage en une attaque lourde. L'attaques supplémentaire octroyé par Saccager inflige 25 points de dégâts supplémentaires correspondant au type de l'arme."
+								],
+								"position": [
+									6,
+									3
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 15,
+									"skill": {
+										"id": 10,
+										"skillPoints": 1
+									}
+								}
+							},
+							{
+								"id": 16,
+								"name": "Frappe mortelle",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 12d20 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, ou si le MJ décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 50 points de mana vivant et utilisable une seule fois entre chaque repos long."
+								],
+								"position": [
+									7,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 18,
+									"skill": {
+										"id": 12,
+										"skillPoints": 1
+									}
 								}
 							}
-						},
-						{
-							"id": 16,
-							"name": "Ignorer la douleur",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Sous l'effet de la 'Rage' vous ignorez les effets négatifs du damage threashold et des blessures non-mortelle. Tant que vous êtes sous la 'Rage' vous ignorez les dégâts supplémentaire causé en cas d'échec d'un jet de sauvegarde."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 18,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
-				},
+						]
+					},
 				{
 					"id": 1,
 					"name": "Noir - Faible Intensité",
@@ -1325,332 +1327,333 @@
 					}
 						]
 					},
-				{
-					"id": 2,
-					"name": "Rouge - Couleur de l'âme",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Résistance à la douleur",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé.",
-								"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Cruauté",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-								"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) + maîtrise (uniquement sur le premier coup) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition. Lorsque vous infligez une blessure à une cible sous condition, vous lui infligez une blessure d'un degré supérieur."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Intimidation amélioré",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 5 ou plus, la cible est effrayé pendant 6d10 minutes.",
-								"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 3 ou plus, la cible est effrayé pendant 9d10 minutes. Quand une créature à peur de vous, elle doit réussir un DD10, en cas d'échec elle essaye à tout pris de sortir du combat si possible."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 3,
-							"name": "Peau de fer",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Augmente votre CA de 1 et vos points de vie maximum de 6.",
-								"Augmente votre CA de 2 et vos points de vie maximum de 12. Vous gagnez une réduction de dégâts additionnel pour chaque point de CA que donne cette compétence."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 4,
-							"name": "Enchaînement",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
-								"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser votre réaction pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 5,
-							"name": "Frappe du Destructeur",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vos frappes d'art martiaux inflige 1d6 dégâts de force supplémentaire. Ces dégâts ignore la réduction de dégâts des armures"					
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 6,
-							"name": "Folie sanguinaire",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Après avoir effectué un jet de dégats au corps à corps, vous pouvez regagnez les dégâts infligez sous forme de soin (maximum 50%). Revient après un repos long."							],	
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 7,
-							"name": "Cri de ralliement",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage à la prochaine attaque des alliés dans un rayon de 20m. Ne fonctionne qu'une fois par combat.",
-								"Vous pouvez utiliser une action bonus pour lancer un cri/ordre/information qui donne l'avantage au deux prochaines attaques des alliés dans un rayon de 25m. Ne fonctionne qu'une fois par combat. Lorsqu'un allié dans votre allonge utilise son premier avantage vous gagnez 3d(niveau de votre alliée) points de vie temporaire."
-							],
-							"position": [
-								3,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 8,
-							"name": "Frappe lourde",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +3 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible.",
-								"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats normaux de l'arme et ignore l'armure non naturelle de la cible. Cette attaque ne prend pas en compte les résistances physique de la cible."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 9,
-							"name": "Argument du Bourreau",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Infliger un coup fatal à un ennemi de CR 1 ou supérieur vous rend 3d10 points de mana vivant."								
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 10,
-							"name": "Machine de guerre",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous avez réussie une attaque avec avantage, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de votre round, vous gagnez un avantage à votre prochaine attaque."
-							],
-							"position": [
-								4,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 11,
-							"name": "Fracasse-armure",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Quand vous avez un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (jusqu'à 4 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent/.",
-								"Quand vous avez un jet de toucher supérieur à 4 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (jusqu'à 6 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent."
-							],
-							"position": [
-								5,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 12,
-							"name": "Perfection du Ki",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous arrivez à rentrer dans un état de transe où vous arrivez mieux à manipuler le Ki présent dans votre corps. Pour une action bonus vous pouvez rentrez cet état qui vous confères les avantages suivant : Vos aptitudes de base 'Défense patiente' et 'Déplacement aérien' une fois utiliser s'applique jusqu'à que vous sortez de la transe. 'Déluge de coups' permet de lancer un coup supplémentaire. Ne pas utiliser une capacité de Ki pendant un tour vous sort de la transe. Vous pouvez rentrer dans cet transe un nombre de fois égale à votre modificateur de Sagesse (revient avec un repos long)."	
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 13,
-							"name": "Bond héroïque",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus et la moitier de vos points de déplacement vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. Utilisable une fois entre chaque repos long.",
-								"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. à l'impacte les cibles à moins de 5m doivent effectué un DC de sauvegarde de dextérité (DC = 8 + Force + Maîtrise), en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court."
-							],
-							"position": [
-								5,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 14,
-							"name": "Infaillible",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Les dégâts du premier coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Il faut qu'il y ait au moins 10 minutes entre chaque combat.",
-								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 10 minutes entre chaque combat."
-							],
-							"position": [
-								6,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 15,
-							"name": "Saccager",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
-								"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire. L'attaques supplémentaire octroyé par Saccager inflige 10 points de dégâts supplémentaires correspondant au type de l'arme."
-							],
-							"position": [
-								6,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15,
-								"skill": {
-									"id": 10,
-									"skillPoints": 1
+					{
+						"id": 2,
+						"name": "Rouge - Couleur de l'âme",
+						"skillPoints": 0,
+						"currentSkillTier": 0,
+						"skills": [
+							{
+								"id": 0,
+								"name": "Résistance à la douleur",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. Une fois sortie de la situation dangereuse ou 5 minutes après l'utilisation de la capacité, vous subissez les dégâts absorber d'un coup (ne peut pas être mortel).",
+									"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. Une fois sortie de la situation dangereuse ou 5 minutes après l'utilisation de la capacité, vous subissez les dégâts absorber d'un coup (ne peut pas être mortel). En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
+								],
+								"position": [
+									1,
+									2
+								],
+								"enabled": true,
+								"faded": false
+							},
+							{
+								"id": 1,
+								"name": "Cruauté",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
+									"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) + maîtrise (uniquement sur le premier coup) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition. Lorsque vous infligez une blessure à une cible sous condition, vous lui infligez une blessure d'un degré supérieur."
+								],
+								"position": [
+									1,
+									3
+								],
+								"enabled": true,
+								"faded": false
+							},
+							{
+								"id": 2,
+								"name": "Intimidation amélioré",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 5 ou plus, la cible est effrayé pendant 6d10 minutes.",
+									"Vous pouvez utiliser votre Force pour lancer un jet de Charisme (Intimidation). Si l'opposition de jet à une différence de 3 ou plus, la cible est effrayé pendant 9d10 minutes. Quand une créature à peur de vous, elle doit réussir un DD10, en cas d'échec elle essaye à tout pris de sortir du combat si possible."
+								],
+								"position": [
+									2,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 3
+								}
+							},
+							{
+								"id": 3,
+								"name": "Peau de fer",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Augmente votre CA naturelle de 1 et à chaque gain de niveau vous gagnez 1d6 points de vie supplémentaire.",
+									"Augmente votre CA naturelle de 2 et à chaque gain de niveau vous gagnez 1d8 points de vie supplémentaire ou 5."
+								],
+								"position": [
+									2,
+									3
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 3
+								}
+							},
+							{
+								"id": 4,
+								"name": "Enchaînement",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser une action bonus pour en touchez une autre dans votre allonge (vous avez -1 pour la toucher).",
+									"Lorsque vous touchez une cible au corps à corps, vous pouvez utiliser une action bonus pour en touchez jusqu'à trois dans votre allonge (vous avez -1 pour la toucher augmente à chaque cible touché)."
+								],
+								"position": [
+									3,
+									1
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 5,
+								"name": "Suprématie martiale",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Vous obtenez quatre dés de supériorité majeur et apprenez trois Manœuvres (voir sous-classe maître de guerre). Ces dés de supériorité ont une valeur de 1d12."
+								],
+								"position": [
+									3,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 6,
+								"name": "Folie sanguinaire",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Après avoir réussi un jet de touchez au corps à corps, vous pouvez utilisez cette capacité à l'aide d'une action bonus, les dégâts infligez vous soigne (maximum 50% du maximum de votre vie). Revient après un repos long."
+								],	
+								"position": [
+									3,
+									3
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 7,
+								"name": "Sursaut de puissance",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Lors d'un jet de force à l'aide d'une action bonus, vous pouvez utilisez 33 points de mana vivant pour gagner un modificateur de +10 pour ce jet.",
+									"Lors d'un jet de force ou de dextérité à l'aide d'une action bonus, vous pouvez utilisez 25 points de mana vivant pour gagner un modificateur de +12 pour ce jet."
+								],
+								"position": [
+									3,
+									4
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 6
+								}
+							},
+							{
+								"id": 8,
+								"name": "Frappe lourde",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +3 au jet de touché infligeant 2x les dégats de l'arme et ignore l'armure non naturelle de la cible.",
+									"Vous êtes capable d'utiliser deux attaques lors de l'action 'Attaquer' pour lancer une attaque plus puissante qui bénéficie d'un bonus de +5 au jet de touché infligeant 2x les dégats de l'arme et ignore l'armure non naturelle de la cible. Cette attaque ne prend pas en compte les résistances physique de la cible."
+								],
+								"position": [
+									4,
+									1
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 9
+								}
+							},
+							{
+								"id": 9,
+								"name": "Argument du Bourreau",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Infliger un coup fatal à un ennemi de CR 1 ou supérieur vous rend 3d10 points de mana vivant et de points de vie."
+								],
+								"position": [
+									4,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 9
+								}
+							},
+							{
+								"id": 10,
+								"name": "Machine de guerre",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Lorsque vous avez réussie une attaque avec avantage, vous gagnez un degré de 'Machine de guerre'. Si vous avez un degré en début de votre round, vous gagnez un avantage à votre prochaine attaque."
+								],
+								"position": [
+									4,
+									3
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 9
+								}
+							},
+							{
+								"id": 11,
+								"name": "Fracasse-armure",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Quand vous avez un jet de toucher supérieur à 5 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 2 (jusqu'à 4 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent/.",
+									"Quand vous avez un jet de toucher supérieur à 4 points au dessus de la CA de la cible, la CA de cette dernière est réduit de 3 (jusqu'à 6 max) jusqu'à la fin d'un repos long lorsque naturel ou magique/armure non-magique est permanent."
+								],
+								"position": [
+									5,
+									1
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 12
+								}
+							},
+							{
+								"id": 12,
+								"name": "Poigne du mastodonte",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Si votre force est égale ou supérieur à 18, vous permet d'utiliser les armes demandent deux mains avec une seule sans aucun problème. Avec deux mains vous pouvez utiliser des armes de guerre d'un poids de maximum 50 kilogrammes."
+								],
+								"position": [
+									5,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 12
+								}
+							},
+							{
+								"id": 13,
+								"name": "Bond héroïque",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus et la moitier de vos points de déplacement vous sautez dans une direction d'une hauteur égale à votre vitesse de déplacement et d'une distance de la même valeur. Utilisable une fois entre chaque repos long.",
+									"Vous utilisez une force surnaturel pour vous propulsez dans une direction. Pour une action bonus vous sautez dans une direction d'une hauteur égale au double de votre vitesse de déplacement et d'une distance de la même valeur. À l'impacte les cibles à moins de 5 mètres doivent effectué un DC 20 de sauvegarde de dextérité, en cas d'échec l'individu tombe à la renverse. Utilisable une fois entre chaque repos court. Si vous sautez sur un individu il subit votre total de point en force."
+								],
+								"position": [
+									5,
+									4
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 12
+								}
+							},
+							{
+								"id": 14,
+								"name": "Infaillible",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 5 minutes entre chaque combat.",
+									"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 6 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Vous pouvez le faire jusqu'à deux fois. Il faut qu'il y ait au moins 5 minutes entre chaque combat."
+								],
+								"position": [
+									6,
+									1
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 15
+								}
+							},
+							{
+								"id": 15,
+								"name": "Saccager",
+								"maxRank": 2,
+								"currentRank": 0,
+								"rankDescription": [
+									"Une fois par tour vous pouvez convertir un avantage en une attaque supplémentaire.",
+									"Une fois par tour vous pouvez convertir un avantage en une attaque lourde. L'attaques supplémentaire octroyé par Saccager inflige 25 points de dégâts supplémentaires correspondant au type de l'arme."
+								],
+								"position": [
+									6,
+									3
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 15,
+									"skill": {
+										"id": 10,
+										"skillPoints": 1
+									}
+								}
+							},
+							{
+								"id": 16,
+								"name": "Frappe mortelle",
+								"maxRank": 1,
+								"currentRank": 0,
+								"rankDescription": [
+									"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 12d20 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, ou si le MJ décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 50 points de mana vivant et utilisable une seule fois entre chaque repos long."
+								],
+								"position": [
+									7,
+									2
+								],
+								"enabled": false,
+								"faded": false,
+								"requirements": {
+									"specPoints": 18,
+									"skill": {
+										"id": 12,
+										"skillPoints": 1
+									}
 								}
 							}
-						},
-						{
-							"id": 16,
-							"name": "Ouverture des Chakras",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous arrivez à forcer l'ouverture de tout vos chakras à l'aide de votre mana vivant renfonçant tout vos sens et votre corps et esprit. Pour 50 points vous gagnez pendant 1 minutes avantage à tous vos jets demandant l'utilisation des cinq sens et aussi au jets de sauvegarde de constitution, pour chaque sens vous gagnez une réaction. Lorsqu'un ennemi essaye de vous touchez, ce dernier à double désavantage pour vous touchez et à chaque coup raté vous pouvez utiliser une réaction pour faire une action qui demande des points de Ki. A chaque début de tour vous gagnez 1d5 points de Ki. Votre vitesse passe à 15."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 18,
-								"skill": {
-									"id": 12,
-									"skillPoints": 1
-								}
-							}
-						}
-					]
-				},
+						]
+					},
 				{
 					"id": 1,
 					"name": "Noir - Faible Intensité",
@@ -6175,569 +6178,6 @@
 		},
 		{
 			"id": 11,
-			"name": "Sorcier",
-			"availableSkillPoints": 20,
-			"requiredLevel": 0,
-			"talentPath": [],
-			"talentTrees": [
-				{
-					"id": 1,
-					"name": "Blanc - Haute Intensité",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-					{
-							"id": 0,
-						"name": "Belle parole",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Quand vous approchez une personne d'alignement bon ou neutre, vous pouvez plus facilement réussir les jets de social (+3 au jet) pour la convaincre que vos actions sont justifié ou qu'elle mène à améliorer la situation."
-						],
-						"position": [
-							2,
-							2
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-							"id": 0,
-						"name": "Perce-Faux",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Quand vous rentrez en contact avec un objet modifier par la capacité 'Fine Modification', vous êtes capable d'annuler la modification."
-						],
-						"position": [
-							2,
-							3
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Indice contre le Mal",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"En contact avec des Cendres Noirs, vous êtes capable de déterminer l'origine de la créature ainsi que des informations basique (date de mort, raison directe de la mort et son nom/âge/race)."
-					],
-					"position": [
-						3,
-						4
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Présence imposante",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Vous attirez les regards involontairements, toutes les créatures ont un bonus à leurs perception passive pour vous voir. Vous gagnez un bonus de +2 à tous vos jets de social si vous êtes dans le champs de vision de la créature."
-					],
-					"position": [
-						4,
-						1
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Aimer par les grands",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"La classe haute arrive mieux à s'identifier à votre personnage, si jamais un jour vous êtes populaire alors le haut peuple sera avec vous. Vous avez un bonus de +3 à tout les jets de social (avec les riches, prêtre de haut calibre, nobles et autre personne de la classe social similaire) si jamais votre influance est assez grande."
-					],
-					"position": [
-						4,
-						4
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Poursuite",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Quand vous perdez la trace d'un individu qui vous a échappé il y a moins d'une heure, vous savez ou ce trouve la créature vaguement dans un cône d'environt 90 degrée."
-					],
-					"position": [
-						5,
-						2
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Jugement",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Vous pouvez briévement voir l'intensité du mana d'une personne cependant il faut que vous fixez la personne pendant au moins 10s (Concentration)."
-					],
-					"position": [
-						5,
-						3
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Avoir du flair",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
-					],
-					"position": [
-						3,
-						1
-					],
-					"enabled": true,
-					"faded": false
-					}
-						]
-					},
-				{
-					"id": 2,
-					"name": "Bleu - Couleur de l'âme",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Transmutation du mana vivant",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé).",
-								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement. Vous gagnez un nombre de points de mana vivant maximum égale à 10 fois votre niveau d'incantation (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé)."
-							],
-							"position": [
-								1,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Oeil arcanique",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Spécialisation",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 3,
-							"name": "Magie instable",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 1d8 dans la table des Métamagies et cette dernière s'applique à votre sort.",
-								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 2d4 dans une sélection de quatre Métamagies (désigné entre session) et ces dernières s'applique à votre sort."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 4,
-							"name": "Absorption magique",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
-								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 5,
-							"name": "Concentration arcanique",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 6,
-							"name": "Manipulation de sort",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 7,
-							"name": "Transfusion du mana vivant",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant.",
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant. Si vous aviez une fiole ou autre objet similaire, vous pouvez liquidifier votre mana vivant et le verser dans une fiole, chaque centilitre vaut pour vous 2 points de mana vivant et rendent 1 points à celui qui boit. "
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 8,
-							"name": "Pacte d'Outremonde",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Votre capacité de pacte est amélioré de façon permanente et gagne les capacités supplémentaire suivante ; Pacte de la Grande Chaîne - Vous pouvez invoquer des créatures du même type que votre patron d'une puissance égale à la moitier arrondi à l'inférieur de votre niveau de sorcier. Pacte de la Lame et du Bouclier - Vous pouvez matérialisé une armure en plus de l'arme, elle fonctionne comme l'arme que vous pouvez invoquer. Pacte du Grimoire - Vous pouvez choisir un nombre de sort égale à votre maîtrise de la même façon que les sorts mineur, lors d'un gain de niveau d'emplacement de sort vous pouvez changer les sorts du grimoire (uniquement les sorts non-mineur)."
-							], 
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 9,
-							"name": "Armure de Archimage",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts.",
-								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts. Vous pouvez utiliser un emplacement de sort pour temporairement renforcer votre armure de mage, pendant 1 minutes vous gagnez +1 CA par niveau de l'emplacement de sort et perdez -1 CA par coup reçu jusqu'à que le surplus de CA soit égale à 0."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 10,
-							"name": "Sort mortel",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort.",
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort. La cible subit (votre maîtrise)d10 supplémentaire dans le cas d'un échec."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 11,
-							"name": "Extraction du mana vivant",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous pouvez effectuer l'action 'Extraction du mana vivant' en étant au contact d'une cible au bout de 30 secondes vous arrachez tout le mana vivant de la cible. Vous regagnez ce que la cible à perdu et cette dernière prend 1d8 dégâts nécrotique pour chaque tranche de 5 points perdu. Si la cible est encore vivante, elle perd du mana vivant maximum égale à la moitié du total de points perdu, et regagne 2d5 par repos long jusqu'à atteindre la limite originel."
-
-							],
-							"position": [
-								4,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 12,
-							"name": "Esprit supérieur",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Durant un round, vous pouvez utiliser une action bonus pour entrer dans un état de concentration supérieur. Tant que vous êtes dans cet état vous pouvez lancez deux sorts en simultané par tour. Les sorts doivent être cependant de la même école et demander les mêmes types de composante. Vous pouvez sortir de l'état de concentration de la même façon que la régle à propos de la 'Concentration'. Vous pouvez rentrer dans cet état qu'une seule fois lors d'un repos long."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 13,
-							"name": "Pacte à sens unique",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous utilisez le pouvoir de votre patron discrètement, à vos risque et péril pour plus de pouvoir. Vous pouvez puisez dans ses pouvoirs à l'aide d'une action pour recharger vos emplacements de sorts et vos capacités de sorcier."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12,
-								"skill": {
-									"id": 8,
-									"skillPoints": 1
-								}
-							}
-						},
-						{
-							"id": 14,
-							"name": "Théoréme de Dalgure Audur",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 3), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d7 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 2.",
-								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 5), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d6 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 3."
-							],
-							"position": [
-								6,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 15,
-							"name": "Pacte du Maître",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous êtes devenu le seul et unique et le plus grand représentant de votre patron, vous gagnez une capacité calamiteuse donner par le Patron, vous gagnez le double d'emplacement de sorts et quand un sort est lancé avec plus de 6 niveau d'écart alors il gagne des propriétés supplémentaire. Cette capacité change si vous avez pris le 'Pacte à sens unique'."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false
-						}
-					]
-				},
-				{
-					"id": 1,
-					"name": "Noir - Faible Intensité",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-								"id": 0,
-							"name": "Bon Baratineur",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous faites un jet basé sur la Sagesse pour mentir, caché la vérité ou la modifier ; Vous pouvez alors rajouter votre maîtrise au jet."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-								"id": 0,
-							"name": "Fine Modification",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Si vous tenez un objet plus de 10 secondes dans votre main, vous pouvez changer une caratéristique physique (jusqu'à 10*Intensité négative - Mot/Lettre/Détail) de l'objet qui reste jusqu'à que vous modifier un nouveau objet (ou que l'objet passe dans un champs anti-magie et dans ce cas il en perd ses propriétés modifiée)."
-							],
-							"position": [
-								2,
-								4
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-								"id": 0,
-							"name": "Cendre noir",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"En contact d'un cadavre (mort avant 24h) ou de viande fraiche dans votre portée, vous pouvez convertir entièrement l'objet en une matière très similaire à des cendres de bois."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Présence réduite",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Vous êtes capable de réduire involontairement votre présence en restant immobile. Si vous êtes immobile alors chaque créature à un malus de -4 à leurs perception passive pour vous percevoir."
-						],
-						"position": [
-							3,
-							3
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Gens du Peuple",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"La classe basse arrive mieux à s'identifier à votre personnage, si jamais un jour vous êtes populaire alors le bas peuple sera avec vous. Vous avez un bonus de +3 à tout les jets de social (avec les paysans, voleur et autre personne de la classe social similaire) si jamais votre influance est assez grande."
-						],
-						"position": [
-							4,
-							2
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Fuite intrépide",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Dans le cas où une personne vous poursuit, vous avez un bonus de +3 en vitesse et en dextérité. Vous avez pas de malus de vitesse quand vous rentrez dans un terrain difficile ou quand vous escaladez sur une courte distance (moins de 5 mètres)."
-						],
-						"position": [
-							4,
-							3
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Changement d'intensité",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Vous pouvez volontairement changer l'intensité de votre mana vivant autant que vous voulez. Si vous avez pas conscience de son existance alors vous prévisualiser une flamme que vous pouvez couvrir ou attiser (peut changer en fonction de la personne)."
-						],
-						"position": [
-							5,
-							1
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Un Présentiment",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Parfois vous pouvez ressentir que vous allez vous retrouvez dans une situation chaotique, mauvaise pour vous."
-						],
-						"position": [
-							5,
-							4
-						],
-						"enabled": true,
-						"faded": false
-						}
-					]
-				}			
-			]
-		},
-		{
-			"id": 12,
 			"name": "Druide",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
@@ -7297,6 +6737,569 @@
 						}
 					]
 				}
+			]
+		},
+		{
+			"id": 12,
+			"name": "Sorcier",
+			"availableSkillPoints": 20,
+			"requiredLevel": 0,
+			"talentPath": [],
+			"talentTrees": [
+				{
+					"id": 1,
+					"name": "Blanc - Haute Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+					{
+							"id": 0,
+						"name": "Belle parole",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Quand vous approchez une personne d'alignement bon ou neutre, vous pouvez plus facilement réussir les jets de social (+3 au jet) pour la convaincre que vos actions sont justifié ou qu'elle mène à améliorer la situation."
+						],
+						"position": [
+							2,
+							2
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+							"id": 0,
+						"name": "Perce-Faux",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Quand vous rentrez en contact avec un objet modifier par la capacité 'Fine Modification', vous êtes capable d'annuler la modification."
+						],
+						"position": [
+							2,
+							3
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Indice contre le Mal",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"En contact avec des Cendres Noirs, vous êtes capable de déterminer l'origine de la créature ainsi que des informations basique (date de mort, raison directe de la mort et son nom/âge/race)."
+					],
+					"position": [
+						3,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Présence imposante",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Vous attirez les regards involontairements, toutes les créatures ont un bonus à leurs perception passive pour vous voir. Vous gagnez un bonus de +2 à tous vos jets de social si vous êtes dans le champs de vision de la créature."
+					],
+					"position": [
+						4,
+						1
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Aimer par les grands",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"La classe haute arrive mieux à s'identifier à votre personnage, si jamais un jour vous êtes populaire alors le haut peuple sera avec vous. Vous avez un bonus de +3 à tout les jets de social (avec les riches, prêtre de haut calibre, nobles et autre personne de la classe social similaire) si jamais votre influance est assez grande."
+					],
+					"position": [
+						4,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Poursuite",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Quand vous perdez la trace d'un individu qui vous a échappé il y a moins d'une heure, vous savez ou ce trouve la créature vaguement dans un cône d'environt 90 degrée."
+					],
+					"position": [
+						5,
+						2
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Jugement",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Vous pouvez briévement voir l'intensité du mana d'une personne cependant il faut que vous fixez la personne pendant au moins 10s (Concentration)."
+					],
+					"position": [
+						5,
+						3
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Avoir du flair",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
+					],
+					"position": [
+						3,
+						1
+					],
+					"enabled": true,
+					"faded": false
+					}
+						]
+					},
+				{
+					"id": 2,
+					"name": "Violet - Couleur de l'âme",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+						{
+							"id": 0,
+							"name": "Transmutation par le pacte",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé).",
+								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement. Vous gagnez un nombre de points de mana vivant maximum égale à 10 fois votre niveau d'incantation (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé)."
+							],
+							"position": [
+								1,
+								1
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 1,
+							"name": "Oeil arcanique",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
+							],
+							"position": [
+								1,
+								2
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 2,
+							"name": "Extraction d'éther",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
+							],
+							"position": [
+								1,
+								3
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 3,
+							"name": "Magie hyper-stable",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 1d8 dans la table des Métamagies et cette dernière s'applique à votre sort.",
+								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 2d4 dans une sélection de quatre Métamagies (désigné entre session) et ces dernières s'applique à votre sort."
+							],
+							"position": [
+								2,
+								1
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 4,
+							"name": "Stockage interne",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
+								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
+							],
+							"position": [
+								2,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 5,
+							"name": "Concentration arcanique",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
+							],
+							"position": [
+								2,
+								3
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 6,
+							"name": "Manipulation de sort",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
+							],
+							"position": [
+								3,
+								1
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 6
+							}
+						},
+						{
+							"id": 7,
+							"name": "Transfusion du mana vivant",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant.",
+								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant. Si vous aviez une fiole ou autre objet similaire, vous pouvez liquidifier votre mana vivant et le verser dans une fiole, chaque centilitre vaut pour vous 2 points de mana vivant et rendent 1 points à celui qui boit. "
+							],
+							"position": [
+								3,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 6
+							}
+						},
+						{
+							"id": 8,
+							"name": "Pacte d'Outremonde",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Votre capacité de pacte est amélioré de façon permanente et gagne les capacités supplémentaire suivante ; Pacte de la Grande Chaîne - Vous pouvez invoquer des créatures du même type que votre patron d'une puissance égale à la moitier arrondi à l'inférieur de votre niveau de sorcier. Pacte de la Lame et du Bouclier - Vous pouvez matérialisé une armure en plus de l'arme, elle fonctionne comme l'arme que vous pouvez invoquer. Pacte du Grimoire - Vous pouvez choisir un nombre de sort égale à votre maîtrise de la même façon que les sorts mineur, lors d'un gain de niveau d'emplacement de sort vous pouvez changer les sorts du grimoire (uniquement les sorts non-mineur)."
+							], 
+							"position": [
+								3,
+								3
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 6
+							}
+						},
+						{
+							"id": 9,
+							"name": "Armure de Archimage",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts.",
+								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts. Vous pouvez utiliser un emplacement de sort pour temporairement renforcer votre armure de mage, pendant 1 minutes vous gagnez +1 CA par niveau de l'emplacement de sort et perdez -1 CA par coup reçu jusqu'à que le surplus de CA soit égale à 0."
+							],
+							"position": [
+								4,
+								1
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 9
+							}
+						},
+						{
+							"id": 10,
+							"name": "Sort mortel",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort.",
+								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort. La cible subit (votre maîtrise)d10 supplémentaire dans le cas d'un échec."
+							],
+							"position": [
+								4,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 9
+							}
+						},
+						{
+							"id": 11,
+							"name": "Extraction du mana vivant",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous pouvez effectuer l'action 'Extraction du mana vivant' en étant au contact d'une cible au bout de 30 secondes vous arrachez tout le mana vivant de la cible. Vous regagnez ce que la cible à perdu et cette dernière prend 1d8 dégâts nécrotique pour chaque tranche de 5 points perdu. Si la cible est encore vivante, elle perd du mana vivant maximum égale à la moitié du total de points perdu, et regagne 2d5 par repos long jusqu'à atteindre la limite originel."
+
+							],
+							"position": [
+								4,
+								4
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 9
+							}
+						},
+						{
+							"id": 12,
+							"name": "Esprit supérieur",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Durant un round, vous pouvez utiliser une action bonus pour entrer dans un état de concentration supérieur. Tant que vous êtes dans cet état vous pouvez lancez deux sorts en simultané par tour. Les sorts doivent être cependant de la même école et demander les mêmes types de composante. Vous pouvez sortir de l'état de concentration de la même façon que la régle à propos de la 'Concentration'. Vous pouvez rentrer dans cet état qu'une seule fois lors d'un repos long."
+							],
+							"position": [
+								5,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 12
+							}
+						},
+						{
+							"id": 13,
+							"name": "Pacte à sens unique",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous utilisez le pouvoir de votre patron discrètement, à vos risque et péril pour plus de pouvoir. Vous pouvez puisez dans ses pouvoirs à l'aide d'une action pour recharger vos emplacements de sorts et vos capacités de sorcier."
+							],
+							"position": [
+								5,
+								3
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 12,
+								"skill": {
+									"id": 8,
+									"skillPoints": 1
+								}
+							}
+						},
+						{
+							"id": 14,
+							"name": "Théoréme de Dalgure Audur",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 3), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d7 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 2.",
+								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 5), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d6 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 3."
+							],
+							"position": [
+								6,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
+						},
+						{
+							"id": 15,
+							"name": "Pacte du Maître",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous êtes devenu le seul et unique et le plus grand représentant de votre patron, vous gagnez une capacité calamiteuse donner par le Patron, vous gagnez le double d'emplacement de sorts et quand un sort est lancé avec plus de 6 niveau d'écart alors il gagne des propriétés supplémentaire. Cette capacité change si vous avez pris le 'Pacte à sens unique'."
+							],
+							"position": [
+								7,
+								2
+							],
+							"enabled": false,
+							"faded": false
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "Noir - Faible Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+						{
+								"id": 0,
+							"name": "Bon Baratineur",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Lorsque vous faites un jet basé sur la Sagesse pour mentir, caché la vérité ou la modifier ; Vous pouvez alors rajouter votre maîtrise au jet."
+							],
+							"position": [
+								2,
+								1
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Fine Modification",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Si vous tenez un objet plus de 10 secondes dans votre main, vous pouvez changer une caratéristique physique (jusqu'à 10*Intensité négative - Mot/Lettre/Détail) de l'objet qui reste jusqu'à que vous modifier un nouveau objet (ou que l'objet passe dans un champs anti-magie et dans ce cas il en perd ses propriétés modifiée)."
+							],
+							"position": [
+								2,
+								4
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Cendre noir",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"En contact d'un cadavre (mort avant 24h) ou de viande fraiche dans votre portée, vous pouvez convertir entièrement l'objet en une matière très similaire à des cendres de bois."
+							],
+							"position": [
+								3,
+								2
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Présence réduite",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Vous êtes capable de réduire involontairement votre présence en restant immobile. Si vous êtes immobile alors chaque créature à un malus de -4 à leurs perception passive pour vous percevoir."
+						],
+						"position": [
+							3,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Gens du Peuple",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"La classe basse arrive mieux à s'identifier à votre personnage, si jamais un jour vous êtes populaire alors le bas peuple sera avec vous. Vous avez un bonus de +3 à tout les jets de social (avec les paysans, voleur et autre personne de la classe social similaire) si jamais votre influance est assez grande."
+						],
+						"position": [
+							4,
+							2
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Fuite intrépide",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Dans le cas où une personne vous poursuit, vous avez un bonus de +3 en vitesse et en dextérité. Vous avez pas de malus de vitesse quand vous rentrez dans un terrain difficile ou quand vous escaladez sur une courte distance (moins de 5 mètres)."
+						],
+						"position": [
+							4,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Changement d'intensité",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Vous pouvez volontairement changer l'intensité de votre mana vivant autant que vous voulez. Si vous avez pas conscience de son existance alors vous prévisualiser une flamme que vous pouvez couvrir ou attiser (peut changer en fonction de la personne)."
+						],
+						"position": [
+							5,
+							1
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Un Présentiment",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Parfois vous pouvez ressentir que vous allez vous retrouvez dans une situation chaotique, mauvaise pour vous."
+						],
+						"position": [
+							5,
+							4
+						],
+						"enabled": true,
+						"faded": false
+						}
+					]
+				}			
 			]
 		}
 	]
