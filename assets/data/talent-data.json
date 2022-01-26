@@ -6902,7 +6902,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
+								"Vous obtenez +5 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes (minimum 10 secondes par utilisation). Sous cet effet vous pouvez voir tout les êtres qui sont constitué majoritarement d'éther (à moins de 36 mètres)."
 							],
 							"position": [
 								1,
@@ -6952,8 +6952,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez avoir une canalisation d'éther supplémentaire.",
-								"Vous pouvez avoir deux canalisations d'éther supplémentaire."
+								"L'utilisation de l'éther pur change la constitution de votre âme et permet de stocker une quantité majeur d'éther. Vous pouvez avoir une canalisation d'éther supplémentaire. Vous gagnez un emplacement de sort supplémentaire.",
+								"L'utilisation de l'éther pur change la constitution de votre âme et permet de stocker une quantité majeur d'éther. Vous pouvez avoir deux canalisations d'éther supplémentaire. Vous gagnez un emplacement de sort supplémentaire. Vous arrivez à stocker l'énergie de surplus lors d'une canalisation et la manifesté sous la forme d'un bouclier magique qui recouvre votre corps/armure de 1d(niveau de classe) + maîtrise."
 							],
 							"position": [
 								2,
@@ -7045,8 +7045,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts.",
-								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts. Vous pouvez utiliser un emplacement de sort pour temporairement renforcer votre armure de mage, pendant 1 minutes vous gagnez +1 CA par niveau de l'emplacement de sort et perdez -1 CA par coup reçu jusqu'à que le surplus de CA soit égale à 0."
+								"Vous pouvez utiliser une canalisation et une action bonus pour temporairement renforcer votre tout, pendant 1 minutes vous gagnez +4 à votre CA et une résistance au dégât nécrotique.",
+								"Vous pouvez utiliser une canalisation et une action bonus pour temporairement renforcer votre tout, pendant 1 minutes vous gagnez +4 à votre CA et une résistance au dégât nécrotique. Si vous faites un jet de sauvegarde de Sagesse ou de Charisme alors vous pouvez perdre l'armure de Liche et réussir le jet."
 							],
 							"position": [
 								4,
@@ -7064,8 +7064,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort.",
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort. La cible subit (votre maîtrise)d10 supplémentaire dans le cas d'un échec."
+								"Vous pouvez utiliser une canalisation et une action bonus pour rendre un sort bien plus virulant, si le sort touche la cible subit une Blessure entre complexe et grave correspondant au effet du sort.",
+								"Vous pouvez utiliser une canalisation et une action bonus pour rendre un sort bien plus virulant, si le sort touche la cible subit une Blessure entre complexe et grave correspondant au effet du sort et les dégâts du sort ignore les résistances."
 							],
 							"position": [
 								4,
@@ -7083,7 +7083,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez effectuer l'action 'Destruction de l'éther' en étant au contact d'une cible ou d'un cristal d'éther au bout de 5 secondes vous effacez l'objet/l'âme. En fonction de l'objet détruit, une quantité d'énergie est relâcher subitement dans le plan éthérée pouvant attirer des créatures d'outremonde."
+								"Vous pouvez effectuer l'action 'Destruction de l'éther' en étant au contact d'une cible ou d'un cristal d'éther au bout de 5 secondes vous effacez l'objet/l'âme. En fonction de l'objet détruit, une quantité d'énergie est relâcher subitement dans le plan éthérée pouvant attirer des créatures d'outremonde et peut endommager le plan matériel au niveau planaire."
 
 							],
 							"position": [
@@ -7102,7 +7102,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Durant un round, vous pouvez utiliser une action bonus pour injecter l'énergie d'une canalisation directement dans la structure de votre âme qui vous renforce physiquement et spirituellement."
+								"Durant un round, vous pouvez utiliser une action bonus pour injecter l'énergie d'une canalisation directement dans la structure de votre âme qui vous renforce physiquement et spirituellement. Vous regagnez instantanément la moitier de vos points de vie, et pendant 1 minutes toutes les caractéristiques de vos sorts sont doublés (tous sauf le temps d'incantation)."
 							],
 							"position": [
 								5,
@@ -7138,12 +7138,12 @@
 						},
 						{
 							"id": 14,
-							"name": "Théoréme de Dalgure Audur",
+							"name": "Amplification d'éther",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 3), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d7 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 2.",
-								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 5), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d6 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 3."
+								"Vous obtenez la capacité de lancez plusieurs fois une capacité de canalisation à la suite cumulant les effets (chaque canalisation au dessus de 2 augmente le temps d'incantation du sort de 1 heure).",
+								"Vous obtenez la capacité de lancez plusieurs fois une capacité de canalisation à la suite cumulant les effets (chaque canalisation au dessus de 2 augmente le temps d'incantation du sort de 30 minutes). Avec une seule canalisation vous pouvez lancez deux capacité de canalisation en même temps."
 							],
 							"position": [
 								6,
