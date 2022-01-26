@@ -6886,8 +6886,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé).",
-								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement. Vous gagnez un nombre de points de mana vivant maximum égale à 10 fois votre niveau d'incantation (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé)."
+								"En échange d'une canalisation d'éther et une action, vous regagnez tous vos emplacements de sort.",
+								"En échange d'une canalisation d'éther et une action bonus, vous regagnez tous vos emplacements de sort."
 							],
 							"position": [
 								1,
@@ -6917,8 +6917,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
+								"Votre apprentissage dans l'utilisation de l'éther permet de mieux comprendre son fonctionnement. Vous apprenez le sort 'Extraction d'éther' vos dégâts nécrotique de sort inflige 2d(votre niveau) supplémentaire. Sur une pacte de pacte vous infligez votre maîtrise sous forme de dégât nécrotique sur votre premier jet de dégât lors d'un round.", 
+								"Votre apprentissage dans l'utilisation de l'éther permet de mieux comprendre son fonctionnement. Vous apprenez le sort 'Extraction d'éther' vos dégâts nécrotique de sort inflige 3d(votre niveau) supplémentaire. Sur une pacte de pacte vous infligez votre maîtrise sous forme de dégât nécrotique sur vos jets de dégât lors d'un round."
 							],
 							"position": [
 								1,
@@ -6933,8 +6933,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 1d8 dans la table des Métamagies et cette dernière s'applique à votre sort.",
-								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 2d4 dans une sélection de quatre Métamagies (désigné entre session) et ces dernières s'applique à votre sort."
+								"Pour chaque emplacement de sort vous pouvez attribué un effet de Métamagie qui sera permanent sur cet emplacement.",
+								"Pour chaque emplacement de sort vous pouvez attribué un effet de Métamagie qui sera permanent sur cet emplacement. Vous pouvez changez l'effet entre chaque repos long. Vos jets de touchez et de sauvegarde de sort gagne un +1."
 							],
 							"position": [
 								2,
@@ -6952,8 +6952,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
-								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
+								"Vous pouvez avoir une canalisation d'éther supplémentaire.",
+								"Vous pouvez avoir deux canalisations d'éther supplémentaire."
 							],
 							"position": [
 								2,
@@ -6971,7 +6971,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
+								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur minimum alors cette valeur devient une valeur maximum."
 							],
 							"position": [
 								2,
@@ -6989,8 +6989,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
+								"Lors de l'incantation d'un sort sur une portée de 50 mètres vous pouvez choisir l'endroit où le sort va être lancer. En fonction de la situation vous pouvez avoir un avantage ou la cible peut avoir un désavantage pour lancer le sort.",
+								"Lors de l'incantation d'un sort sur une portée de 100 mètres vous pouvez choisir l'endroit où le sort va être lancer. En fonction de la situation vous pouvez avoir un avantage ou la cible peut avoir un désavantage pour lancer le sort. Vous n'avez plus besoin de faire des gestes ou des paroles pour lancer les sorts de cette manière."
 							],
 							"position": [
 								3,
@@ -7004,12 +7004,12 @@
 						},
 						{
 							"id": 7,
-							"name": "Transfusion de l'éther",
+							"name": "Transformation de l'éther",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant.",
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant. Si vous aviez une fiole ou autre objet similaire, vous pouvez liquidifier votre mana vivant et le verser dans une fiole, chaque centilitre vaut pour vous 2 points de mana vivant et rendent 1 points à celui qui boit. "
+								"Vous permet de convertir une canalisation d'éther ou un surplus d'éther en cristaux de mana. En détruisant un cristaux de mana vous pouvez immédiatement lancer une capacité qui demande une canalisation d'éther.",
+								"Vous permet de convertir une canalisation d'éther ou un surplus d'éther en cristaux de mana. En détruisant un cristaux de mana vous pouvez immédiatement lancer une capacité qui demande une canalisation d'éther. Les cristaux sont plus riche en éther de qualité et gagne en valeur. "
 							],
 							"position": [
 								3,
