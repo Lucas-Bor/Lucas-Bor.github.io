@@ -6898,7 +6898,7 @@
 						},
 						{
 							"id": 1,
-							"name": "Yeux de marble",
+							"name": "Yeux de cristal",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -7041,7 +7041,7 @@
 						},
 						{
 							"id": 9,
-							"name": "Armure de Archimage",
+							"name": "Armure de Liche",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
@@ -7083,7 +7083,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez effectuer l'action 'Extraction du mana vivant' en étant au contact d'une cible au bout de 30 secondes vous arrachez tout le mana vivant de la cible. Vous regagnez ce que la cible à perdu et cette dernière prend 1d8 dégâts nécrotique pour chaque tranche de 5 points perdu. Si la cible est encore vivante, elle perd du mana vivant maximum égale à la moitié du total de points perdu, et regagne 2d5 par repos long jusqu'à atteindre la limite originel."
+								"Vous pouvez effectuer l'action 'Destruction de l'éther' en étant au contact d'une cible ou d'un cristal d'éther au bout de 5 secondes vous effacez l'objet/l'âme. En fonction de l'objet détruit, une quantité d'énergie est relâcher subitement dans le plan éthérée pouvant attirer des créatures d'outremonde."
 
 							],
 							"position": [
@@ -7102,7 +7102,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Durant un round, vous pouvez utiliser une action bonus pour entrer dans un état de concentration supérieur. Tant que vous êtes dans cet état vous pouvez lancez deux sorts en simultané par tour. Les sorts doivent être cependant de la même école et demander les mêmes types de composante. Vous pouvez sortir de l'état de concentration de la même façon que la régle à propos de la 'Concentration'. Vous pouvez rentrer dans cet état qu'une seule fois lors d'un repos long."
+								"Durant un round, vous pouvez utiliser une action bonus pour injecter l'énergie d'une canalisation directement dans la structure de votre âme qui vous renforce physiquement et spirituellement."
 							],
 							"position": [
 								5,
@@ -7120,7 +7120,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous utilisez le pouvoir de votre patron discrètement, à vos risque et péril pour plus de pouvoir. Vous pouvez puisez dans ses pouvoirs à l'aide d'une action pour recharger vos emplacements de sorts et vos capacités de sorcier."
+								"Vous utilisez le pouvoir de votre patron discrètement, à vos risque et péril pour plus de pouvoir. Vous pouvez tirer dans ses pouvoirs à l'aide d'une action et une canalisation pour recharger vos capacité de sorcier."
 							],
 							"position": [
 								5,
