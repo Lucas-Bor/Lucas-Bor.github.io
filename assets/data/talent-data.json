@@ -4081,7 +4081,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
+								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes (minimum 10 secondes par utilisation). Sous cet effet vous pouvez voir tout les êtres vivants qui ne sont pas constitué d'éther (portée limité à votre vue) et les objets/créature constitué d'éther (à moins de 10 mètres)."
 							],
 							"position": [
 								1,
@@ -4150,7 +4150,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
+								"Lorsque vous effectuez un jet d'attaque avec un sort, pour chaque valeur de dégât maximum vous pouvez relancez le jet de dégât le plus faible et garder la valeur."
 							],
 							"position": [
 								2,
@@ -6898,7 +6898,7 @@
 						},
 						{
 							"id": 1,
-							"name": "Oeil arcanique",
+							"name": "Yeux de marble",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -6967,7 +6967,7 @@
 						},
 						{
 							"id": 5,
-							"name": "Concentration arcanique",
+							"name": "Perfection arcanique",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -6985,7 +6985,7 @@
 						},
 						{
 							"id": 6,
-							"name": "Manipulation de sort",
+							"name": "Altération de sort",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
@@ -7004,7 +7004,7 @@
 						},
 						{
 							"id": 7,
-							"name": "Transfusion du mana vivant",
+							"name": "Transfusion de l'éther",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
@@ -7060,7 +7060,7 @@
 						},
 						{
 							"id": 10,
-							"name": "Sort mortel",
+							"name": "Sort surchargé",
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
@@ -7079,7 +7079,7 @@
 						},
 						{
 							"id": 11,
-							"name": "Extraction du mana vivant",
+							"name": "Destruction de l'éther",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -7098,7 +7098,7 @@
 						},
 						{
 							"id": 12,
-							"name": "Esprit supérieur",
+							"name": "Surpuissance",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
