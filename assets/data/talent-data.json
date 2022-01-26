@@ -7168,7 +7168,10 @@
 								2
 							],
 							"enabled": false,
-							"faded": false
+							"faded": false,
+							"requirements": {
+								"specPoints": 18
+							}
 						}
 					]
 				},
