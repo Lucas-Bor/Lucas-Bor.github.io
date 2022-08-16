@@ -26,6 +26,7 @@
     },
     "homepage": "https://github.com/iamadagostino/wow-classic-talent-calculator#readme",
     "dependencies": {
+        "acorn-dynamic-import": "^4.0.0",
         "babel-preset-env": "^1.7.0",
         "core-js": "^2.6.5",
         "eslint-config-airbnb": "^17.1.1",
@@ -33,6 +34,7 @@
         "eslint-plugin-react": "^7.14.3",
         "flatted": "^2.0.1",
         "fs": "^0.0.1-security",
+        "is-mergeable-object": "^1.1.1",
         "js-base64": "^2.5.1",
         "jsonpack": "^1.1.5",
         "material-icons": "^0.3.1",
