@@ -9,7 +9,7 @@
 	"classes": [
 		{
 			"id": 0,
-			"name": "Guerrier",
+			"name": "Moine",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -239,11 +239,11 @@
 						},
 						{
 							"id": 5,
-							"name": "Suprématie martiale",
+							"name": "Frappe du Destructeur",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez quatre dés de supériorité et maîtriser trois Manœuvres (voir sous-classe maître de guerre). Vos dés de supériorité ont maintenant une valeur de 1d12."
+								"Vos frappes d'art martiaux inflige 1d8 dégâts de force supplémentaire. Ces dégâts ignore la réduction de dégâts des armures. Vous infligez le double des dégâts aux objets que vous attaquez à mains nues."
 							],
 							"position": [
 								3,
@@ -368,11 +368,11 @@
 						},
 						{
 							"id": 12,
-							"name": "Poigne du mastodonte",
+							"name": "Perfection du Ki",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Si votre force est supérieur à 20, vous permet d'utiliser les armes demandent deux mains avec une seule sans aucun problème. Avec deux mains vous pouvez utiliser des armes de guerre d'un poids de maximum 150 kilogrammes (il faut que le poids de l'arme soit bien réparti et que l'arme soit utilisable et tienne dans votre jeu de main)."
+								"Vous arrivez à rentrer dans un état de transe où vous arrivez mieux à manipuler le Ki présent dans votre corps. Pour une action bonus vous pouvez rentrez cet état qui vous confères les avantages suivant : Vos aptitudes de base 'Défense patiente' et 'Déplacement aérien' une fois utiliser s'applique jusqu'à que vous sortez de la transe. 'Déluge de coups' permet de lancer un coup supplémentaire. Ne pas utiliser une capacité de Ki pendant un tour vous sort de la transe. Vous pouvez rentrer dans cet transe un nombre de fois égale à votre modificateur de Sagesse (revient avec un repos long)."
 							],
 							"position": [
 								5,
@@ -447,11 +447,11 @@
 						},
 						{
 							"id": 16,
-							"name": "Frappe mortelle",
+							"name": "Ouverture des Chakras",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 12d20 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, ou si le MJ décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 50 points de mana vivant. Vous infligez aussi une blessure critique correspondant au type de l'arme."
+								"Vous arrivez à forcer l'ouverture de tout vos chakras à l'aide de votre mana vivant renfonçant tout vos sens et votre corps et esprit. Pour 50 points de mana vivant, vous gagnez pendant 1 minutes avantage à tous vos jets demandant l'utilisation des cinq sens et aussi au jets de sauvegarde de constitution, pour chaque sens vous gagnez une réaction. Lorsqu'un ennemi essaye de vous touchez, ce dernier à double désavantage pour vous touchez et à chaque coup raté vous pouvez utiliser une réaction pour faire une action qui demande des points de Ki. A chaque début de tour vous gagnez 1d5 points de Ki. Votre vitesse passe à 15."
 							],
 							"position": [
 								7,
@@ -601,7 +601,7 @@
 		},
 		{
 			"id": 1,
-			"name": "Barbare",
+			"name": "Guerrier",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -1194,7 +1194,7 @@
 		
 		{
 			"id": 2,
-			"name": "Moine",
+			"name": "Barbare",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
 			"talentPath": [],
@@ -1424,11 +1424,11 @@
 							},
 							{
 								"id": 5,
-								"name": "Suprématie martiale",
+								"name": "Cicatrice du fou furieux",
 								"maxRank": 1,
 								"currentRank": 0,
 								"rankDescription": [
-									"Vous obtenez quatre dés de supériorité majeur et apprenez trois Manœuvres (voir sous-classe maître de guerre). Ces dés de supériorité ont une valeur de 1d12."
+									"Quand vous prenez plus 20% de votre vie en dégâts, vous gagnez une marque (avec une apparence qui change en fonction du type de dégâts). Lors d'un repos court ou long toutes ces marques sont convertie en cicatrice. Chaque cicatrice donne 1d5 points de vie temporaire qui sont actif uniquement pendant un tour après avoir utilisé Attaque téméraire. Vous pouvez voir un maximum de point de vie temporaire égale à 5 fois votre niveau de barbare. Vous commencez avec une cicatrice pour chaque Blessure et 1d5 cicatrice supplémentaire."
 								],
 								"position": [
 									3,
@@ -1553,11 +1553,11 @@
 							},
 							{
 								"id": 12,
-								"name": "Poigne du mastodonte",
+								"name": "Rage anabolisante",
 								"maxRank": 1,
 								"currentRank": 0,
 								"rankDescription": [
-									"Si votre force est égale ou supérieur à 18, vous permet d'utiliser les armes demandent deux mains avec une seule sans aucun problème. Avec deux mains vous pouvez utiliser des armes de guerre d'un poids de maximum 50 kilogrammes."
+									"Sous l'effet de 'Rage' vous gagnez 10 points de force et de dextérité. Quand vous utiliser l'action 'Attaquer' après s'être déplacé en ligne droite de plus de 5 mètre, vous pouvez faire un coup de pied ou un coup de tête (pour une action bonus). Inflige des dégâts égal à votre total de point de force et peut mettre au sol/repousser la cible de 5 mètres si elle échoue un DC Force 20 (DC En fonction de la taille de la cible)."
 								],
 								"position": [
 									5,
@@ -1632,11 +1632,11 @@
 							},
 							{
 								"id": 16,
-								"name": "Frappe mortelle",
+								"name": "Ignorer la douleur",
 								"maxRank": 1,
 								"currentRank": 0,
 								"rankDescription": [
-									"Effectuer un jet de touché dans l'allonge de votre arme, en cas de réussite vous infligez 12d20 dégâts supplémentaire (type correspondant à votre arme). Si votre arme est tranchante vous décapitez la créature de l'une de ses têtes. La créature meurt si elle ne peut pas survivre après avoir perdu sa tête. Une créature est immunisée à cet effet si elle est immunisée aux dégâts tranchants, n'a pas besoin de sa tête, ou n'a pas de tête, ou si le MJ décide que cette créature est trop grosse pour que sa tête puisse être amputée avec votre arme. Cette action coûte 50 points de mana vivant et utilisable une seule fois entre chaque repos long."
+									"Sous l'effet de la 'Rage' vous ignorez les effets négatifs du damage threashold et des blessures. Vous ignorez les dégâts supplémentaire et effet causé en cas d'échec d'un jet de sauvegarde. Chaque attaque vous infligeant des dégâts est absorbé par un 'Résistance à la douleur' de votre niveau de barbare."
 								],
 								"position": [
 									7,
