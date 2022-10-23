@@ -5049,572 +5049,6 @@
 		},
 		{
 			"id": 9,
-			"name": "Artificier",
-			"availableSkillPoints": 20,
-			"requiredLevel": 0,
-			"talentPath": [],
-			"talentTrees": [
-				{
-					"id": 1,
-					"name": "Blanc - Haute Intensité",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-					{
-							"id": 0,
-						"name": "Belle parole",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Quand vous approchez une personne d'alignement bon ou neutre, vous pouvez plus facilement réussir les jets de social (+3 au jet) pour la convaincre que vos actions sont justifié ou qu'elle mène à améliorer la situation."
-						],
-						"position": [
-							2,
-							2
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-							"id": 0,
-						"name": "Perce-Faux",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Quand vous rentrez en contact avec un objet modifier par la capacité 'Fine Modification', vous êtes capable d'annuler la modification."
-						],
-						"position": [
-							2,
-							3
-						],
-						"enabled": true,
-						"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Indice contre le Mal",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"En contact avec des Cendres Noirs, vous êtes capable de déterminer l'origine de la créature ainsi que des informations basique (date de mort, raison directe de la mort et son nom/âge/race)."
-					],
-					"position": [
-						3,
-						4
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Présence imposante",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Vous attirez les regards involontairements, toutes les créatures ont un bonus à leurs perception passive pour vous voir. Vous gagnez un bonus de +2 à tous vos jets de social si vous êtes dans le champs de vision de la créature."
-					],
-					"position": [
-						4,
-						1
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Aimer par les grands",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"La classe haute arrive mieux à s'identifier à votre personnage, si jamais un jour vous êtes populaire alors le haut peuple sera avec vous. Vous avez un bonus de +3 à tout les jets de social (avec les riches, prêtre de haut calibre, nobles et autre personne de la classe social similaire) si jamais votre influance est assez grande."
-					],
-					"position": [
-						4,
-						4
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Poursuite",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Quand vous perdez la trace d'un individu qui vous a échappé il y a moins d'une heure, vous savez ou ce trouve la créature vaguement dans un cône d'environt 90 degrée."
-					],
-					"position": [
-						5,
-						2
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Jugement",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Vous pouvez briévement voir l'intensité du mana d'une personne cependant il faut que vous fixez la personne pendant au moins 10s (Concentration)."
-					],
-					"position": [
-						5,
-						3
-					],
-					"enabled": true,
-					"faded": false
-					},
-					{
-						"id": 0,
-					"name": "Avoir du flair",
-					"maxRank": 1,
-					"currentRank": 0,
-					"rankDescription": [
-						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
-					],
-					"position": [
-						3,
-						1
-					],
-					"enabled": true,
-					"faded": false
-					}
-						]
-					},
-				{
-					"id": 2,
-					"name": "Bleu - Couleur de l'âme",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-							"id": 0,
-							"name": "Transmutation du mana vivant",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé).",
-								"Lors d'un repos long, converti votre total de mana vivant en emplacement de sort. Vous pouvez ajouter pour chaque tranche de x0 points où x est le niveau de l'emplacement de sort à votre total d'emplacement de sort. Vous devez avoir un minimum d'un emplacement de sort (de base) pour crée de nouveau emplacement. Vous gagnez un nombre de points de mana vivant maximum égale à 10 fois votre niveau d'incantation (ces emplacements reviennent qu'avec des repos long et n'ont pas besoin d'être préparé)."
-							],
-							"position": [
-								1,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 1,
-							"name": "Oeil arcanique",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
-							],
-							"position": [
-								1,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 2,
-							"name": "Spécialisation",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
-							],
-							"position": [
-								1,
-								3
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 3,
-							"name": "Magie instable",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 1d8 dans la table des Métamagies et cette dernière s'applique à votre sort.",
-								"Pour 10 points de mana vivant, vous pouvez avant de lancer un sort faites 2d4 dans une sélection de quatre Métamagies (désigné entre session) et ces dernières s'applique à votre sort."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 4,
-							"name": "Absorption magique",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
-								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
-							],
-							"position": [
-								2,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 5,
-							"name": "Concentration arcanique",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
-							],
-							"position": [
-								2,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 3
-							}
-						},
-						{
-							"id": 6,
-							"name": "Manipulation de sort",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
-							],
-							"position": [
-								3,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 7,
-							"name": "Transfusion du mana vivant",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant.",
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant. Si vous aviez une fiole ou autre objet similaire, vous pouvez liquidifier votre mana vivant et le verser dans une fiole, chaque centilitre vaut pour vous 2 points de mana vivant et rendent 1 points à celui qui boit. "
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 8,
-							"name": "Projet : Prototype basique C-L-4-S-S-3",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous avez accès aux prototype de base C-L-4-S-S-3 (voir fichier Excel régle optionnelle). À votre prochain repos long vous devez passez la totalité de votre temps à concevoir le premier prototype. Pour en faire un nouveau il faudra payer un total de 300 pièce d'or de composant et travailler pendant 5 repos long (ou 3 jours). Ces objets magique fonctionne comme des imprégnations."
-							],
-							"position": [
-								3,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 6
-							}
-						},
-						{
-							"id": 9,
-							"name": "Armure de Archimage",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts.",
-								"Votre armure de mage vous donne l'avantage pour les jets de sauvegarde contre les sorts. Vous pouvez utiliser un emplacement de sort pour temporairement renforcer votre armure de mage, pendant 1 minutes vous gagnez +1 CA par niveau de l'emplacement de sort et perdez -1 CA par coup reçu jusqu'à que le surplus de CA soit égale à 0."
-							],
-							"position": [
-								4,
-								1
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 10,
-							"name": "Sort mortel",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort.",
-								"Si une cible échoue de le jet de sauvegarde d'un de vos sort infligeant des dégâts il subit une Blessure entre simple et grave correspondant au effet du sort. La cible subit (votre maîtrise)d10 supplémentaire dans le cas d'un échec."
-							],
-							"position": [
-								4,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 11,
-							"name": "Extraction du mana vivant",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous pouvez effectuer l'action 'Extraction du mana vivant' en étant au contact d'une cible au bout de 30 secondes vous arrachez tout le mana vivant de la cible. Vous regagnez ce que la cible à perdu et cette dernière prend 1d8 dégâts nécrotique pour chaque tranche de 5 points perdu. Si la cible est encore vivante, elle perd du mana vivant maximum égale à la moitié du total de points perdu, et regagne 2d5 par repos long jusqu'à atteindre la limite originel."
-
-							],
-							"position": [
-								4,
-								4
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 9
-							}
-						},
-						{
-							"id": 12,
-							"name": "Esprit supérieur",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Durant un votre round, vous pouvez utiliser une action bonus pour entrer dans un état de concentration supérieur. Tant que vous êtes dans cet état vous pouvez lancez deux sorts en simultané par tour. Les sorts doivent être cependant de la même école et demander les mêmes types de composante. Vous pouvez sortir de l'état de concentration de la même façon que la régle à propos de la 'Concentration'. Vous pouvez rentrer dans cet état qu'une seule fois lors d'un repos long."
-							],
-							"position": [
-								5,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12
-							}
-						},
-						{
-							"id": 13,
-							"name": "Projet : Prototype avancé C-L-4-S-S-3",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous avez accès aux prototype avancé C-L-4-S-S-3 (voir fichier Excel régle optionnelle). À votre prochain repos long vous devez passez la totalité de votre temps à concevoir le premier prototype. Pour en faire un nouveau il faudra payer un total de 2000 pièce d'or de composant et travailler pendant 30 repos long (ou 18 jours). Ces objets magique fonctionne comme des imprégnations."
-							],
-							"position": [
-								5,
-								3
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 12,
-								"skill": {
-									"id": 8,
-									"skillPoints": 1
-								}
-							}
-						},
-						{
-							"id": 14,
-							"name": "Théoréme de Dalgure Audur",
-							"maxRank": 2,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 3), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d7 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 2.",
-								"Vous obtenez la capacité de surcharger un sort, au lieu de lancer un sort vous pouvez décidez de le maintenir et le renforcer. Le sort en état de surcharge commence avec 1 accumulation et en gagne une par tour (maximum 5), chaque charge double la portée et le rayon du sort et ajoute les effets du sort au total. Cependant surcharger un sort peut avoir des conséquences sur votre corps, vous prenez (niveau emplacement du sort)d6 points de dégâts (du type de dégâts du sort) à chaque gain de charge au dessus de 3."
-							],
-							"position": [
-								6,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 15
-							}
-						},
-						{
-							"id": 15,
-							"name": "Prototype terminus C-L-4-S-S-3",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Vous avez accès aux prototype terminus C-L-4-S-S-3 (voir fichier Excel régle optionnelle). À votre prochain repos long vous devez passez la totalité de votre temps à concevoir le premier prototype. Pour en faire un nouveau il faudra payer un total de 900 pièce d'or de composant et travailler pendant 15 repos long (ou 9 jours). Ces objets magique fonctionne comme des imprégnations."
-							],
-							"position": [
-								7,
-								2
-							],
-							"enabled": false,
-							"faded": false,
-							"requirements": {
-								"specPoints": 18
-							}
-						}
-					]
-				},
-				{
-					"id": 1,
-					"name": "Noir - Faible Intensité",
-					"skillPoints": 0,
-					"currentSkillTier": 0,
-					"skills": [
-						{
-								"id": 0,
-							"name": "Bon Baratineur",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Lorsque vous faites un jet basé sur la Sagesse pour mentir, caché la vérité ou la modifier ; Vous pouvez alors rajouter votre maîtrise au jet."
-							],
-							"position": [
-								2,
-								1
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-								"id": 0,
-							"name": "Fine Modification",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"Si vous tenez un objet plus de 10 secondes dans votre main, vous pouvez changer une caratéristique physique (jusqu'à 10*Intensité négative - Mot/Lettre/Détail) de l'objet qui reste jusqu'à que vous modifier un nouveau objet (ou que l'objet passe dans un champs anti-magie et dans ce cas il en perd ses propriétés modifiée)."
-							],
-							"position": [
-								2,
-								4
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-								"id": 0,
-							"name": "Cendre noir",
-							"maxRank": 1,
-							"currentRank": 0,
-							"rankDescription": [
-								"En contact d'un cadavre (mort avant 24h) ou de viande fraiche dans votre portée, vous pouvez convertir entièrement l'objet en une matière très similaire à des cendres de bois."
-							],
-							"position": [
-								3,
-								2
-							],
-							"enabled": true,
-							"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Présence réduite",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Vous êtes capable de réduire involontairement votre présence en restant immobile. Si vous êtes immobile alors chaque créature à un malus de -4 à leurs perception passive pour vous percevoir."
-						],
-						"position": [
-							3,
-							3
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Gens du Peuple",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"La classe basse arrive mieux à s'identifier à votre personnage, si jamais un jour vous êtes populaire alors le bas peuple sera avec vous. Vous avez un bonus de +3 à tout les jets de social (avec les paysans, voleur et autre personne de la classe social similaire) si jamais votre influance est assez grande."
-						],
-						"position": [
-							4,
-							2
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Fuite intrépide",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Dans le cas où une personne vous poursuit, vous avez un bonus de +3 en vitesse et en dextérité. Vous avez pas de malus de vitesse quand vous rentrez dans un terrain difficile ou quand vous escaladez sur une courte distance (moins de 5 mètres)."
-						],
-						"position": [
-							4,
-							3
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Changement d'intensité",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Vous pouvez volontairement changer l'intensité de votre mana vivant autant que vous voulez. Si vous avez pas conscience de son existance alors vous prévisualiser une flamme que vous pouvez couvrir ou attiser (peut changer en fonction de la personne)."
-						],
-						"position": [
-							5,
-							1
-						],
-						"enabled": true,
-						"faded": false
-						},
-						{
-							"id": 0,
-						"name": "Un Présentiment",
-						"maxRank": 1,
-						"currentRank": 0,
-						"rankDescription": [
-							"Parfois vous pouvez ressentir que vous allez vous retrouvez dans une situation chaotique, mauvaise pour vous."
-						],
-						"position": [
-							5,
-							4
-						],
-						"enabled": true,
-						"faded": false
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": 10,
 			"name": "Magicien",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
@@ -6177,7 +5611,7 @@
 			]
 		},
 		{
-			"id": 11,
+			"id": 10,
 			"name": "Druide",
 			"availableSkillPoints": 20,
 			"requiredLevel": 0,
@@ -6606,6 +6040,564 @@
 							],
 							"enabled": false,
 							"faded": false
+						}
+					]
+				},
+				{
+					"id": 1,
+					"name": "Noir - Faible Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+						{
+								"id": 0,
+							"name": "Bon Baratineur",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Lorsque vous faites un jet basé sur la Sagesse pour mentir, caché la vérité ou la modifier ; Vous pouvez alors rajouter votre maîtrise au jet."
+							],
+							"position": [
+								2,
+								1
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Fine Modification",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Si vous tenez un objet plus de 10 secondes dans votre main, vous pouvez changer une caratéristique physique (jusqu'à 10*Intensité négative - Mot/Lettre/Détail) de l'objet qui reste jusqu'à que vous modifier un nouveau objet (ou que l'objet passe dans un champs anti-magie et dans ce cas il en perd ses propriétés modifiée)."
+							],
+							"position": [
+								2,
+								4
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+								"id": 0,
+							"name": "Cendre noir",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"En contact d'un cadavre (mort avant 24h) ou de viande fraiche dans votre portée, vous pouvez convertir entièrement l'objet en une matière très similaire à des cendres de bois."
+							],
+							"position": [
+								3,
+								2
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Présence réduite",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Vous êtes capable de réduire involontairement votre présence en restant immobile. Si vous êtes immobile alors chaque créature à un malus de -4 à leurs perception passive pour vous percevoir."
+						],
+						"position": [
+							3,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Gens du Peuple",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"La classe basse arrive mieux à s'identifier à votre personnage, si jamais un jour vous êtes populaire alors le bas peuple sera avec vous. Vous avez un bonus de +3 à tout les jets de social (avec les paysans, voleur et autre personne de la classe social similaire) si jamais votre influance est assez grande."
+						],
+						"position": [
+							4,
+							2
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Fuite intrépide",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Dans le cas où une personne vous poursuit, vous avez un bonus de +3 en vitesse et en dextérité. Vous avez pas de malus de vitesse quand vous rentrez dans un terrain difficile ou quand vous escaladez sur une courte distance (moins de 5 mètres)."
+						],
+						"position": [
+							4,
+							3
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Changement d'intensité",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Vous pouvez volontairement changer l'intensité de votre mana vivant autant que vous voulez. Si vous avez pas conscience de son existance alors vous prévisualiser une flamme que vous pouvez couvrir ou attiser (peut changer en fonction de la personne)."
+						],
+						"position": [
+							5,
+							1
+						],
+						"enabled": true,
+						"faded": false
+						},
+						{
+							"id": 0,
+						"name": "Un Présentiment",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Parfois vous pouvez ressentir que vous allez vous retrouvez dans une situation chaotique, mauvaise pour vous."
+						],
+						"position": [
+							5,
+							4
+						],
+						"enabled": true,
+						"faded": false
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 11,
+			"name": "Artificier",
+			"availableSkillPoints": 20,
+			"requiredLevel": 0,
+			"talentPath": [],
+			"talentTrees": [
+				{
+					"id": 1,
+					"name": "Blanc - Haute Intensité",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+					{
+							"id": 0,
+						"name": "Belle parole",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Quand vous approchez une personne d'alignement bon ou neutre, vous pouvez plus facilement réussir les jets de social (+3 au jet) pour la convaincre que vos actions sont justifié ou qu'elle mène à améliorer la situation."
+						],
+						"position": [
+							2,
+							2
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+							"id": 0,
+						"name": "Perce-Faux",
+						"maxRank": 1,
+						"currentRank": 0,
+						"rankDescription": [
+							"Quand vous rentrez en contact avec un objet modifier par la capacité 'Fine Modification', vous êtes capable d'annuler la modification."
+						],
+						"position": [
+							2,
+							3
+						],
+						"enabled": true,
+						"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Indice contre le Mal",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"En contact avec des Cendres Noirs, vous êtes capable de déterminer l'origine de la créature ainsi que des informations basique (date de mort, raison directe de la mort et son nom/âge/race)."
+					],
+					"position": [
+						3,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Présence imposante",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Vous attirez les regards involontairements, toutes les créatures ont un bonus à leurs perception passive pour vous voir. Vous gagnez un bonus de +2 à tous vos jets de social si vous êtes dans le champs de vision de la créature."
+					],
+					"position": [
+						4,
+						1
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Aimer par les grands",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"La classe haute arrive mieux à s'identifier à votre personnage, si jamais un jour vous êtes populaire alors le haut peuple sera avec vous. Vous avez un bonus de +3 à tout les jets de social (avec les riches, prêtre de haut calibre, nobles et autre personne de la classe social similaire) si jamais votre influance est assez grande."
+					],
+					"position": [
+						4,
+						4
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Poursuite",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Quand vous perdez la trace d'un individu qui vous a échappé il y a moins d'une heure, vous savez ou ce trouve la créature vaguement dans un cône d'environt 90 degrée."
+					],
+					"position": [
+						5,
+						2
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Jugement",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Vous pouvez briévement voir l'intensité du mana d'une personne cependant il faut que vous fixez la personne pendant au moins 10s (Concentration)."
+					],
+					"position": [
+						5,
+						3
+					],
+					"enabled": true,
+					"faded": false
+					},
+					{
+						"id": 0,
+					"name": "Avoir du flair",
+					"maxRank": 1,
+					"currentRank": 0,
+					"rankDescription": [
+						"Quand vous êtes en contact social avec une personne qui ment ou triche vous avez un tic qui devient actif (25% de faux-positif)."
+					],
+					"position": [
+						3,
+						1
+					],
+					"enabled": true,
+					"faded": false
+					}
+						]
+					},
+				{
+					"id": 2,
+					"name": "Orange - Couleur de l'âme",
+					"skillPoints": 0,
+					"currentSkillTier": 0,
+					"skills": [
+						{
+							"id": 0,
+							"name": "Rune caustique",
+							"maxRank": 2,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vos conceptions infligeant des dégâts d'acide augmente tout les dégâts que subissent la cible de 1 jusqu'à la fin du combat.",
+								"Vos conceptions infligeant des dégâts d'acide augmente tout les dégâts que subissent la cible de 2 jusqu'à la fin du combat."
+							],
+							"position": [
+								1,
+								1
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 1,
+							"name": "Travailleur acharné",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Lors d'un repos pour chaque tranche de 25 points vous pouvez créer en plus une conception. Pour la fabrication d'objet magique la progression est augmenter de 1j par tranche de 25 points de mana vivant dépensé. Lors d'un repos court vous ne pouvez dépensez plus de 50 points de mana vivant et lors d'un repos long 100 points. Vos repos vous font gagner moitier moins de point de vie, dès de vie et de mana vivant quand cette compétence à été utilisé."
+							],
+							"position": [
+								1,
+								2
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 3,
+							"name": "Runoscription réactive",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous pouvez vous lié à une armure. Quand vous êtes lié à l'armure vous êtes incapable d'avoir plus de 75 points de mana vivant. Vous obtenez en échange 5 points de réduction de dégâts contre les attaques physiques."							
+							],
+							"position": [
+								1,
+								3
+							],
+							"enabled": true,
+							"faded": false
+						},
+						{
+							"id": 4,
+							"name": "Production de masse",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Toutes vos conceptions sont doublées cependant la qualité baisse en conséquence. Le DD de sauvegarde des sorts baisse de 5. Les sorts infligeant des dégâts ont un modificateur pour touchez de -3. Le poids n'étant pas optimisé, chaque conceptions à un poids doublé. Incompatible avec 'Conception de qualité'."
+							],
+							"position": [
+								2,
+								1
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 5,
+							"name": "Génie des armes à feu",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous êtes capable de modifier une arme à feu que vous avez créé pour la modifier en une des armes suivante : Mousquet runique/Pistolet à chevrotine (Voir Table Arme 1 dans Google Doc)"
+							],
+							"position": [
+								2,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 6,
+							"name": "Conception de qualité",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Toutes vos conceptions sont divisé par deux cependant la qualité augmente en conséquence. Le DD de sauvegarde des sorts augmente de 5. Les sorts infligeant des dégâts ont un modificateur pour touchez de +3. Le poids étant optimisé, chaque conceptions à un poids divisé par deux. Incompatible avec 'Production de masse'."
+							],
+							"position": [
+								2,
+								3
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 3
+							}
+						},
+						{
+							"id": 7,
+							"name": "Spécialisation MK1",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"En fonction de votre spécialisation vous obtenez une compétence : Alchimiste : Accelération de l'absorption éthérée/Artilleur : Catapulte de poche/Forgeron de guerre :  Surchargement de prothèse."
+							],
+							"position": [
+								3,
+								1
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 6
+							}
+						},
+						{
+							"id": 8,
+							"name": "Munition de mana",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous apprenez à infuser une balle avec du mana vivant. Quand vous fabriquez l'équivalent d'une conception, vous pouvez stocker entre 1 à 50 points de mana vivant dans une des dix balles. La cible touchée par la munition récupère les points de mana vivant. Si la cible est consentante elle ne subit pas de dégâts."
+							],
+							"position": [
+								3,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 6
+							}
+						},
+						{
+							"id": 9,
+							"name": "Projet : Prototype basique C-L-4-S-S-3",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous avez accès aux prototype de base C-L-4-S-S-3 (voir Doc Projet CL4SS3). Vous pouvez en choisir qu'un seul. Il faut 5 conceptions pour le crée (possible de répartir sur plusieurs repos)."
+							],
+							"position": [
+								3,
+								3
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 6
+							}
+						},
+						{
+							"id": 10,
+							"name": "Regénération d'urgence",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous êtes capable de concevoir la solution R. Si vos PV sont à 0 ou par une action bonus, vous permet d'utiliser instantanément tout vos dès de vie. Si vous êtes un alchimiste ajouter un nombre de dès de vie égal à votre maîtrise."
+							],
+							"position": [
+								4,
+								1
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 9
+							}
+						},
+						{
+							"id": 11,
+							"name": "Maître des canons",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous apprenez à customiser encore plus votre arme à feu. Le pistolet à chevrotine et le mousquet runique ont deux évolution supplémentaire (Voir Table Arme 2 dans Google Doc)."							
+							],
+							"position": [
+								4,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 9
+							}
+						},
+						{
+							"id": 12,
+							"name": "Mine lamelaire",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous pouvez concevoir des mines lamelaire. Fonctionne comme un globe mais ne peut être utiliser avec la catapulte de poche ou le mortier dorsale. Une simple pression sur la mine l'explose et déclenche le sort."
+
+							],
+							"position": [
+								4,
+								4
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 9
+							}
+						},
+						{
+							"id": 13,
+							"name": "Spécialisation MK2",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"En fonction de votre spécialisation vous obtenez une compétence : Alchimiste : Pulvérisateur chimique/Artilleur : Mortier dorsale/Forgeron de guerre : Auriculaire de guerre."
+							],
+							"position": [
+								5,
+								1
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 12
+							}
+						},
+						{
+							"id": 14,
+							"name": "Projet : Prototype avancé C-L-4-S-S-3",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous avez accès aux prototype avancé C-L-4-S-S-3 (voir Doc Projet CL4SS3). Vous pouvez en choisir qu'un seul. Il faut 5 conceptions pour le crée (possible de répartir sur plusieurs repos)."
+							],
+							"position": [
+								5,
+								3
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 12,
+								"skill": {
+									"id": 8,
+									"skillPoints": 1
+								}
+							}
+						},
+						{
+							"id": 15,
+							"name": "Dieu des flingues",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Toutes les armes ont une évolution finale. (Voir Table Arme 3 dans Google Doc)."							
+							],
+							"position": [
+								6,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 15
+							}
+						},
+						{
+							"id": 16,
+							"name": "Prototype terminus C-L-4-S-S-3",
+							"maxRank": 1,
+							"currentRank": 0,
+							"rankDescription": [
+								"Vous avez accès aux prototype terminus C-L-4-S-S-3 (voir Doc Projet CL4SS3). Vous pouvez en choisir qu'un seul. Il faut 5 conceptions pour le crée (possible de répartir sur plusieurs repos)."
+							],
+							"position": [
+								7,
+								2
+							],
+							"enabled": false,
+							"faded": false,
+							"requirements": {
+								"specPoints": 18
+							}
 						}
 					]
 				},

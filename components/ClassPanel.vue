@@ -46,7 +46,6 @@ export default {
     },
     decreaseRequiredLevel: function(points) {
       this.classType.requiredLevel = this.classType.requiredLevel - points;
-      if (this.classType.requiredLevel < 10) this.classType.requiredLevel = 0;
 
       this.checkMaxLevel();
     },
