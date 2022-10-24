@@ -6348,10 +6348,11 @@
 						{
 							"id": 3,
 							"name": "Runoscription réactive",
-							"maxRank": 1,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez vous lié à une armure. Quand vous êtes lié à l'armure vous êtes incapable d'avoir plus de 75 points de mana vivant. Vous obtenez en échange 5 points de réduction de dégâts contre les attaques physiques."							
+								"Vous pouvez vous lié à une armure. Quand vous êtes lié à l'armure vous êtes incapable d'avoir plus de 75 points de mana vivant. Vous obtenez en échange 5 points de réduction de dégâts contre les attaques physiques.",
+								"Vous pouvez vous lié à une armure. Lors d'une liaison vous pouvez dépenser par tranches de 25 points de mana vivant. Vous obtenez en échange votre maîtrise en points de réduction de dégâts contre les attaques physiques par tranche."							
 							],
 							"position": [
 								1,
@@ -6363,10 +6364,11 @@
 						{
 							"id": 4,
 							"name": "Production de masse",
-							"maxRank": 1,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Toutes vos conceptions sont doublées cependant la qualité baisse en conséquence. Le DD de sauvegarde des sorts baisse de 5. Les sorts infligeant des dégâts ont un modificateur pour touchez de -3. Le poids n'étant pas optimisé, chaque conceptions à un poids doublé. Incompatible avec 'Conception de qualité'."
+								"Toutes vos conceptions sont doublées cependant la qualité baisse en conséquence. Le DD de sauvegarde des sorts baisse de 5. Les sorts infligeant des dégâts ont un modificateur pour touchez de -3. Le poids n'étant pas optimisé, chaque conceptions à un poids doublé. Incompatible avec 'Conception de qualité'.",
+								"Toutes vos conceptions sont doublées cependant la qualité baisse en conséquence. Le DD de sauvegarde des sorts baisse de 5. Les sorts infligeant des dégâts ont un modificateur pour touchez de -3. Le poids n'étant pas optimisé, chaque conceptions à un poids doublé. Incompatible avec 'Conception de qualité'. Vous pouvez choisir de désactiver ou activer cette compétence quand vous faites une conception."
 							],
 							"position": [
 								2,
@@ -6399,10 +6401,11 @@
 						{
 							"id": 6,
 							"name": "Conception de qualité",
-							"maxRank": 1,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Toutes vos conceptions sont divisé par deux cependant la qualité augmente en conséquence. Le DD de sauvegarde des sorts augmente de 5. Les sorts infligeant des dégâts ont un modificateur pour touchez de +3. Le poids étant optimisé, chaque conceptions à un poids divisé par deux. Incompatible avec 'Production de masse'."
+								"Toutes vos conceptions sont divisé par deux cependant la qualité augmente en conséquence. Le DD de sauvegarde des sorts augmente de 5. Les sorts infligeant des dégâts ont un modificateur pour touchez de +3. Le poids étant optimisé, chaque conceptions à un poids divisé par deux. Incompatible avec 'Production de masse'.",
+								"Toutes vos conceptions sont divisé par deux cependant la qualité augmente en conséquence. Le DD de sauvegarde des sorts augmente de 5. Les sorts infligeant des dégâts ont un modificateur pour touchez de +3. Le poids étant optimisé, chaque conceptions à un poids divisé par deux. Incompatible avec 'Production de masse'. Vous pouvez choisir de désactiver ou activer cette compétence quand vous faites une conception."
 							],
 							"position": [
 								2,
@@ -6417,10 +6420,11 @@
 						{
 							"id": 7,
 							"name": "Spécialisation MK1",
-							"maxRank": 1,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"En fonction de votre spécialisation vous obtenez une compétence : Alchimiste : Accelération de l'absorption éthérée/Artilleur : Catapulte de poche/Forgeron de guerre :  Surchargement de prothèse."
+								"En fonction de votre spécialisation vous obtenez une compétence : Alchimiste : Accelération de l'absorption éthérée/Artilleur : Catapulte de poche/Forgeron de guerre :  Surchargement de prothèse.",
+								"En fonction de votre spécialisation vous obtenez une compétence : Alchimiste : Accelération de l'absorption éthérée/Artilleur : Catapulte de poche/Forgeron de guerre :  Surchargement de prothèse. Vous obtenez une capacité niveau 3 d'une autre spécialisation."
 							],
 							"position": [
 								3,
@@ -6435,10 +6439,12 @@
 						{
 							"id": 8,
 							"name": "Munition de mana",
-							"maxRank": 1,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous apprenez à infuser une balle avec du mana vivant. Quand vous fabriquez l'équivalent d'une conception, vous pouvez stocker entre 1 à 50 points de mana vivant dans une des dix balles. La cible touchée par la munition récupère les points de mana vivant. Si la cible est consentante elle ne subit pas de dégâts."
+								"Vous apprenez à infuser une balle avec du mana vivant. Quand vous fabriquez l'équivalent d'une conception en balle, vous pouvez stocker entre 1 à 50 points de mana vivant dans une des dix balles. La cible touchée par la munition récupère les points de mana vivant. Si la cible est consentante elle ne subit pas de dégâts.",
+								"Vous apprenez à infuser une balle avec du mana vivant. Quand vous fabriquez l'équivalent d'une conception en balle, vous pouvez stocker entre 1 à 50 points de mana vivant dans une des dix balles. La cible touchée par la munition récupère le double de mana vivant. Si la cible est consentante elle ne subit pas de dégâts, elle est incapable de récupérer des points de mana vivant avant son prochain repos."
+
 							],
 							"position": [
 								3,
@@ -6471,10 +6477,11 @@
 						{
 							"id": 10,
 							"name": "Regénération d'urgence",
-							"maxRank": 1,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous êtes capable de concevoir la solution R. Si vos PV sont à 0 ou par une action bonus, vous permet d'utiliser instantanément tout vos dès de vie. Si vous êtes un alchimiste ajouter un nombre de dès de vie égal à votre maîtrise."
+								"Vous êtes capable de concevoir la solution R. Si vos PV sont à 0 ou par une action bonus, vous permet d'utiliser instantanément tout vos dès de vie. Si vous êtes un alchimiste ajouter un nombre de dès de vie égal à votre maîtrise.",
+								"Vous êtes capable de concevoir la solution R. Si vos PV sont à 0 ou par une action bonus, vous permet d'utiliser instantanément tout vos dès de vie. Si vous êtes un alchimiste ajouter un nombre de dès de vie égal à votre maîtrise. Dans le cas où vous avez aucun dès de vie, vous donnes (Votre niveau)d4 points de vie temporaire."
 							],
 							"position": [
 								4,
@@ -6507,11 +6514,11 @@
 						{
 							"id": 12,
 							"name": "Mine lamelaire",
-							"maxRank": 1,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez concevoir des mines lamelaire. Fonctionne comme un globe mais ne peut être utiliser avec la catapulte de poche ou le mortier dorsale. Une simple pression sur la mine l'explose et déclenche le sort."
-
+								"Vous pouvez concevoir des mines lamelaire. Fonctionne comme un globe mais ne peut être utiliser avec la catapulte de poche ou le mortier dorsale. Une simple pression sur la mine l'explose et déclenche le sort.",
+								"Vous pouvez concevoir des mines lamelaire. Fonctionne comme un globe mais ne peut être utiliser avec la catapulte de poche ou le mortier dorsale. Une simple pression sur la mine l'explose et déclenche le sort. Peut contenir deux sorts différent."
 							],
 							"position": [
 								4,
@@ -6526,10 +6533,11 @@
 						{
 							"id": 13,
 							"name": "Spécialisation MK2",
-							"maxRank": 1,
+							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"En fonction de votre spécialisation vous obtenez une compétence : Alchimiste : Pulvérisateur chimique/Artilleur : Mortier dorsale/Forgeron de guerre : Auriculaire de guerre."
+								"En fonction de votre spécialisation vous obtenez une compétence : Alchimiste : Pulvérisateur chimique/Artilleur : Mortier dorsale/Forgeron de guerre : Auriculaire de guerre.",
+								"En fonction de votre spécialisation vous obtenez une compétence : Alchimiste : Pulvérisateur chimique/Artilleur : Mortier dorsale/Forgeron de guerre : Auriculaire de guerre. Vous obtenez une capacité niveau 9 d'une autre spécialisation."
 							],
 							"position": [
 								5,
