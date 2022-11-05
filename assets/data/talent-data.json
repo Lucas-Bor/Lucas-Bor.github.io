@@ -170,8 +170,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente vos dégâts de 1d3 supplémentaire quand vous touchez une cible affectée par un ou plusieurs état.",
-								"Augmente vos dégâts de 1d3 supplémentaire (maximum 3d3) pour chaque état sur la cible."
+								"Augmente vos dégâts 2 de contre les humains, bête (monstrueuse) et fae.",
+								"Augmente vos dégâts 3 de contre les humains, bête (monstrueuse) et fae. Vos saignement réduit la vitesse de la cible de 1."
 							],
 							"position": [
 								1,
@@ -205,8 +205,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Augmente votre réduction aux dégâts physique de 1 et à chaque gain de niveau vous gagnez 1d6 points de vie supplémentaire.",
-								"Augmente votre réduction aux dégâts physique de 2 et à chaque gain de niveau vous gagnez 1d8 points de vie supplémentaire ou 5."
+								"Augmente votre réduction aux dégâts physique de 3 et à chaque gain de niveau vous gagnez 1d6 + 3 points de vie supplémentaire.",
+								"Augmente votre réduction aux dégâts physique de 4 et à chaque gain de niveau vous gagnez 1d8 + 4 points de vie supplémentaire."
 							],
 							"position": [
 								2,
@@ -243,7 +243,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vos frappes d'art martiaux inflige 1d8 dégâts de force supplémentaire. Ces dégâts ignore la réduction de dégâts des armures. Vous infligez le double des dégâts aux objets que vous attaquez à mains nues."
+								"Vos frappes d'art martiaux inflige 1d6 dégâts de force supplémentaire. Ces dégâts ignore la réduction de dégâts des armures. Vous infligez le double des dégâts aux objets que vous attaquez à mains nues."
 							],
 							"position": [
 								3,
@@ -409,8 +409,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 3d(votre niveau). Fonctionne tout les rounds impaire ou pair (en fonction avec lequel vous avez commencez).",
-								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 2d(votre niveau). Fonctionne tout les rounds."
+								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur. Il faut qu'il y ait au moins 5 minutes entre chaque combat.",
+								"Les dégâts d'un coup que vous essuyez lors d'un combat est réduit de 5 fois votre niveau. Vous pouvez choisir ce coup de la même façon que le fonctionnement de Résistance à la douleur jusqu'à trois fois lors d'un combat. Il faut qu'il y ait au moins 5 minutes entre chaque combat."
 							],
 							"position": [
 								6,
@@ -746,8 +746,8 @@
 								"maxRank": 2,
 								"currentRank": 0,
 								"rankDescription": [
-									"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. Une fois sortie de la situation dangereuse ou 5 minutes après l'utilisation de la capacité, vous subissez les dégâts absorber d'un coup (ne peut pas être mortel).",
-									"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant, si les dégâts avant la réduction de ràd inflige une blessure alors cette dernière n'est pas annulé. Une fois sortie de la situation dangereuse ou 5 minutes après l'utilisation de la capacité, vous subissez les dégâts absorber d'un coup (ne peut pas être mortel). En cas de blessure faites un jet DC 10 Sagesse, si succès vous ignorez les effets de la blessure qui vous influence pendant 10/5/2,5/1 minutes (voir niveau blessure)."
+									"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d3 pour un total de 33 points de mana vivant.",
+									"Après avoir reçu un coup (avant l'annonce du jet de dégâts) vous pouvez utiliser votre réaction pour réduire les dégâts subis de (niveau de classe)d4 pour un total de 25 points de mana vivant."
 								],
 								"position": [
 									1,
@@ -762,8 +762,8 @@
 								"maxRank": 2,
 								"currentRank": 0,
 								"rankDescription": [
-									"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-									"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) + maîtrise (uniquement sur le premier coup) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition. Lorsque vous infligez une blessure à une cible sous condition, vous lui infligez une blessure d'un degré supérieur."
+									"Augmente vos dégâts 2 de contre les humains, bête (monstrueuse) et fae.",
+									"Augmente vos dégâts 3 de contre les humains, bête (monstrueuse) et fae. Vos saignement réduit la vitesse de la cible de 1."
 								],
 								"position": [
 									1,
@@ -1355,8 +1355,8 @@
 								"maxRank": 2,
 								"currentRank": 0,
 								"rankDescription": [
-									"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition.",
-									"Augmente vos dégâts de 1d(moitier du jet de dégat de votre arme) + maîtrise (uniquement sur le premier coup) supplémentaire quand vous touchez une cible affecté par une ou plusieurs condition. Lorsque vous infligez une blessure à une cible sous condition, vous lui infligez une blessure d'un degré supérieur."
+									"Augmente vos dégâts 2 de contre les humains, bête (monstrueuse) et fae.",
+									"Augmente vos dégâts 3 de contre les humains, bête (monstrueuse) et fae. Vos saignement réduit la vitesse de la cible de 1."
 								],
 								"position": [
 									1,
@@ -1428,7 +1428,7 @@
 								"maxRank": 1,
 								"currentRank": 0,
 								"rankDescription": [
-									"Quand vous prenez plus 20% de votre vie en dégâts, vous gagnez une marque (avec une apparence qui change en fonction du type de dégâts). Lors d'un repos court ou long toutes ces marques sont convertie en cicatrice. Chaque cicatrice donne 1d5 points de vie temporaire qui sont actif uniquement pendant un tour après avoir utilisé Attaque téméraire. Vous pouvez voir un maximum de point de vie temporaire égale à 5 fois votre niveau de barbare. Vous commencez avec une cicatrice pour chaque Blessure et 1d5 cicatrice supplémentaire."
+									"Quand vous prenez plus 20% de votre vie en dégâts, vous gagner une marque (avec une apparence qui change en fonction du type de dégâts). Lors d'un repos court ou long toutes ces marques sont converties en cicatrices. Chaque cicatrice donne 1d5 points de vie temporaire qui sont actif uniquement pendant un tour après avoir utilisé Attaque téméraire. Vous pouvez voir un maximum de point de vie temporaire égale à 5 fois votre niveau de barbare. Vous commencez avec une cicatrice pour chaque Blessure et 1d5 cicatrices supplémentaire."
 								],
 								"position": [
 									3,
@@ -1946,8 +1946,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Pour 33 points de mana vivant, vous pouvez relancer un sort sans composante ou une capacité de classe sans malus (qui a été lancé il y a moins d'une heure).",
-								"Pour 25 points de mana vivant, vous pouvez relancer un sort sans composante ou une capacité de classe sans malus (qui a été lancé il y a moins d'une journée')."
+								"Pour 50 points de mana vivant, vous pouvez relancer un sort sans composante ou une capacité de classe sans malus (qui a été lancé il y a moins d'une heure).",
+								"Pour 33 points de mana vivant, vous pouvez relancer un sort sans composante ou une capacité de classe sans malus (qui a été lancé il y a moins d'une journée')."
 							
 							],
 							"position": [
@@ -1963,8 +1963,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après un repos long, vous gagnez une protection divine qui vous octroie des points de vie temporaire égale à 15 fois votre maximum d'énergie divine plus 1d6 fois votre niveau de classe.",
-								"Après un repos long ou court, vous gagnez une protection divine qui vous octroie des points de vie temporaire égale à 20 fois votre maximum d'énergie divine plus 1d7 fois votre niveau de classe."
+								"Après un repos long, vous gagnez une protection divine qui vous octroie des points de vie temporaire égale à 1d6 fois votre niveau de classe.",
+								"Après un repos long, vous gagnez une protection divine qui vous octroie des points de vie temporaire égale à 1d6 fois votre niveau de classe plus 10 fois votre total d'énergie divine."
 							],
 							"position": [
 								2,
@@ -1982,7 +1982,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lors d'un repos court ou long, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'eau bénite (par tranche de 25 points par dose). L'eau bénite que vous avez conçu confères la bénédiction de votre dieu sur la cible, il est nécessaire de faire un rituel qui dépent de votre dieu pour appliquer l'eau."
+								"Lors du rituel Cérémonie, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'Eau bénite sanctifier (par tranche de 50 points par dose). L'eau bénite que vous avez conçu confères la bénédiction de votre dieu sur la cible, il est nécessaire de faire un rituel (ne coûte pas d'emplacement de sort) pour appliquer l'eau. L'eau bénite redevient de l'eau normal après 24h (ou un repos long)."
 							],
 							"position": [
 								2,
@@ -2000,7 +2000,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vos aptitudes s'appliquant aux mort-vivants concerne maintenant aussi les fiélons ainsi que les aberrations (marche aussi dans l'autre sens)."
+								"Vos aptitudes s'appliquant aux mort-vivants concerne maintenant aussi les fiélons ainsi que les aberrations (s'applique aussi au créature du bien si le sort inflige au mal)."
 							],
 							"position": [
 								2,
@@ -2018,8 +2018,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Une fois toutes les semaines vous pouvez utiliser le sort 'Guérison'. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber en dessous de 0 point de vie, vous pouvez utiliser votre réaction pour lancer le sort. Si vous tombez inconscient le sort ce lance automatiquement.",
-								"Une fois tout les 3 jours vous pouvez utiliser le sort 'Guérison'. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber en dessous de 0 point de vie, vous pouvez utiliser votre réaction pour lancer le sort. Si vous tombez inconscient le sort ce lance automatiquement. Vous pouvez remplacer le sort par un autre lié au domaine de votre divin, si le sort inflige des dégâts ou inflige un effet néfaste vous pouvez le lancer avec une action bonus."
+								"Une fois toutes les semaines vous pouvez utiliser le sort 'Guérison'. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber en dessous de 0 point de vie, vous pouvez utiliser votre réaction pour lancer le sort.",
+								"Une fois tout les 3 jours vous pouvez utiliser le sort 'Guérison'. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber en dessous de 0 point de vie, vous pouvez utiliser votre réaction pour lancer le sort. Vous pouvez remplacer le sort par un autre lié au domaine de votre divin, si le sort inflige des dégâts ou inflige un effet néfaste vous pouvez le lancer avec une action bonus."
 	
 							],
 							"position": [
@@ -2052,7 +2052,7 @@
 						},
 						{
 							"id": 7,
-							"name": "Réceptacle de énergie sublime",
+							"name": "Réceptacle d'énergie sublime",
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
@@ -2480,8 +2480,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Pour 33 points de mana vivant, vous pouvez relancer un sort sans composante ou une capacité de classe sans malus (qui a été lancé il y a moins d'une heure).",
-								"Pour 25 points de mana vivant, vous pouvez relancer un sort sans composante ou une capacité de classe sans malus (qui a été lancé il y a moins d'une journée')."
+								"Pour 50 points de mana vivant, vous pouvez relancer un sort sans composante ou une capacité de classe sans malus (qui a été lancé il y a moins d'une heure).",
+								"Pour 33 points de mana vivant, vous pouvez relancer un sort sans composante ou une capacité de classe sans malus (qui a été lancé il y a moins d'une journée')."
 							
 							],
 							"position": [
@@ -2497,8 +2497,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Après un repos long, vous gagnez une protection divine qui vous octroie des points de vie temporaire égale à 15 fois votre maximum d'énergie divine plus 1d6 fois votre niveau de classe.",
-								"Après un repos long ou court, vous gagnez une protection divine qui vous octroie des points de vie temporaire égale à 20 fois votre maximum d'énergie divine plus 1d7 fois votre niveau de classe."
+								"Après un repos long, vous gagnez une protection divine qui vous octroie des points de vie temporaire égale à 1d6 fois votre niveau de classe.",
+								"Après un repos long, vous gagnez une protection divine qui vous octroie des points de vie temporaire égale à 1d6 fois votre niveau de classe plus 10 fois votre total d'énergie divine."
 							],
 							"position": [
 								2,
@@ -2516,7 +2516,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lors d'un repos court ou long, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'eau bénite (par tranche de 25 points par dose). L'eau bénite que vous avez conçu confères la bénédiction de votre dieu sur la cible, il est nécessaire de faire un rituel qui dépent de votre dieu pour appliquer l'eau."
+								"Lors du rituel Cérémonie, vous pouvez utilisez tout le mana vivant qui vous reste (et un flacon ou autre objet contenant de l'eau) pour crée de l'Eau bénite sanctifier (par tranche de 50 points par dose). L'eau bénite que vous avez conçu confères la bénédiction de votre dieu sur la cible, il est nécessaire de faire un rituel (ne coûte pas d'emplacement de sort) pour appliquer l'eau. L'eau bénite redevient de l'eau normal après 24h (ou un repos long)."
 							],
 							"position": [
 								2,
@@ -2534,7 +2534,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vos aptitudes s'appliquant aux mort-vivants concerne maintenant aussi les fiélons ainsi que les aberrations (marche aussi dans l'autre sens)."
+								"Vos aptitudes s'appliquant aux mort-vivants concerne maintenant aussi les fiélons ainsi que les aberrations (s'applique aussi au créature du bien si le sort inflige au mal)."
 							],
 							"position": [
 								2,
@@ -2552,8 +2552,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Une fois toutes les semaines vous pouvez utiliser le sort 'Guérison'. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber en dessous de 0 point de vie, vous pouvez utiliser votre réaction pour lancer le sort. Si vous tombez inconscient le sort ce lance automatiquement.",
-								"Une fois tout les 3 jours vous pouvez utiliser le sort 'Guérison'. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber en dessous de 0 point de vie, vous pouvez utiliser votre réaction pour lancer le sort. Si vous tombez inconscient le sort ce lance automatiquement. Vous pouvez remplacer le sort par un autre lié au domaine de votre divin, si le sort inflige des dégâts ou inflige un effet néfaste vous pouvez le lancer avec une action bonus."
+								"Une fois toutes les semaines vous pouvez utiliser le sort 'Guérison'. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber en dessous de 0 point de vie, vous pouvez utiliser votre réaction pour lancer le sort.",
+								"Une fois tout les 3 jours vous pouvez utiliser le sort 'Guérison'. Lorsqu'un allié dans votre champs de vision s'apprête à prendre un coup qui le fait tomber en dessous de 0 point de vie, vous pouvez utiliser votre réaction pour lancer le sort. Vous pouvez remplacer le sort par un autre lié au domaine de votre divin, si le sort inflige des dégâts ou inflige un effet néfaste vous pouvez le lancer avec une action bonus."
 	
 							],
 							"position": [
@@ -2590,7 +2590,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous utilisez votre canalisation divine, faites un DC10 de Sagesse. En cas de réusite votre prochaine utilisation de capacité de domaine niveau 1 s'applique à jusqu'à 10 ennemis/alliés/objets ce trouvant à moins de 25 mètre de vous."
+								"Lorsque vous utilisez votre canalisation divine, faites un DC10 de Sagesse. En cas de réussite la canalisation n'est pas utilisé."
 							],
 							"position": [
 								3,
@@ -3003,8 +3003,8 @@
 									2
 								],
 								"rankDescription": [
-									"Pour 33 points de mana vivant et pour le prix d'une action, vous êtes sous l'effet du sort Invisibilité pendant 60 secondes.",
-									"Pour 25 points de mana vivant et pour le prix d'une action bonus, vous êtes sous l'effet du sort Invisibilité pendant 60 secondes. Les bruits de vos pas sont réduit."
+									"Pour 50 points de mana vivant et pour le prix d'une action, vous êtes sous l'effet du sort Invisibilité pendant 60 secondes.",
+									"Pour 33 points de mana vivant et pour le prix d'une action bonus, vous êtes sous l'effet du sort Invisibilité pendant 60 secondes. Les bruits de vos pas sont réduit."
 								],
 								"enabled": true,
 								"faded": false
@@ -3035,8 +3035,8 @@
 									1
 								],
 								"rankDescription": [
-									"Si vous attaquez une créature par ses flancs ou par derrière, votre première attaque inflige 1d10 dégâts supplémentaire. Si la cible n'est pas sur ses gardes ou n'a pas conscience de votre présence alors les dégâts sont doublés.",
-									"Si vous attaquez une créature par ses flancs ou par derrière, votre première attaque inflige 2d10 dégâts supplémentaire. Si la cible n'est pas sur ses gardes ou n'a pas conscience de votre présence alors les dégâts sont doublés. Si la créature meurt sur l'attaque incluent le jet, vous gagnez 33 points de mana vivant."
+									"Si vous attaquez une créature par ses flancs ou par derrière, votre première attaque inflige 1d4 + 4 dégâts supplémentaire. Si la cible n'est pas sur ses gardes ou n'a pas conscience de votre présence alors les dégâts sont doublés.",
+									"Si vous attaquez une créature par ses flancs ou par derrière, votre première attaque inflige 1d8 + 4 dégâts supplémentaire. Si la cible n'est pas sur ses gardes ou n'a pas conscience de votre présence alors les dégâts sont doublés. Si la créature meurt sur l'attaque incluent le jet, vous gagnez 33 points de mana vivant."
 								],
 								"enabled": false,
 								"faded": false,
@@ -3072,8 +3072,8 @@
 									3
 								],
 								"rankDescription": [									
-									"Tel une bête vos sens sont plus précis, vous ajoutez +3 à votre perception passive. Vous êtes capable de faire des jets d'investigation basé sur l'odeur avec un bonus de +3.",
-									"Tel une bête vos sens sont plus précis, vous ajoutez +3 à votre perception passive. Vous êtes capable de faire des jets d'investigation basé sur l'odeur avec un bonus de +3. Vous êtes plus efficace pour voir des détails, les pièges sont plus facile à trouver lorsque vous les cherchez activement."
+									"Tel une bête vos sens sont plus affutés, vous ajoutez +3 à votre perception passive. Vous êtes capable de faire des jets d'investigation basé sur l'odeur avec un bonus de +3.",
+									"Tel une bête vos sens sont plus affutés, vous ajoutez +3 à votre perception passive. Vous êtes capable de faire des jets d'investigation basé sur l'odeur avec un bonus de +3. Vous êtes plus efficace pour voir des détails, les pièges sont plus facile à trouver lorsque vous les cherchez activement."
 								],
 								"enabled": false,
 								"faded": false,
@@ -3092,7 +3092,7 @@
 									1
 								],
 								"rankDescription": [							
-									"Votre perception est augmenté, tous vos jets de sagesse lié à la vue ont un bonus de +2. Vous êtes capable de faire un jet de Perception DC15 pour essayer de trouver un point faible sur une cible. Vous pouvez vous donnez un désavantage pour tenter de toucher ce point faible (sauf en condition spécial) en cas de réussite la cible subis 10 points de dégâts et à un désavantage pour ses jets d'attaque pour son prochain tour."
+									"Votre perception est augmenté, tous vos jets de sagesse liés à la vue ont un bonus de +3. Vous êtes capable de faire un jet de Perception DC12 à l'aide d'une action bonus pour essayer de trouver un point faible sur une cible. Vous pouvez vous donnez un malus de -3 pour toucher ce point faible, en cas de réussite la cible subis 5points de dégâts et à un désavantage pour ses jets d'attaque pour son prochain tour."
 								],
 									"enabled": false,
 									"faded": false,
@@ -3110,7 +3110,7 @@
 									3
 								],
 								"rankDescription": [
-									"Sur une trace, objet avec l'odeur d'une cible ou autre vous êtes capable de marquer la cible et de déterminer sa position assez précisement pour pointer du doigt sa direction, seulement tant que cette cible est sur votre plan. Vous ne pouvez pas marquer plus de deux cible et vous pouvez ajoutez votre bonus de maîtrise à tout vos jets d'attaque contre la cible marqué."
+									"Sur une trace, objet avec l'odeur d'une cible vous êtes capable de marquer la cible et de déterminer sa position assez précisement pour pointer du doigt sa direction (seulement tant que cette cible est sur votre plan). Vous ne pouvez pas marquer plus de deux cibles et vous pouvez ajoutez votre bonus de maîtrise à tout vos jets d'attaque contre la cible marqué. Pour traquer une cible vous devez être hors combat."
 								],
 								"enabled": false,
 								"faded": false,
@@ -3206,7 +3206,6 @@
 									3
 								],
 								"rankDescription": [
-									
 									"Vous ne souffrez plus de malus dans le noir, même complet.",
 									"Vous ne souffrez plus de malus dans le noir, même complet. De plus dans la pénombre (lumière faible ou inférieur) vous vous déplacez comme une ombre. Tous vos déplacements ignorent les attaques d'opportunité et l'action se désengager est gratuite. "
 								],
@@ -3568,8 +3567,8 @@
 									1
 								],
 								"rankDescription": [
-									"Si vous attaquez une créature par ses flancs ou par derrière, votre première attaque inflige 1d10 dégâts supplémentaire. Si la cible n'est pas sur ses gardes ou n'a pas conscience de votre présence alors les dégâts sont doublés.",
-									"Si vous attaquez une créature par ses flancs ou par derrière, votre première attaque inflige 2d10 dégâts supplémentaire. Si la cible n'est pas sur ses gardes ou n'a pas conscience de votre présence alors les dégâts sont doublés. Si la créature meurt sur l'attaque incluent le jet, vous gagnez 33 points de mana vivant."
+									"Si vous attaquez une créature par ses flancs ou par derrière, votre première attaque inflige 1d4 + 4 dégâts supplémentaire. Si la cible n'est pas sur ses gardes ou n'a pas conscience de votre présence alors les dégâts sont doublés.",
+									"Si vous attaquez une créature par ses flancs ou par derrière, votre première attaque inflige 1d8 + 4 dégâts supplémentaire. Si la cible n'est pas sur ses gardes ou n'a pas conscience de votre présence alors les dégâts sont doublés. Si la créature meurt sur l'attaque incluent le jet, vous gagnez 33 points de mana vivant."
 								],
 								"enabled": false,
 								"faded": false,
@@ -3605,8 +3604,8 @@
 									3
 								],
 								"rankDescription": [									
-									"Tel une bête vos sens sont plus précis, vous ajoutez +3 à votre perception passive. Vous êtes capable de faire des jets d'investigation basé sur l'odeur avec un bonus de +3.",
-									"Tel une bête vos sens sont plus précis, vous ajoutez +3 à votre perception passive. Vous êtes capable de faire des jets d'investigation basé sur l'odeur avec un bonus de +3. Vous êtes plus efficace pour voir des détails, les pièges sont plus facile à trouver lorsque vous les cherchez activement."
+									"Tel une bête vos sens sont plus affutés, vous ajoutez +3 à votre perception passive. Vous êtes capable de faire des jets d'investigation basé sur l'odeur avec un bonus de +3.",
+									"Tel une bête vos sens sont plus affutés, vous ajoutez +3 à votre perception passive. Vous êtes capable de faire des jets d'investigation basé sur l'odeur avec un bonus de +3. Vous êtes plus efficace pour voir des détails, les pièges sont plus facile à trouver lorsque vous les cherchez activement."
 								],
 								"enabled": false,
 								"faded": false,
@@ -3625,7 +3624,7 @@
 									1
 								],
 								"rankDescription": [							
-									"Votre perception est augmenté, tous vos jets de sagesse lié à la vue ont un bonus de +2. Vous êtes capable de faire un jet de Perception DC15 pour essayer de trouver un point faible sur une cible. Vous pouvez vous donnez un désavantage pour tenter de toucher ce point faible (sauf en condition spécial) en cas de réussite la cible subis 10 points de dégâts et à un désavantage pour ses jets d'attaque pour son prochain tour."
+									"Votre perception est augmenté, tous vos jets de sagesse liés à la vue ont un bonus de +3. Vous êtes capable de faire un jet de Perception DC12 à l'aide d'une action bonus pour essayer de trouver un point faible sur une cible. Vous pouvez vous donnez un malus de -3 pour toucher ce point faible, en cas de réussite la cible subis 5points de dégâts et à un désavantage pour ses jets d'attaque pour son prochain tour."
 								],
 									"enabled": false,
 									"faded": false,
@@ -3643,7 +3642,7 @@
 									3
 								],
 								"rankDescription": [
-									"Trois fois entre chaque repos long vous pouvez vous téléportez de façon instantané à l'aide d'une action bonus sur une grande distance (jusqu'à 15 mètres dans votre champs de vision). Si une cible ce trouve au bout de la téléportation de dos, elle subis le double de dégâts de votre attaque sournoise (Pas dans le dos la cible subis les dégâts normaux de l'attaque)."
+									"Trois fois entre chaque repos long vous pouvez vous téléportez de façon instantané à l'aide d'une action bonus sur une grande distance (jusqu'à 20m dans votre champs de vision)."
 								],
 								"enabled": false,
 								"faded": false,
@@ -4096,8 +4095,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d4 supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d8 supplémentaire (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
 							],
 							"position": [
 								1,
@@ -4131,8 +4130,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
-								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
+								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente (si le porteur n'a pas d'armure). Votre maximum de mana vivant est augmenter de 50 points.",
+								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente (si le porteur n'a pas d'armure). Votre maximum de mana vivant est augmenter de 100 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long. Vous pouvez utilisez 50 points de mana vivant pour être immunisé à la prochaine source de dégâts."
 							],
 							"position": [
 								2,
@@ -4150,7 +4149,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, pour chaque valeur de dégât maximum vous pouvez relancez le jet de dégât le plus faible et garder la valeur."
+								"Lorsque vous effectuez un jet d'attaque avec un sort, si il y a au minimum une valeur aillant le maximum de dégâts alors vous pouvez relancez le jet de dégâts le plus faible et garder la valeur."
 							],
 							"position": [
 								2,
@@ -4168,8 +4167,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50%. Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 10 dégâts supplémentaire.",
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 90%. Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 15 dégâts supplémentaire."
 							],
 							"position": [
 								3,
@@ -4659,8 +4658,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d4 supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d8 supplémentaire (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
 							],
 							"position": [
 								1,
@@ -4694,8 +4693,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
-								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
+								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente (si le porteur n'a pas d'armure). Votre maximum de mana vivant est augmenter de 50 points.",
+								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente (si le porteur n'a pas d'armure) et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
 							],
 							"position": [
 								2,
@@ -4713,7 +4712,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
+								"Lorsque vous effectuez un jet d'attaque avec un sort, si il y a au minimum une valeur aillant le maximum de dégâts alors vous pouvez relancez le jet de dégâts le plus faible et garder la valeur."
 							],
 							"position": [
 								2,
@@ -4731,8 +4730,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50%. Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 10 dégâts supplémentaire.",
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 90%. Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 15 dégâts supplémentaire."
 							],
 							"position": [
 								3,
@@ -4750,8 +4749,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant.",
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant. Si vous aviez une fiole ou autre objet similaire, vous pouvez liquidifier votre mana vivant et le verser dans une fiole, chaque centilitre vaut pour vous 2 points de mana vivant et rendent 1 points à celui qui boit. "
+								"Lorsque vous avez une créature alliée à votre contact, vous pouvez lui transmettre votre mana vivant. Si le mana de la cible n'est pas bleu alors la valeur de mana transmis est doublé, elle est incapable de récupérer des points de mana vivant avant son prochain repos.",
+								"Lorsque vous avez une créature alliée à votre contact, vous pouvez lui transmettre votre mana vivant. Si le mana de la cible n'est pas bleu alors la valeur de mana transmis est doublé, elle est incapable de récupérer des points de mana vivant avant son prochain repos. Si vous aviez une fiole, vous pouvez liquidifier votre mana vivant (date de péremption de 24h)."
 							],
 							"position": [
 								3,
@@ -5225,8 +5224,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d4 supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d8 supplémentaire (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
 							],
 							"position": [
 								1,
@@ -5260,8 +5259,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
-								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
+								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente (si le porteur n'a pas d'armure). Votre maximum de mana vivant est augmenter de 50 points.",
+								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente (si le porteur n'a pas d'armure). Votre maximum de mana vivant est augmenter de 100 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long. Vous pouvez utilisez 50 points de mana vivant pour être immunisé à la prochaine source de dégâts."
 							],
 							"position": [
 								2,
@@ -5279,7 +5278,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
+								"Lorsque vous effectuez un jet d'attaque avec un sort, si il y a au minimum une valeur aillant le maximum de dégâts alors vous pouvez relancez le jet de dégâts le plus faible et garder la valeur."
 							],
 							"position": [
 								2,
@@ -5297,8 +5296,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50%. Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 10 dégâts supplémentaire.",
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 90%. Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 15 dégâts supplémentaire."
 							],
 							"position": [
 								3,
@@ -5316,8 +5315,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant.",
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant. Si vous aviez une fiole ou autre objet similaire, vous pouvez liquidifier votre mana vivant et le verser dans une fiole, chaque centilitre vaut pour vous 2 points de mana vivant et rendent 1 points à celui qui boit. "
+								"Lorsque vous avez une créature alliée à votre contact, vous pouvez lui transmettre votre mana vivant. Si le mana de la cible n'est pas bleu alors la valeur de mana transmis est doublé, elle est incapable de récupérer des points de mana vivant avant son prochain repos.",
+								"Lorsque vous avez une créature alliée à votre contact, vous pouvez lui transmettre votre mana vivant. Si le mana de la cible n'est pas bleu alors la valeur de mana transmis est doublé, elle est incapable de récupérer des points de mana vivant avant son prochain repos. Si vous aviez une fiole, vous pouvez liquidifier votre mana vivant (date de péremption de 24h)."
 							],
 							"position": [
 								3,
@@ -5788,8 +5787,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 2d(votre niveau) supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
-								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 3d(votre niveau) (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d4 supplémentaire (ou +1 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts).", 
+								"Vous permet de choisir une école, tous les sorts du même type inflige un total de 1d8 supplémentaire (ou +2 au DD de sauvegarde des sorts si ce dernier n'inflige pas de dégâts) et ne compte pas dans la limite de sort connus."
 							],
 							"position": [
 								1,
@@ -5823,8 +5822,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente. Votre maximum de mana vivant est augmenter de 50 points.",
-								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente et obtenez une résistance aux dégâts physique non magique tant qu'il vous reste 30 ou plus points de mana vivant. Votre maximum de mana vivant est augmenter de 50 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long."
+								"Vous permet de consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente (si le porteur n'a pas d'armure). Votre maximum de mana vivant est augmenter de 50 points.",
+								"Vous permet de mieux consommer et de stocker le mana ambiant de manière naturel. Vous gagnez l'effet du sort Armure de mage de façon permanente (si le porteur n'a pas d'armure). Votre maximum de mana vivant est augmenter de 100 points. Vous regagnez 2 fois plus de mana vivant lors des repos court ou long. Vous pouvez utilisez 50 points de mana vivant pour être immunisé à la prochaine source de dégâts."
 							],
 							"position": [
 								2,
@@ -5842,7 +5841,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur maximum alors vous gagnez une charge de Concentration - Chaque charge réduit le niveau d'emplacement requis pour lancer un sort, vous pouvez avoir un nombre de charge égale au plus grand niveau d'emplacement de sort max (vous gardez votre total de charge pendant une minute)."
+								"Lorsque vous effectuez un jet d'attaque avec un sort, si il y a au minimum une valeur aillant le maximum de dégâts alors vous pouvez relancez le jet de dégâts le plus faible et garder la valeur."
 							],
 							"position": [
 								2,
@@ -5860,8 +5859,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50% (Les sorts monocible peuvent touché une créature supplémentaire si cette dernière ce trouve dans l'allonge cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 2d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort ont un désavantage aux jets de sauvegarde pour esquiver le sort.",
-								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 100% (Les sorts monocible peuvent touché toutes les créatures ce trouvant dans l'allonge de la cible). Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 4d10 dégâts supplémentaire. Si vous augmentez au maximum le rayon d'un sort de zone, les cibles présente dans le rayon de base du sort (+50% de rayon) ont un désavantage aux jets de sauvegarde pour esquiver le sort."
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 50%. Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 10 dégâts supplémentaire.",
+								"Vous permet de choisir lors d'un repos long des sorts et d'augmenter/réduire la portée/rayon de 90%. Si vous réduiser au maximum le rayon d'un sort de zone, ce dernier inflige 15 dégâts supplémentaire."
 							],
 							"position": [
 								3,
@@ -5879,8 +5878,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant.",
-								"Lorsque vous avez une créature alliée dans un rayon de 5m, vous pouvez lui transmettre une portion de votre mana vivant. Si vous aviez une fiole ou autre objet similaire, vous pouvez liquidifier votre mana vivant et le verser dans une fiole, chaque centilitre vaut pour vous 2 points de mana vivant et rendent 1 points à celui qui boit. "
+								"Lorsque vous avez une créature alliée à votre contact, vous pouvez lui transmettre votre mana vivant. Si le mana de la cible n'est pas bleu alors la valeur de mana transmis est doublé, elle est incapable de récupérer des points de mana vivant avant son prochain repos.",
+								"Lorsque vous avez une créature alliée à votre contact, vous pouvez lui transmettre votre mana vivant. Si le mana de la cible n'est pas bleu alors la valeur de mana transmis est doublé, elle est incapable de récupérer des points de mana vivant avant son prochain repos. Si vous aviez une fiole, vous pouvez liquidifier votre mana vivant (date de péremption de 24h)."
 							],
 							"position": [
 								3,
@@ -6886,8 +6885,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"En échange d'une canalisation d'éther et une action, vous regagnez tous vos emplacements de sort.",
-								"En échange d'une canalisation d'éther et une action bonus, vous regagnez tous vos emplacements de sort."
+								"En échange d'une canalisation d'éther, vous regagnez tous vos emplacements de sort.",
+								"En échange d'une canalisation d'éther, vous regagnez tous vos emplacements de sort. Votre prochain sort/attaque inflige 1d10 points de dégâts supplémentaire."
 							],
 							"position": [
 								1,
@@ -6917,8 +6916,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Votre apprentissage dans l'utilisation de l'éther permet de mieux comprendre son fonctionnement. Vous apprenez le sort 'Extraction d'éther' vos dégâts nécrotique de sort inflige 2d(votre niveau) supplémentaire. Sur une pacte de pacte vous infligez votre maîtrise sous forme de dégât nécrotique sur votre premier jet de dégât lors d'un round.", 
-								"Votre apprentissage dans l'utilisation de l'éther permet de mieux comprendre son fonctionnement. Vous apprenez le sort 'Extraction d'éther' vos dégâts nécrotique de sort inflige 3d(votre niveau) supplémentaire. Sur une pacte de pacte vous infligez votre maîtrise sous forme de dégât nécrotique sur vos jets de dégât lors d'un round."
+								"Votre apprentissage dans l'utilisation de l'éther permet de mieux comprendre son fonctionnement. Vous apprenez le sort 'Extraction d'éther' vos dégâts nécrotique de sort inflige 1d6 supplémentaire. Sur une pacte de pacte vous infligez votre maîtrise sous forme de dégât nécrotique sur votre premier jet de dégât lors d'un round.", 
+								"Votre apprentissage dans l'utilisation de l'éther permet de mieux comprendre son fonctionnement. Vous apprenez le sort 'Extraction d'éther' vos dégâts nécrotique de sort inflige 2d6 supplémentaire. Sur une pacte de pacte vous infligez votre maîtrise sous forme de dégât nécrotique."
 							],
 							"position": [
 								1,
@@ -6971,7 +6970,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur minimum alors cette valeur devient une valeur maximum."
+								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur minimum alors vous pouvez relancez le jet de dégâts (vous pouvez relancer au maximum une fois). Vous êtes obliger de garder la nouvelle valeur du jet de dégâts."
 							],
 							"position": [
 								2,
@@ -6989,8 +6988,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lors de l'incantation d'un sort sur une portée de 50 mètres vous pouvez choisir l'endroit où le sort va être lancer. En fonction de la situation vous pouvez avoir un avantage ou la cible peut avoir un désavantage pour lancer le sort.",
-								"Lors de l'incantation d'un sort sur une portée de 100 mètres vous pouvez choisir l'endroit où le sort va être lancer. En fonction de la situation vous pouvez avoir un avantage ou la cible peut avoir un désavantage pour lancer le sort. Vous n'avez plus besoin de faire des gestes ou des paroles pour lancer les sorts de cette manière."
+								"Lors de l'incantation d'un sort, sur une portée de 15 mètres vous pouvez choisir l'endroit où le sort va être lancer.",
+								"Lors de l'incantation d'un sort sur une portée de 100 mètres vous pouvez choisir l'endroit où le sort va être lancer. Vous n'avez plus besoin de faire des gestes ou des paroles pour lancer les sorts de cette manière."
 							],
 							"position": [
 								3,
@@ -7008,8 +7007,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de convertir une canalisation d'éther ou un surplus d'éther en cristaux de mana. En détruisant un cristaux de mana vous pouvez immédiatement lancer une capacité qui demande une canalisation d'éther.",
-								"Vous permet de convertir une canalisation d'éther ou un surplus d'éther en cristaux de mana. En détruisant un cristaux de mana vous pouvez immédiatement lancer une capacité qui demande une canalisation d'éther. Les cristaux sont plus riche en éther de qualité et gagne en valeur. "
+								"Vous permet de convertir une canalisation d'éther ou un surplus d'éther en cristaux de mana. En détruisant un cristal de mana à l'aide d'une action bonus vous pouvez immédiatement lancer une capacité qui demande une canalisation d'éther.",
+								"Vous permet de convertir une canalisation d'éther ou un surplus d'éther en cristaux de mana. En détruisant un cristal de mana à l'aide d'une action bonus vous pouvez immédiatement lancer une capacité qui demande une canalisation d'éther. Les cristaux sont plus riche en éther de qualité et gagne en valeur. "
 							],
 							"position": [
 								3,
@@ -7045,8 +7044,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez utiliser une canalisation et une action bonus pour temporairement renforcer votre tout, pendant 1 minutes vous gagnez +4 à votre CA et une résistance au dégât nécrotique.",
-								"Vous pouvez utiliser une canalisation et une action bonus pour temporairement renforcer votre tout, pendant 1 minutes vous gagnez +4 à votre CA et une résistance au dégât nécrotique. Si vous faites un jet de sauvegarde de Sagesse ou de Charisme alors vous pouvez perdre l'armure de Liche et réussir le jet."
+								"Vous pouvez utiliser une canalisation pour temporairement renforcer votre tout. Pendant 1 minutes vous gagnez une résistance à tout les types de dégâts non-physique, froid, foudre et nécrotique.",
+								"Vous pouvez utiliser une canalisation pour temporairement renforcer votre tout. pendant 1 minutes vous gagnez +4 à votre CA et une résistance au dégâts non-physique, froid, foudre et nécrotique. Si vous faites un jet de sauvegarde de Sagesse ou de Charisme alors vous pouvez perdre l'armure de Liche et réussir le jet."
 							],
 							"position": [
 								4,
@@ -7064,8 +7063,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous pouvez utiliser une canalisation et une action bonus pour rendre un sort bien plus virulant, si le sort touche la cible subit une Blessure entre complexe et grave correspondant au effet du sort.",
-								"Vous pouvez utiliser une canalisation et une action bonus pour rendre un sort bien plus virulant, si le sort touche la cible subit une Blessure entre complexe et grave correspondant au effet du sort et les dégâts du sort ignore les résistances."
+								"Vous pouvez utiliser une canalisation pour rendre un sort bien plus virulant, si le sort touche la cible subit une Blessure entre complexe et grave correspondant au effet du sort.",
+								"Vous pouvez utiliser une canalisation pour rendre un sort bien plus virulant, si le sort touche la cible subit une Blessure entre complexe et grave correspondant au effet du sort et les dégâts du sort ignore les résistances."
 							],
 							"position": [
 								4,

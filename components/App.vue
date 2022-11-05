@@ -1,7 +1,7 @@
 <template>
   <div>
     <main>
-      <h1 class="main-title">Arbre du mana vivant (v0.9)</h1>
+      <h1 class="main-title">Arbre du mana vivant (v1.0)</h1>
       <ul class="class-list">
         <class-list
           v-for="classType in data.classes"
