@@ -4080,7 +4080,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes (minimum 10 secondes par utilisation). Sous cet effet vous pouvez voir tout les êtres vivants qui ne sont pas constitué d'éther (portée limité à votre vue) et les objets/créature constitué d'éther (à moins de 10 mètres)."
+								"Vous pouvez vous concentrer pendant 1 minutes pour donner une teinte bleu à vos yeux et gagnez les effets suivant : Sous cet effet vous êtes capable de percer les illusions se trouvant à moins de 5 mètres de niveau d'emplacement de sort (niveau 5 ou inférieur) et de voir le mana vivant/l'âme des créatures. Lorsque vous essayez de comprendre le fonctionnement d'un objet/mécanisme magique dans votre portée de vision arcanique, vous obtenez un bonus de +3 à votre jets d'arcane. La concentration peut être interrompu avec des dégâts, vous ne pouvez pas maintenir un sort de concentration en même temps. Comme le monde est composé essentiellement de magie, au delà de ces 5 mètres vous voyez une bouillie incompréhensible. Utilisable une fois entre chaque repos long."
 							],
 							"position": [
 								1,
@@ -4643,7 +4643,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
+								"Vous pouvez vous concentrer pendant 1 minutes pour donner une teinte bleu à vos yeux et gagnez les effets suivant : Sous cet effet vous êtes capable de percer les illusions se trouvant à moins de 5 mètres de niveau d'emplacement de sort (niveau 5 ou inférieur) et de voir le mana vivant/l'âme des créatures. Lorsque vous essayez de comprendre le fonctionnement d'un objet/mécanisme magique dans votre portée de vision arcanique, vous obtenez un bonus de +3 à votre jets d'arcane. La concentration peut être interrompu avec des dégâts, vous ne pouvez pas maintenir un sort de concentration en même temps. Comme le monde est composé essentiellement de magie, au delà de ces 5 mètres vous voyez une bouillie incompréhensible. Utilisable une fois entre chaque repos long."
 							],
 							"position": [
 								1,
@@ -5209,7 +5209,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
+								"Vous pouvez vous concentrer pendant 1 minutes pour donner une teinte bleu à vos yeux et gagnez les effets suivant : Sous cet effet vous êtes capable de percer les illusions se trouvant à moins de 5 mètres de niveau d'emplacement de sort (niveau 5 ou inférieur) et de voir le mana vivant/l'âme des créatures. Lorsque vous essayez de comprendre le fonctionnement d'un objet/mécanisme magique dans votre portée de vision arcanique, vous obtenez un bonus de +3 à votre jets d'arcane. La concentration peut être interrompu avec des dégâts, vous ne pouvez pas maintenir un sort de concentration en même temps. Comme le monde est composé essentiellement de magie, au delà de ces 5 mètres vous voyez une bouillie incompréhensible. Utilisable une fois entre chaque repos long."
 							],
 							"position": [
 								1,
@@ -5772,7 +5772,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous permet de lancer le sort 'Identification' sans composante matériel (une fois entre chaque repos long). Vous obtenez +3 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes pour obtenir une vision véritable ne fonctionne qu'une seule fois entre chaque repos long."
+								"Vous pouvez vous concentrer pendant 1 minutes pour donner une teinte bleu à vos yeux et gagnez les effets suivant : Sous cet effet vous êtes capable de percer les illusions se trouvant à moins de 5 mètres de niveau d'emplacement de sort (niveau 5 ou inférieur) et de voir le mana vivant/l'âme des créatures. Lorsque vous essayez de comprendre le fonctionnement d'un objet/mécanisme magique dans votre portée de vision arcanique, vous obtenez un bonus de +3 à votre jets d'arcane. La concentration peut être interrompu avec des dégâts, vous ne pouvez pas maintenir un sort de concentration en même temps. Comme le monde est composé essentiellement de magie, au delà de ces 5 mètres vous voyez une bouillie incompréhensible. Utilisable une fois entre chaque repos long."
 							],
 							"position": [
 								1,
@@ -6901,7 +6901,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Vous obtenez +5 à tous vos jets d'arcane. Vous pouvez vous concentrer pendant (votre niveau) minutes (minimum 10 secondes par utilisation). Sous cet effet vous pouvez voir tout les êtres qui sont constitué majoritarement d'éther (à moins de 36 mètres)."
+								"Vous pouvez vous concentrer pendant 1 minutes pour donner ou pas une teinte bleu à vos yeux et gagnez les effets suivant : Sous cet effet vous êtes capable de voir le nom d'une créature se trouvant à moins de 5 mètres ou le nom de la personne s'étant le plus appliqué sur la création d'un objet magique ou d'un ouvrage. Vous pouvez percer les fonctionnalités d'un objet magique comme si vous lancez le sort 'Identification' en fouillant dans la volonté derrière la conception de la relique. La concentration peut être interrompu avec des dégâts, vous ne pouvez pas maintenir un sort de concentration en même temps. Utilisable une fois entre chaque repos court."
 							],
 							"position": [
 								1,
