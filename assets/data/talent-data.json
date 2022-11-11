@@ -4149,7 +4149,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si il y a au minimum une valeur aillant le maximum de dégâts alors vous pouvez relancez le jet de dégâts le plus faible et garder la valeur."
+								"Le DC de concentration de sort est augmenté de 5 mais vous pouvez avoir deux concentrations en même temps."
 							],
 							"position": [
 								2,
@@ -4712,7 +4712,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si il y a au minimum une valeur aillant le maximum de dégâts alors vous pouvez relancez le jet de dégâts le plus faible et garder la valeur."
+								"Le DC de concentration de sort est augmenté de 5 mais vous pouvez avoir deux concentrations en même temps."
 							],
 							"position": [
 								2,
@@ -5278,7 +5278,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si il y a au minimum une valeur aillant le maximum de dégâts alors vous pouvez relancez le jet de dégâts le plus faible et garder la valeur."
+								"Le DC de concentration de sort est augmenté de 5 mais vous pouvez avoir deux concentrations en même temps."
 							],
 							"position": [
 								2,
@@ -5841,7 +5841,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si il y a au minimum une valeur aillant le maximum de dégâts alors vous pouvez relancez le jet de dégâts le plus faible et garder la valeur."
+								"Le DC de concentration de sort est augmenté de 5 mais vous pouvez avoir deux concentrations en même temps."
 							],
 							"position": [
 								2,
@@ -6932,8 +6932,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Pour chaque emplacement de sort vous pouvez attribué un effet de Métamagie qui sera permanent sur cet emplacement.",
-								"Pour chaque emplacement de sort vous pouvez attribué un effet de Métamagie qui sera permanent sur cet emplacement. Vous pouvez changez l'effet entre chaque repos long. Vos jets de touchez et de sauvegarde de sort gagne un +1."
+								"Pour chaque emplacement de sort, vous devez attribué un effet de Métamagie qui sera permanent sur cet emplacement. Vous êtes forcé d'utiliser l'effet de métamagie. En fonction du nombre de point de métamagie à dépenser pour lancer le sort, vous subissez 1d8 dégâts nécrotique par point.",
+								"Pour chaque emplacement de sort, vous devez attribué un effet de Métamagie qui sera permanent sur cet emplacement. Vous êtes forcé d'utiliser l'effet de métamagie. En fonction du nombre de point de métamagie à dépenser pour lancer le sort, vous subissez 1d8 dégâts nécrotique par point. Vous gagnez un emplacement de sort supplémentaire de niveau x -1 (où x est le plus grand emplacement de sorcier)."
 							],
 							"position": [
 								2,
@@ -6951,8 +6951,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"L'utilisation de l'éther pur change la constitution de votre âme et permet de stocker une quantité majeur d'éther. Vous pouvez avoir une canalisation d'éther supplémentaire. Vous gagnez un emplacement de sort supplémentaire.",
-								"L'utilisation de l'éther pur change la constitution de votre âme et permet de stocker une quantité majeur d'éther. Vous pouvez avoir deux canalisations d'éther supplémentaire. Vous gagnez un emplacement de sort supplémentaire. Vous arrivez à stocker l'énergie de surplus lors d'une canalisation et la manifesté sous la forme d'un bouclier magique qui recouvre votre corps/armure de 1d(niveau de classe) + maîtrise."
+								"L'utilisation de l'éther pur change la constitution de votre âme et permet de stocker une quantité majeur d'éther. Vous pouvez avoir une canalisation d'éther supplémentaire.",
+								"L'utilisation de l'éther pur change la constitution de votre âme et permet de stocker une quantité majeur d'éther. Vous pouvez avoir une canalisations d'éther supplémentaire. Vous arrivez à stocker l'énergie de surplus lors d'une canalisation et la manifesté sous la forme d'un bouclier magique qui recouvre votre corps/armure de 1d8 + maîtrise pendant 1 minutes."
 							],
 							"position": [
 								2,
@@ -6970,7 +6970,7 @@
 							"maxRank": 1,
 							"currentRank": 0,
 							"rankDescription": [
-								"Lorsque vous effectuez un jet d'attaque avec un sort, si vous avez un des jets de dégâts qui à une valeur minimum alors vous pouvez relancez le jet de dégâts (vous pouvez relancer au maximum une fois). Vous êtes obliger de garder la nouvelle valeur du jet de dégâts."
+								"Le DC de concentration de sort est réduit de 5."
 							],
 							"position": [
 								2,
