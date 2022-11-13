@@ -6932,8 +6932,8 @@
 							"maxRank": 2,
 							"currentRank": 0,
 							"rankDescription": [
-								"Pour chaque emplacement de sort, vous devez attribué un effet de Métamagie qui sera permanent sur cet emplacement. En fonction du nombre de point de métamagie à dépenser pour lancer le sort, vous subissez 1d8 dégâts nécrotique par point.",
-								"Pour chaque emplacement de sort, vous devez attribué un effet de Métamagie qui sera permanent sur cet emplacement. En fonction du nombre de point de métamagie à dépenser pour lancer le sort, vous subissez 1d8 dégâts nécrotique par point. Vous gagnez un emplacement de sort supplémentaire de niveau x -1 (où x est le plus grand emplacement de sorcier)."
+								"Pour chaque emplacement de sort, vous obtenez une métamagie que vous pouvez appliquer lors de l'incantation d'un sort contre des points de vie. En fonction du nombre de point de sorcelerie à dépenser pour lancer le sort, vous subissez 1d8 dégâts nécrotique par point.",
+								"Pour chaque emplacement de sort, vous obtenez une métamagie que vous pouvez appliquer lors de l'incantation d'un sort contre des points de vie. En fonction du nombre de point de sorcelerie à dépenser pour lancer le sort, vous subissez 1d8 dégâts nécrotique par point. Vous gagnez un emplacement de sort supplémentaire de niveau x -1 (où x est le plus grand emplacement du sorcier)."
 							],
 							"position": [
 								2,
